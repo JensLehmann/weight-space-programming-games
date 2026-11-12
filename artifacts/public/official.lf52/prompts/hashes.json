@@ -1,0 +1,19 @@
+{
+ "game": "official.lf52",
+ "game_source_sha256": "8187d6d2696600bc3ff50d1c69409a9a8b76c99fa07b1a05159fa0cdb7ea7ea6",
+ "section_sha256": "8921e480d3f92d2047aab0b795e5f7bac35b5369ec9c0c34cf330ff90d2f43cd",
+ "prompts": {
+  "w": {
+   "sha256": "12c21bdb77984801a4a8bf7af042d35e0b6d1f9f555743c9c20c43ad4a9a809a",
+   "released_sha256": "7f0500cea22f5f4de8c8af30dd12cc3a764b32aa7c555ab738aae94429f8822c"
+  },
+  "p": {
+   "sha256": "4e87a9bba215a63b1be880c80a44303fdf04262595733032119fa78a7d4f4b3d",
+   "released_sha256": "f49ac24ecfcb99f3194bf6a4692eba75bdf4a512ce7cd12e121e838a36c70ffe"
+  },
+  "fa": {
+   "sha256": "61048913d9ade6fa92b244dcb0b0fd2c36706c96992a51b5c299ebea6f5f935d",
+   "released_sha256": "38677145137fce46919ae10967f9d67ab7724ee3550f784bf1b5c4f697a439ed"
+  }
+ }
+}

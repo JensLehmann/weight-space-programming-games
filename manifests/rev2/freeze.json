@@ -1,0 +1,844 @@
+{
+ "code": {
+  "scripts/analyze_rev2.py": "92664401f63f46588b13908ea1dbcb5bc020f4cbfc4405d27c96d793489447cb",
+  "scripts/diag_eval.py": "162c324a8ee0abb5540dd304f33905a615b08f7baf37ccf14adc71ac57a56904",
+  "scripts/eval_artifacts.py": "411ef0f8db3223c60b738bce37e5f4e43f40f6d29ae2079f8aa3c3711c6ca0c1",
+  "scripts/run_rev2.py": "d6a49972770fb5c379cb1f03e8327e762ad2f31dc9f71045abce3397ec022549",
+  "wsp/_sandbox_runner.py": "ae6ac80fa0ecdbd6559b76f1aa81a72c28b7e04cdbd10e284ff5bf0500b0e0b6",
+  "wsp/actor.py": "444576e4c768de39ef310e1a97ddc17655feb4a19acb42a159bb20875b663d5d",
+  "wsp/augment.py": "f17beaf3e666829b2af618ec5a091e01ebbc9ffa7b66f6c2a7cbb98ab44d1f85",
+  "wsp/envs.py": "fb8285ad26ee755a3a270dd75a7d0aa73260d2f493b82bae3eed8792b583a4ee",
+  "wsp/manifest.py": "d8aefba552d4e3d1c67958ac750f5d457fa823d1079e5f105859b531abc32531",
+  "wsp/prompts.py": "38e7d3616fc74a861b1891ba0ec81ca35dd9e9824eb8a1b1fb7cd19d204892a9",
+  "wsp/queries.py": "e3f71748596b8b03662563351784695967f02cd68501de411712c27b19070732",
+  "wsp/redact2.py": "6ea490c882489ad5172519be776d537502bca352abe3475d3924eb572db21897",
+  "wsp/redact2_overrides.py": "3e86ba274e8fde022dc744e73efeddd35e55b56f59d990b5d3560a2f09eecace",
+  "wsp/sandbox.py": "5b2ab1ed9abc86d03b6c5449c20c2daed6221ea563c061a96584d112dbed6049",
+  "wsp/session.py": "b67ea55606c9350f922e1ae8878f660710a8497d417bd1ec337eb35a3adc3b0e",
+  "wsp/writer.py": "e33c79f8248c07753ae7b2d915bf000066daef75928160ec4f35be96c97d06c7"
+ },
+ "families": {
+  "aiv": {
+   "manifest_sha256": "fc4524db4a9bb70283d7ad6eb87d167f1f078d112f6b1a599005e819e007b76a",
+   "n": {
+    "Q-lvl": 360,
+    "Q-off": 180,
+    "Q-pal": 60,
+    "Q-tpl": 90,
+    "S-dev": 120,
+    "S-start": 30
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 75367,
+     "sha256": "879e195f796f68d0bead2322334eb2e9ccf5e40104f183d110f5b4a5d7675c8b"
+    },
+    "python:M:full": {
+     "chars": 74987,
+     "sha256": "24c65a74797990bf45d90f0e682794594a852f9ba54ff6371edc980cc4ef411e"
+    },
+    "weights:M:full": {
+     "chars": 79049,
+     "sha256": "166401f16dafc2bb097699ca3720b433a8f1504f094e212cef2610365857db4a"
+    },
+    "weights:M:noaxial": {
+     "chars": 79211,
+     "sha256": "3cbfe117135a2b2d4b7c5edbc4c80c2a35e618fe6b92bb4b4b434e1d04794b08"
+    },
+    "weights:M:t8": {
+     "chars": 79155,
+     "sha256": "bf88487207b3af99ee5c5e7d5b6e16bee052eea6cf38ea81c9f06bc8b7536671"
+    },
+    "weights:MS:full": {
+     "chars": 82724,
+     "sha256": "0518a9f985fcf63ca3f7aa5ab36f8f69b25fc33f3bd263ea7c248a8ca52c6a51"
+    }
+   },
+   "sections": {
+    "M": "fe02934b26654e9122c8403188ffce5fc77b2ae8e54b696fc48fd303f612700e",
+    "MS": "624e185d9b58b007d80ecfb035b6157ecf23f641d67478749ddfa591a5056b98"
+   }
+  },
+  "bvn": {
+   "manifest_sha256": "3f531f3b77b646d17b770c86b5f43e54b9a222603a90bdce56a458eab6653f6f",
+   "n": {
+    "Q-lvl": 240,
+    "Q-off": 150,
+    "Q-pal": 40,
+    "Q-tpl": 75,
+    "S-dev": 100,
+    "S-start": 25
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 93674,
+     "sha256": "49d463496fc8ead26240aaa2041977563b414e8f9a325bc9a4823c8a1355d28b"
+    },
+    "python:M:full": {
+     "chars": 93294,
+     "sha256": "aa303b044f396f5502dc38bdeb4d5b07079443fa0d1f29865d22f03f52c7fba7"
+    },
+    "weights:M:full": {
+     "chars": 97356,
+     "sha256": "e8b9cb40ec34b99f55c8a57e2152d6b2789357fa4eafbe073fa19e7d3458e653"
+    },
+    "weights:M:noaxial": {
+     "chars": 97518,
+     "sha256": "c631b9b5232cdcd3b280dc7410b3b8f760a04909d1148f6049c6e0be79af8da0"
+    },
+    "weights:M:t8": {
+     "chars": 97462,
+     "sha256": "83902e4d1db1b09c658cc36ee743cfa013b599909a20abea91092d9de1d2fb4f"
+    },
+    "weights:MS:full": {
+     "chars": 106019,
+     "sha256": "b1e3e091e975cc96e838e5273384750fef0f0ff5b8651c3ad21c088994fb07b8"
+    }
+   },
+   "sections": {
+    "M": "29a10702105f0bd229831e05fd83f922a39112a817af3ab178eb35c67f87db93",
+    "MS": "62d8a526c4e9a1fd22780047f611025c0da8f03433385c94567fa1e75ccf7449"
+   }
+  },
+  "crg": {
+   "manifest_sha256": "0c5d947824b4706ecc6b029824a4bbb3818e1bd2420e42136a40f217f91b56a2",
+   "n": {
+    "Q-lvl": 240,
+    "Q-off": 150,
+    "Q-pal": 40,
+    "Q-tpl": 75,
+    "S-dev": 100,
+    "S-start": 25
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 73776,
+     "sha256": "a7c5e1763c197ba2b8ff8b7613cc4af3b1ab9725bf4f8a8b1974c1c86d723f49"
+    },
+    "python:M:full": {
+     "chars": 73396,
+     "sha256": "9b87f90890dd0f453f688ef1e9f4d2987c4babc0ab93e9891c75db5e27de5807"
+    },
+    "weights:M:full": {
+     "chars": 77458,
+     "sha256": "60123958f10e9a4c95d59de8496802af04c1ac26b4e483c6387874aadcc2afcd"
+    },
+    "weights:M:noaxial": {
+     "chars": 77620,
+     "sha256": "127cc3d6aab6a2c54b26b1b8392605e9636ed94cc9906dd80906771578cfa36b"
+    },
+    "weights:M:t8": {
+     "chars": 77564,
+     "sha256": "72dd3100d6f616ab4e744a14da56491868151aeafac576c8a4c81b89f3f383e4"
+    },
+    "weights:MS:full": {
+     "chars": 82443,
+     "sha256": "eaa4b422349aa8f9bf48d8269098e1e8a9e7025faf642e9e35fc87d30274080d"
+    }
+   },
+   "sections": {
+    "M": "edeacc853bb8e43f142fff7ec3913c1d26c2ce325e1e1b488ed6b20e9c5945cf",
+    "MS": "87cea2bd9e5c249da88345f8ef042a1feb5471d5ea4d6c53cc639efe922bb7da"
+   }
+  },
+  "esm": {
+   "manifest_sha256": "517320f40dfdd795dce3669e52448cb6d608eba499cdc30d33f1b5276d916887",
+   "n": {
+    "Q-lvl": 300,
+    "Q-off": 114,
+    "Q-pal": 50,
+    "Q-tpl": 75,
+    "S-dev": 100,
+    "S-start": 25
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 65628,
+     "sha256": "c0d1e9c468557747e877c421e909aaeb4ca4e3a9cae029a386c1bf09fd7c612e"
+    },
+    "python:M:full": {
+     "chars": 65248,
+     "sha256": "52c63310218aa64666100f7e7e31359e02808d998f6843efb93e4a762ffbe0a5"
+    },
+    "weights:M:full": {
+     "chars": 69310,
+     "sha256": "288c5ae6b36f453aaf2b7c637ba341f31182fea70dcaef50b4eea815967e75a0"
+    },
+    "weights:M:noaxial": {
+     "chars": 69472,
+     "sha256": "8476c1ec6ca0183c49dcb77b5d27e7ec9beaa9de05e458bf2a42ddccd8715bec"
+    },
+    "weights:M:t8": {
+     "chars": 69416,
+     "sha256": "c5788326db2453773104a16e44069c5bc885bb27b2d40685d230e51dec2fe545"
+    },
+    "weights:MS:full": {
+     "chars": 71560,
+     "sha256": "16504b097cd1bc42eac54eb85a1d2ab3c3f4ac8e8a3c38dc2b17e6b1dd2512ce"
+    }
+   },
+   "sections": {
+    "M": "7e69597f9a087f33bc1b0769104bddb3895aa002af97114d05f9083ed5d84281",
+    "MS": "e168a41739bf1873462132079c21646ad31f24798e3d1ccd8dc320a8af436b21"
+   }
+  },
+  "lys": {
+   "manifest_sha256": "90521115e4f08001304b73477cc10bc039ebec66c4a638f926968990aa39ff38",
+   "n": {
+    "Q-lvl": 360,
+    "Q-off": 180,
+    "Q-pal": 60,
+    "Q-tpl": 90,
+    "S-dev": 120,
+    "S-start": 30
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 67659,
+     "sha256": "d23b96b62693fe936d8d1270b443ddf5bb588f2eaf9372e70643729f10a3be75"
+    },
+    "python:M:full": {
+     "chars": 67279,
+     "sha256": "e7ec22ec58d858ef11c1ae296c127e0d43b3a9c412e90c592f8d943abd5bf20c"
+    },
+    "weights:M:full": {
+     "chars": 71341,
+     "sha256": "7b4fc318092408c064e762975daa106f64af57bd942db98c1fa81808bd69aa27"
+    },
+    "weights:M:noaxial": {
+     "chars": 71503,
+     "sha256": "1eb9a682c5c89d9ec9980a01053d0b6072fc2b1cb7c3400cb79650845198ac97"
+    },
+    "weights:M:t8": {
+     "chars": 71447,
+     "sha256": "a57c748512b98a6ab7bac5bc822c3378ad1f8fad1aa8c7897d0bee6924372adc"
+    },
+    "weights:MS:full": {
+     "chars": 72912,
+     "sha256": "c0b09b41952f202687c81f68c79145d2cd6d5aea1129cfbff5d3c89f659fcebf"
+    }
+   },
+   "sections": {
+    "M": "27861466eeed650ad501ba0aef74c756b5b2477a5c7b36bc1ef15fe5746b5ae2",
+    "MS": "98fc9a15c48a1fa8463fcffe067ef9ad3a393c5602e090f5e8ca1604cc07f226"
+   }
+  },
+  "mds": {
+   "manifest_sha256": "8072029b0f920bad7b5fc89913294b4df71db493f20ecdf0dda68483576ca256",
+   "n": {
+    "Q-lvl": 300,
+    "Q-off": 180,
+    "Q-pal": 50,
+    "Q-tpl": 90,
+    "S-dev": 120,
+    "S-start": 30
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 100529,
+     "sha256": "d2f400a7514ef9f41a0db9bdde856278e516b7ed2871b2a1538576f4c6561076"
+    },
+    "python:M:full": {
+     "chars": 100149,
+     "sha256": "e228b44dccf74080de09d2ebdbebce1e8d54b128d9437d66f0ead7b3a255b3c6"
+    },
+    "weights:M:full": {
+     "chars": 104211,
+     "sha256": "0080a245ad09b1aa5e455773456d4fe4f55f7ecbe52e87352aa6fa99e1ee368f"
+    },
+    "weights:M:noaxial": {
+     "chars": 104373,
+     "sha256": "ae3b26b4b10b91499f6f7bc72ee79d6b7f1b4a9f83bfbf8e38573bb7c7eff37b"
+    },
+    "weights:M:t8": {
+     "chars": 104317,
+     "sha256": "5c5cf799753bda36a30139e8737604eb04523f5535fb4a686a3c76f308295f88"
+    },
+    "weights:MS:full": {
+     "chars": 110561,
+     "sha256": "38d8c72f7bff2fce3800105f27c05db795538d7591fba4a141ac6fd6be1eaa4c"
+    }
+   },
+   "sections": {
+    "M": "81fb0730ced47a6c088735169b3177404da31c9c06db510dfba90abb2498ef8e",
+    "MS": "72814d7e156019ca7ba7432dfc08d9f2142454433d80e73947b9b56f46c32fee"
+   }
+  },
+  "nkp": {
+   "manifest_sha256": "bf6ccead09c8e70718229714ebb7326a823efe56f05085aa30c0a0cad908a6ef",
+   "n": {
+    "Q-lvl": 300,
+    "Q-off": 150,
+    "Q-pal": 50,
+    "Q-tpl": 75,
+    "S-dev": 100,
+    "S-start": 25
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 75310,
+     "sha256": "c152111f7966adc90d3bff552d0805519a2bd20e6cef8013224db556ae16ba75"
+    },
+    "python:M:full": {
+     "chars": 74930,
+     "sha256": "4d1a89abbc5608333accdb2b6d942ac5a42dd727dcd93a9d5db2712a907514f8"
+    },
+    "weights:M:full": {
+     "chars": 78992,
+     "sha256": "7f5e0a01ab5afd3fae41c4e0686c1023ee61691289b08a06c5a1104e50c5f567"
+    },
+    "weights:M:noaxial": {
+     "chars": 79154,
+     "sha256": "7b9877042b6f101531da8c1cd726a9d6c745b55dd7ead806e81d125315798bcb"
+    },
+    "weights:M:t8": {
+     "chars": 79098,
+     "sha256": "b9c06ab85dce79730980f2b74871a24096118b008f7a1080b4152e78d5c32be3"
+    },
+    "weights:MS:full": {
+     "chars": 81377,
+     "sha256": "473d1173377f6e52646476f5d70210116b7e1c7cebc726333fdb98890263e79a"
+    }
+   },
+   "sections": {
+    "M": "7983f5d0ece03da3f5e03ca29f3364773521fd1a0bc83d2acdd43f15ebc4e237",
+    "MS": "41945ff06b1db99e7634ac30299b0cd8ca04d3353e4ac1c003d53bc5fb1f0cf6"
+   }
+  },
+  "obn": {
+   "manifest_sha256": "faca9a04ace7e01f2f38854fa9a0d7e432ca30a7f04700419985910094d0cf34",
+   "n": {
+    "Q-lvl": 240,
+    "Q-off": 144,
+    "Q-pal": 40,
+    "Q-tpl": 75,
+    "S-dev": 100,
+    "S-start": 25
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 87752,
+     "sha256": "1127b1a5799243c8499af5733fae4173ab7e668c53880415be872961f916b382"
+    },
+    "python:M:full": {
+     "chars": 87372,
+     "sha256": "24b48357ed7db0d832b44a12a6b60e58b9ef369c7efe5529abfae15767dda8bb"
+    },
+    "weights:M:full": {
+     "chars": 91434,
+     "sha256": "fda5c4dcfb87a41a2b71d404bd81525a1618674efa14b97944ff1a6138b14cc1"
+    },
+    "weights:M:noaxial": {
+     "chars": 91596,
+     "sha256": "16be6b50bf7d5516e7141355c95078689ec9b25e5edb90995cd02cec9361c0f0"
+    },
+    "weights:M:t8": {
+     "chars": 91540,
+     "sha256": "4ea74791c5aa5d74954bec4aee4e0adae1b4d3a03ffcad6e1e028dbc41944185"
+    },
+    "weights:MS:full": {
+     "chars": 93609,
+     "sha256": "1ad804a3a582fe14fe6cd0833b4fb5d4384c2790fa6177ff89d8441f0abadda6"
+    }
+   },
+   "sections": {
+    "M": "c60743a063046a9a79d396b162df1bf5ed2ab9bd90c344144f6d59aa161e639d",
+    "MS": "4bed52349bdbe80b8538c3e78263eb9722a5104028b8f98e31c6cad9d0ae63a7"
+   }
+  },
+  "qcn": {
+   "manifest_sha256": "0b7e86a9f42088074ebb6c1d75b90ce5c64e4915c84fc975cec1e470ed77ff5c",
+   "n": {
+    "Q-lvl": 240,
+    "Q-off": 120,
+    "Q-pal": 40,
+    "Q-tpl": 60,
+    "S-dev": 80,
+    "S-start": 20
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 58530,
+     "sha256": "418610df5f3d5ac0af6e814da1d9139749028e9248f6c06b5acf0ea25f198f81"
+    },
+    "python:M:full": {
+     "chars": 58150,
+     "sha256": "3a385bf5ff71a5df76b3ff0afff664a0c15d9a5a41b029b0f539ec67c14433c6"
+    },
+    "weights:M:full": {
+     "chars": 62212,
+     "sha256": "e8251d89c2b599b81196db3a62a8061bcbd4e25a3750eb324d0c474b63aeb35e"
+    },
+    "weights:M:noaxial": {
+     "chars": 62374,
+     "sha256": "66d2d9bddff61befc881324f291a3da64d809387acb8b3b29bd1942056a6d74b"
+    },
+    "weights:M:t8": {
+     "chars": 62318,
+     "sha256": "34c671353b973d8cb4aa17c1110ceebb837df870d8d119bc9da1b492d2cb533e"
+    },
+    "weights:MS:full": {
+     "chars": 63707,
+     "sha256": "79df2d4c39ebf726538e167e55ef1abf676262e7fd3d7367e7fc21376fbe9ce3"
+    }
+   },
+   "sections": {
+    "M": "731c4ffca2ad0226c80ade639fb3e5360a07b025a4b6d5b42dc1b92b7f602338",
+    "MS": "159f9d75563bf972ca175ef37b47e5f77b3f4405f186713b62f8cc3b0eaa3f59"
+   }
+  },
+  "qpv": {
+   "manifest_sha256": "d79d722deb808af7be95a067ecd574b0b0c0bea661f00175eba96e179afabddf",
+   "n": {
+    "Q-lvl": 240,
+    "Q-off": 120,
+    "Q-pal": 40,
+    "Q-tpl": 60,
+    "S-dev": 80,
+    "S-start": 20
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 62146,
+     "sha256": "23785974dc94c1399e3b3488332248f210a2a90aaa3b4aadd4805466ca65c214"
+    },
+    "python:M:full": {
+     "chars": 61766,
+     "sha256": "4fb8b73aeabd8de3ecb16e16b7174b6bb3cd57afaa34a1cc96a496c17fa6d4d6"
+    },
+    "weights:M:full": {
+     "chars": 65828,
+     "sha256": "2d7630c2e82a559548e0cf76f751f5240773c33a4902fbf381a822e289b3f7fd"
+    },
+    "weights:M:noaxial": {
+     "chars": 65990,
+     "sha256": "719ca2005bfb6b40ffc8c51ae1a45336ab3917ab5fe5696128440aa9f982aa62"
+    },
+    "weights:M:t8": {
+     "chars": 65934,
+     "sha256": "0589b3fd0c6e2e2f2a10857562e92a1afe8b23753927104d4136bf7387ad9115"
+    },
+    "weights:MS:full": {
+     "chars": 67098,
+     "sha256": "e5b716879db4ca022886731f7788f990845e940ef59cb7661425b6bac5279cb6"
+    }
+   },
+   "sections": {
+    "M": "2971715329fd9e0e1c0df3531ffb18968f300545aea1caffc7b4d372b0d1cbb6",
+    "MS": "b54e3230952b105cfc1eece2cb296612c5270c9c07c20b803dc8e5124a7e898f"
+   }
+  },
+  "qwv": {
+   "manifest_sha256": "0db61505f5f38e647e9cff3974f2544cdbfefc9ef12622c0a7371a0c09eb66ba",
+   "n": {
+    "Q-lvl": 300,
+    "Q-off": 150,
+    "Q-pal": 50,
+    "Q-tpl": 75,
+    "S-dev": 100,
+    "S-start": 25
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 74307,
+     "sha256": "94f0492dabb8b9ab3f339e0da573b1d1a7e727d911328d98e5c6c1eb7c313529"
+    },
+    "python:M:full": {
+     "chars": 73927,
+     "sha256": "12a67a5e770da9b7ec8c8a04c4cf1de96200811347bc049acab9e84881bba6ca"
+    },
+    "weights:M:full": {
+     "chars": 77989,
+     "sha256": "47696a21857db86cac32d4ab5ca66b437b95ebe7b26480b13d2c7b0bda45e8a0"
+    },
+    "weights:M:noaxial": {
+     "chars": 78151,
+     "sha256": "6ddf8cc05890608dd2ed5d79f1922803e729901b05cb444a3918973fab2a7712"
+    },
+    "weights:M:t8": {
+     "chars": 78095,
+     "sha256": "1ecbfc0ef914785ecbaa57c4e1a65fb1ea4b12845c4e43e0514a05021ccd6688"
+    },
+    "weights:MS:full": {
+     "chars": 80004,
+     "sha256": "b07a472ca27c2470236ebe1fd1385a3983b153f3a22985a7bb7cfa3137eb4a55"
+    }
+   },
+   "sections": {
+    "M": "c0598cbb8df43d2639bcce23b249e831bff9388affdaee707a83d5549743901e",
+    "MS": "4af6b404b7eb24dfcb591007f3b2d7c9a81ae08d6177d3efa341d8f0f4f432a7"
+   }
+  },
+  "ruz": {
+   "manifest_sha256": "fde4739f07165b156367614f523aaf0cee82e921b50920215a1c0bd70c43d994",
+   "n": {
+    "Q-lvl": 240,
+    "Q-off": 120,
+    "Q-pal": 40,
+    "Q-tpl": 60,
+    "S-dev": 80,
+    "S-start": 20
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 59402,
+     "sha256": "37510e9a37096b3754b9219d17921990988baf4c111d5bee61c538294b2e801e"
+    },
+    "python:M:full": {
+     "chars": 59022,
+     "sha256": "5ba3467763eeb66b08186b7eeab6ccc02c6092d15b2a4f53cbed186d3467cbd3"
+    },
+    "weights:M:full": {
+     "chars": 63084,
+     "sha256": "03c9a8a53c78859d13226df14ea3bf58002bbdb060f301565256de0b91e6f9cb"
+    },
+    "weights:M:noaxial": {
+     "chars": 63246,
+     "sha256": "daa5cbfa5a53cd17fa73dbb979b257c8d8cd71a715548d4cfa6df81dc5f6475f"
+    },
+    "weights:M:t8": {
+     "chars": 63190,
+     "sha256": "5ad5c2194f290119f026590106227646e68375a7eb930a4e708b5404f3e386c7"
+    },
+    "weights:MS:full": {
+     "chars": 67516,
+     "sha256": "a112346f8eed13ada1a257fa86fb4d18b56c00cf64065052d898b675cc48dbdd"
+    }
+   },
+   "sections": {
+    "M": "3f8b092ae8eec5d73f93d3d305cd756326183b369e1c5996303fee472eb3a529",
+    "MS": "5be23c8060a69939a3369c186b3cf24d5826652ba54f0fa5502eb08ca1f33848"
+   }
+  },
+  "trx": {
+   "manifest_sha256": "b9afb909844077c15bd7e0f076390518a646b07c8be4e7c861d085c5930286d0",
+   "n": {
+    "Q-lvl": 300,
+    "Q-off": 155,
+    "Q-pal": 50,
+    "Q-tpl": 90,
+    "S-dev": 120,
+    "S-start": 30
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 79349,
+     "sha256": "0874a9cedc380ee78eb4d2611d3b8354a12fcc84570d7b6a547762b9b138a9af"
+    },
+    "python:M:full": {
+     "chars": 78969,
+     "sha256": "c734e435f60e7d9012c5ebad1f91d5f57fa72621d39b3ce5be3b061af058b2be"
+    },
+    "weights:M:full": {
+     "chars": 83031,
+     "sha256": "06d2d5408c2a6eca6d34756c31a61926b98643d3d64e69cd3099f44655c0e671"
+    },
+    "weights:M:noaxial": {
+     "chars": 83193,
+     "sha256": "a75367ff56005969fbb9d6817a21365619dc87569fe79de73543fb571f350ebb"
+    },
+    "weights:M:t8": {
+     "chars": 83137,
+     "sha256": "dbd1bab0ff053b0716ebfa87df3262f0cdc9dfe5ddfd222d94067df9bb2f5381"
+    },
+    "weights:MS:full": {
+     "chars": 86291,
+     "sha256": "6646fd26e356b8c0e8127fe1bd176624fcbd6c33e9f53b204ce62dda40764188"
+    }
+   },
+   "sections": {
+    "M": "2b8e6b2caa7fb840c992097ef4dab4f5e1eaf137ab342b2d3dd7e494d94ed9c5",
+    "MS": "2ee536b3d6d5da8b82f7f6d80ab589f9df7786945bcf926cf8f196928128ccb3"
+   }
+  },
+  "ubr": {
+   "manifest_sha256": "6600b4511637f0c608ae4cf93e1ba87b644f650b513b0be7e9002d248e3418b4",
+   "n": {
+    "Q-lvl": 240,
+    "Q-off": 150,
+    "Q-pal": 40,
+    "Q-tpl": 75,
+    "S-dev": 100,
+    "S-start": 25
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 61104,
+     "sha256": "1c91a4a79c7e6438eea281353e4a0b5b3a1b5051882c0904d19d019f7aca6fa9"
+    },
+    "python:M:full": {
+     "chars": 60724,
+     "sha256": "0ee89bfd07be149c5b013c29098004d884921077d2c1876733870989066d0d3a"
+    },
+    "weights:M:full": {
+     "chars": 64786,
+     "sha256": "0494b3b23e3f70355e1addca913841dc22385a5bdb1c097621b7a1cfe865c3d7"
+    },
+    "weights:M:noaxial": {
+     "chars": 64948,
+     "sha256": "29a98f8fcd9166bfb38452dbabc89e607fc676c364a6f44ac4b71f1e4d914b10"
+    },
+    "weights:M:t8": {
+     "chars": 64892,
+     "sha256": "01bcb6b71011e2a05e0e0da793a9a2360599d5d5f537791d51f3e1bfd8556e4b"
+    },
+    "weights:MS:full": {
+     "chars": 66843,
+     "sha256": "9219dbe2fea4d2923e5432560a7e0e3c4a0d33a02c598f5fa23cd06d3ec0a8e4"
+    }
+   },
+   "sections": {
+    "M": "51ddb7b1afa6d040e0d6d4bec6ff3190c4a9cd5e1e785d4b889b22e65c1c9836",
+    "MS": "6abed1542067e2d0fc952c05ea6a13ee699a534acb779b5362d9ef3aea791e5a"
+   }
+  },
+  "vvf": {
+   "manifest_sha256": "ff530f52fdce8909f0289ea85375667e89ebb4b21d2c01be200a1788b8355bfb",
+   "n": {
+    "Q-lvl": 209,
+    "Q-off": 100,
+    "Q-pal": 40,
+    "Q-tpl": 60,
+    "S-dev": 80,
+    "S-start": 20
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 60803,
+     "sha256": "b3b5ee94c5dce6f6a6e48b2d4ec1d64196445c2a2b57557dfd7854ea63276507"
+    },
+    "python:M:full": {
+     "chars": 60423,
+     "sha256": "82095733dffd71bf7a89dd7fb92993761b50a5ced8ca0e9c6c6416cb605d9af6"
+    },
+    "weights:M:full": {
+     "chars": 64485,
+     "sha256": "c499a7785da7c7529acb1faef13a8c943a9d0630886cd73639644ff32cf7578d"
+    },
+    "weights:M:noaxial": {
+     "chars": 64647,
+     "sha256": "d2d5acf10750b9f82fd9219879040dce523139375eec2124a82a3f8f0f9de367"
+    },
+    "weights:M:t8": {
+     "chars": 64591,
+     "sha256": "b076faf537d639d0f0f0e7cfc77b498ec2c552f9a0a6115b1e684b50e7d355f9"
+    },
+    "weights:MS:full": {
+     "chars": 67127,
+     "sha256": "1b5dc756503ecbbbc44f65e7f1b3330c26c2daaf428ebd77fe2e1fc652949896"
+    }
+   },
+   "sections": {
+    "M": "a92337dd89ccd6cb3f5d48b0480ccd99b151be74f3f15756bf8a995700a93055",
+    "MS": "827ed01963cea9f2d7fc1615f7549b87a2ae1c08366ec11543de0603c49d9701"
+   }
+  },
+  "wih": {
+   "manifest_sha256": "3b43c4a8bf531feac357314d62ed3f0cf289a2a05ede18d82fe2d35daf138c4f",
+   "n": {
+    "Q-lvl": 180,
+    "Q-off": 90,
+    "Q-pal": 30,
+    "Q-tpl": 45,
+    "S-dev": 60,
+    "S-start": 15
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 53272,
+     "sha256": "dc8e296de4366071bbc67ea0c689cc1c549227545b8732fd5c496d269ba4fbce"
+    },
+    "python:M:full": {
+     "chars": 52892,
+     "sha256": "43bbbaaa50d2e54c7c703a5961d405fc39b0af0c3ae3faf5782cedbedbea860f"
+    },
+    "weights:M:full": {
+     "chars": 56954,
+     "sha256": "4a50cf06c093286b90f1d2b6ffb88a92f72a7413881502c04ea6b00c5b88c2f7"
+    },
+    "weights:M:noaxial": {
+     "chars": 57116,
+     "sha256": "dd40b483f72080a1f0cbe92f716541c9ed127d6cddaf644c13b2e7943682c572"
+    },
+    "weights:M:t8": {
+     "chars": 57060,
+     "sha256": "075ea1e55034de3e3c765193296edd6e7066a84d41d9969c25c41500b02b59a4"
+    },
+    "weights:MS:full": {
+     "chars": 57747,
+     "sha256": "14eb05d4b4fe50e93c533424bca1950c97fdbd6a38f28bbb56b33ec864c1a242"
+    }
+   },
+   "sections": {
+    "M": "a6d3ddff587fce8c45bdde5840d7b79ad86b193f55d510e86cf7929c52950856",
+    "MS": "824b7c92bedf86313c8d36a6acb0ca61995f1bf24898c97879f29da06e11a93e"
+   }
+  },
+  "ydv": {
+   "manifest_sha256": "9d861f0d07c4071bd73c53f6988efc985af53b02a181553f3e98b6c0804767b2",
+   "n": {
+    "Q-lvl": 300,
+    "Q-off": 180,
+    "Q-pal": 50,
+    "Q-tpl": 90,
+    "S-dev": 120,
+    "S-start": 30
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 95200,
+     "sha256": "f5d64dea190c8f5ee732f9e33e5ad543a40d2148d23c383b94c331f3ad79fc42"
+    },
+    "python:M:full": {
+     "chars": 94820,
+     "sha256": "26d400ae40b878699c3860793d5f42e3d766440b9b39d7fb8373b9e3fadb6cbe"
+    },
+    "weights:M:full": {
+     "chars": 98882,
+     "sha256": "a0a201293608c491b29bb1230dcb2bfb3d0fec61966610a9a3afbab0c8f53232"
+    },
+    "weights:M:noaxial": {
+     "chars": 99044,
+     "sha256": "67640917cd7ae9ad7c5c1d17befd745939aca2c00f04b77cbd8d8e0350eab9ae"
+    },
+    "weights:M:t8": {
+     "chars": 98988,
+     "sha256": "83b32f238c5edb95abc65edd78d98a71efd66d6eb90a77e8ea25f79ea8558251"
+    },
+    "weights:MS:full": {
+     "chars": 104063,
+     "sha256": "bb70b92fc137cb9915e58402eae98f5eebdabaaa10a32820dafc1d2e041a00d9"
+    }
+   },
+   "sections": {
+    "M": "c6991285e38a98ef8a687832283d7a1cb2603b8fabc3cef319c97b713719803b",
+    "MS": "efc08cc4641fc42092de8f804c01a7521038bbf157062be63321ea60a0873528"
+   }
+  },
+  "yiy": {
+   "manifest_sha256": "2d95c93c753c0ecddc0ea079f557000df98dc299b3ec7ebb793a0d69b65cdf90",
+   "n": {
+    "Q-lvl": 341,
+    "Q-off": 160,
+    "Q-pal": 60,
+    "Q-tpl": 90,
+    "S-dev": 120,
+    "S-start": 30
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 103287,
+     "sha256": "d55ccab3984d6d79515f1c3c432f72a65bc00e87f9fcf18e5995432da14dc272"
+    },
+    "python:M:full": {
+     "chars": 102907,
+     "sha256": "5b6a9a58496c4802db78ad6034d94a1b42d903f69db6bcd4bbf320dfc9189b0b"
+    },
+    "weights:M:full": {
+     "chars": 106969,
+     "sha256": "93f1033012c10e5dfbba690c1a1fc56bf952805cc7fb8fe78bed34cbb9c01fdf"
+    },
+    "weights:M:noaxial": {
+     "chars": 107131,
+     "sha256": "81ad0b53c1efe420a4f35d7e88e5f6f780a4a382ac2215823c37abf786a2d5fb"
+    },
+    "weights:M:t8": {
+     "chars": 107075,
+     "sha256": "05310b15078ef319a5709b012111be75f0f4e1d1026fffa98cdcbd6921c22348"
+    },
+    "weights:MS:full": {
+     "chars": 112219,
+     "sha256": "5774145fd21dff171feb5f5555f8fa12f7c62b1b1a7ba81e015dd9191924cba1"
+    }
+   },
+   "sections": {
+    "M": "899f8e4a8582f48f12885c27da37256cb9b1abbfa52e118a306b04c6a6919e22",
+    "MS": "36ef9a602cab66909858776b721b251ebe91bb73a7b6f0bd557f6e7f986bf2c2"
+   }
+  },
+  "yuz": {
+   "manifest_sha256": "37092285f1bc13d3430e658c85212872da8ea691d2164fbd5c078448522b284b",
+   "n": {
+    "Q-lvl": 360,
+    "Q-off": 167,
+    "Q-pal": 60,
+    "Q-tpl": 90,
+    "S-dev": 120,
+    "S-start": 30
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 84040,
+     "sha256": "095d29728308a7148fa041743e3b8fc70c4ba3cacf7c763734738bdebdccd669"
+    },
+    "python:M:full": {
+     "chars": 83660,
+     "sha256": "879426c00c47356fe7fedb69069c9cf49e0646e647ee565f169dbfd75722f5ac"
+    },
+    "weights:M:full": {
+     "chars": 87722,
+     "sha256": "7027599ea5f5d8a74eb7c5397c53c81e2356ba539418d2dc1c2fabeada9a2924"
+    },
+    "weights:M:noaxial": {
+     "chars": 87884,
+     "sha256": "ebffd081d22a38e8e503e092786d93cd239bec17b97355e89458b445b740bf43"
+    },
+    "weights:M:t8": {
+     "chars": 87828,
+     "sha256": "92cc762d9e2f5fa5be0cc0c67f42c4a34cda8c86efad7811bce94516d69591d5"
+    },
+    "weights:MS:full": {
+     "chars": 90828,
+     "sha256": "da5afcee14a9bfdb11185b5d823955c777bb3f5e60860110ac628b2fe89062d0"
+    }
+   },
+   "sections": {
+    "M": "8f27957fb9a028c1d6d4430d806f6e303983a091151d189c4e1875ac2e4090db",
+    "MS": "096890776bf9de7af6369d219bbc9445fe3292a715eb654ea7403200127eeb60"
+   }
+  },
+  "ztl": {
+   "manifest_sha256": "6cf52523314ddf6079f63ff7c31fa4d679d123c06cb9e1867bd7a27beb27145c",
+   "n": {
+    "Q-lvl": 210,
+    "Q-off": 90,
+    "Q-pal": 0,
+    "Q-tpl": 50,
+    "S-dev": 60,
+    "S-start": 20
+   },
+   "prompts": {
+    "pyreact:M:full": {
+     "chars": 52392,
+     "sha256": "2216f0f64aa75d633e93fbefb6b54dafe32e4f7365a1e388e5427a58f1dc6890"
+    },
+    "python:M:full": {
+     "chars": 52012,
+     "sha256": "a334f5797402ec88db27870f8882864b1c14816753f6f5fa5025378f20256b84"
+    },
+    "weights:M:full": {
+     "chars": 56074,
+     "sha256": "0f21b8b66caed9e393cf1e7811d9417a5c8ca82dbbe746bc42f49ef3c7e2cfca"
+    },
+    "weights:M:noaxial": {
+     "chars": 56236,
+     "sha256": "7d39ca3002f7248d0c544185dc44b23d51eaddbb830925cd9672cbf4fab0aa0b"
+    },
+    "weights:M:t8": {
+     "chars": 56180,
+     "sha256": "f48915e2d059367a7f042cb6da816b5d6c9f6024a87b3a5166b2fde25439ef19"
+    },
+    "weights:MS:full": {
+     "chars": 57691,
+     "sha256": "b66c596daaa0a8b298b5dded6b4ac2f1d70ae5567138c116522d53f1d641425c"
+    }
+   },
+   "sections": {
+    "M": "4b75e08016ad04e7cbdb13a80f30c07e00f38b5d34a8d0088aeecba471ef1d1d",
+    "MS": "dc21c394aa94d18844bc9e0d5a6a8a10e37a090857a050bc26f4b1f142fc1f4c"
+   }
+  }
+ },
+ "freeze_sha256": "0b59673c0c39633149fe9a43ce3ab111a74a7919121e842a4b2f7790922e34a6",
+ "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02"
+}

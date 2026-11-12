@@ -1,0 +1,3151 @@
+{
+ "family": "official.vc33",
+ "tier": "public",
+ "game_id": "vc33",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 7,
+ "held_out_levels": [
+  2,
+  4,
+  6
+ ],
+ "support_levels": [
+  0,
+  1,
+  3,
+  5
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "2": 21,
+  "4": 21,
+  "6": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 16,
+   "built": 16,
+   "tries": 20,
+   "dup": 4,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 20.2
+  },
+  "Q-off": {
+   "requested": 24,
+   "built": 24,
+   "tries": 99,
+   "dup": 75,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 87.5
+  },
+  "Q-lvl": {
+   "requested": 60,
+   "built": 60,
+   "tries": 199,
+   "dup": 101,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 38,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 214.2
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "S-start",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "S-start",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "S-start",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.0
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 3.0
+  },
+  {
+   "qset": "S-dev",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 4.3
+  },
+  {
+   "qset": "S-dev",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 5.2
+  },
+  {
+   "qset": "S-dev",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 7.7
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 45,
+   "dup": 39,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 33.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 19,
+   "dup": 13,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 15.3
+  },
+  {
+   "qset": "Q-off",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 14,
+   "dup": 8,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 13.3
+  },
+  {
+   "qset": "Q-off",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 21,
+   "dup": 15,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 25.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 107,
+   "dup": 87,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 79.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 38,
+   "dup": 7,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 11,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 46.6
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 54,
+   "dup": 7,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 27,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 88.5
+  }
+ ],
+ "construction_wall_s": 326.8,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "8afa9f55054b2a2460b6c44ec5c66e120f6d6f4c2289e24d50832a68d1e3fcfd",
+  "route_sha256": "b5ce7d21f1e88849bb798a338e6c51e6bf35d51e8c388998ad2dea3c04d36166",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      46
+     ],
+     [
+      "ACTION6",
+      4,
+      41
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      48,
+      62
+     ],
+     [
+      "ACTION6",
+      7,
+      36
+     ],
+     [
+      "ACTION6",
+      16,
+      45
+     ],
+     [
+      "ACTION6",
+      29,
+      53
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      39
+     ],
+     [
+      "ACTION6",
+      35,
+      60
+     ]
+    ],
+    "ref_len": 2,
+    "cap": 16,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      36
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      16
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      36
+     ],
+     [
+      "ACTION6",
+      2,
+      30
+     ],
+     [
+      "ACTION6",
+      0,
+      17
+     ],
+     [
+      "ACTION6",
+      54,
+      10
+     ],
+     [
+      "ACTION6",
+      18,
+      50
+     ],
+     [
+      "ACTION6",
+      32,
+      3
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      20
+     ],
+     [
+      "ACTION6",
+      5,
+      47
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      26
+     ],
+     [
+      "ACTION6",
+      53,
+      1
+     ],
+     [
+      "ACTION6",
+      10,
+      1
+     ],
+     [
+      "ACTION6",
+      28,
+      11
+     ],
+     [
+      "ACTION6",
+      14,
+      7
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      6
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      38,
+      43
+     ],
+     [
+      "ACTION6",
+      49,
+      29
+     ],
+     [
+      "ACTION6",
+      26,
+      42
+     ],
+     [
+      "ACTION6",
+      59,
+      7
+     ],
+     [
+      "ACTION6",
+      63,
+      9
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      12
+     ],
+     [
+      "ACTION6",
+      63,
+      10
+     ],
+     [
+      "ACTION6",
+      0,
+      10
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      57
+     ],
+     [
+      "ACTION6",
+      31,
+      28
+     ],
+     [
+      "ACTION6",
+      59,
+      63
+     ],
+     [
+      "ACTION6",
+      47,
+      5
+     ],
+     [
+      "ACTION6",
+      62,
+      19
+     ],
+     [
+      "ACTION6",
+      63,
+      28
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      22
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      30
+     ],
+     [
+      "ACTION6",
+      15,
+      1
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      7
+     ],
+     [
+      "ACTION6",
+      8,
+      21
+     ],
+     [
+      "ACTION6",
+      8,
+      31
+     ],
+     [
+      "ACTION6",
+      9,
+      31
+     ],
+     [
+      "ACTION6",
+      0,
+      38
+     ],
+     [
+      "ACTION6",
+      32,
+      4
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      23
+     ],
+     [
+      "ACTION6",
+      35,
+      6
+     ],
+     [
+      "ACTION6",
+      0,
+      22
+     ],
+     [
+      "ACTION6",
+      0,
+      44
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      63
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      1
+     ],
+     [
+      "ACTION6",
+      50,
+      4
+     ],
+     [
+      "ACTION6",
+      49,
+      4
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      4
+     ],
+     [
+      "ACTION6",
+      4,
+      23
+     ],
+     [
+      "ACTION6",
+      59,
+      33
+     ],
+     [
+      "ACTION6",
+      57,
+      38
+     ],
+     [
+      "ACTION6",
+      3,
+      22
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      39
+     ],
+     [
+      "ACTION6",
+      60,
+      19
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      62
+     ],
+     [
+      "ACTION6",
+      56,
+      0
+     ],
+     [
+      "ACTION6",
+      5,
+      8
+     ],
+     [
+      "ACTION6",
+      56,
+      34
+     ],
+     [
+      "ACTION6",
+      50,
+      53
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      15
+     ],
+     [
+      "ACTION6",
+      19,
+      61
+     ],
+     [
+      "ACTION6",
+      40,
+      52
+     ],
+     [
+      "ACTION6",
+      56,
+      28
+     ],
+     [
+      "ACTION6",
+      20,
+      2
+     ],
+     [
+      "ACTION6",
+      3,
+      25
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      61
+     ],
+     [
+      "ACTION6",
+      46,
+      57
+     ],
+     [
+      "ACTION6",
+      60,
+      46
+     ],
+     [
+      "ACTION6",
+      57,
+      25
+     ],
+     [
+      "ACTION6",
+      5,
+      28
+     ],
+     [
+      "ACTION6",
+      4,
+      55
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      4
+     ],
+     [
+      "ACTION6",
+      60,
+      46
+     ],
+     [
+      "ACTION6",
+      59,
+      21
+     ],
+     [
+      "ACTION6",
+      57,
+      13
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      4
+     ],
+     [
+      "ACTION6",
+      57,
+      59
+     ],
+     [
+      "ACTION6",
+      36,
+      54
+     ],
+     [
+      "ACTION6",
+      56,
+      16
+     ],
+     [
+      "ACTION6",
+      55,
+      48
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      30,
+      63
+     ],
+     [
+      "ACTION6",
+      58,
+      50
+     ],
+     [
+      "ACTION6",
+      39,
+      4
+     ],
+     [
+      "ACTION6",
+      57,
+      24
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      26
+     ],
+     [
+      "ACTION6",
+      10,
+      0
+     ],
+     [
+      "ACTION6",
+      59,
+      62
+     ],
+     [
+      "ACTION6",
+      56,
+      35
+     ],
+     [
+      "ACTION6",
+      57,
+      55
+     ],
+     [
+      "ACTION6",
+      58,
+      44
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      2
+     ],
+     [
+      "ACTION6",
+      1,
+      59
+     ],
+     [
+      "ACTION6",
+      46,
+      60
+     ],
+     [
+      "ACTION6",
+      56,
+      17
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      3
+     ],
+     [
+      "ACTION6",
+      63,
+      44
+     ],
+     [
+      "ACTION6",
+      42,
+      53
+     ],
+     [
+      "ACTION6",
+      56,
+      47
+     ],
+     [
+      "ACTION6",
+      39,
+      60
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      51
+     ],
+     [
+      "ACTION6",
+      60,
+      37
+     ],
+     [
+      "ACTION6",
+      22,
+      59
+     ],
+     [
+      "ACTION6",
+      56,
+      16
+     ],
+     [
+      "ACTION6",
+      54,
+      8
+     ],
+     [
+      "ACTION6",
+      25,
+      59
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      25
+     ],
+     [
+      "ACTION6",
+      55,
+      2
+     ],
+     [
+      "ACTION6",
+      51,
+      58
+     ],
+     [
+      "ACTION6",
+      56,
+      17
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      27
+     ],
+     [
+      "ACTION6",
+      31,
+      5
+     ],
+     [
+      "ACTION6",
+      15,
+      5
+     ],
+     [
+      "ACTION6",
+      56,
+      24
+     ],
+     [
+      "ACTION6",
+      31,
+      3
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      4
+     ],
+     [
+      "ACTION6",
+      4,
+      49
+     ],
+     [
+      "ACTION6",
+      57,
+      29
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      27
+     ],
+     [
+      "ACTION6",
+      18,
+      5
+     ],
+     [
+      "ACTION6",
+      4,
+      47
+     ],
+     [
+      "ACTION6",
+      56,
+      39
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      37
+     ],
+     [
+      "ACTION6",
+      52,
+      52
+     ],
+     [
+      "ACTION6",
+      4,
+      25
+     ],
+     [
+      "ACTION6",
+      56,
+      47
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      3
+     ],
+     [
+      "ACTION6",
+      62,
+      20
+     ],
+     [
+      "ACTION6",
+      34,
+      55
+     ],
+     [
+      "ACTION6",
+      56,
+      34
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      61
+     ],
+     [
+      "ACTION6",
+      13,
+      17
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      62
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      63
+     ],
+     [
+      "ACTION6",
+      16,
+      29
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      62
+     ],
+     [
+      "ACTION6",
+      37,
+      58
+     ],
+     [
+      "ACTION6",
+      53,
+      61
+     ],
+     [
+      "ACTION6",
+      48,
+      61
+     ],
+     [
+      "ACTION6",
+      7,
+      15
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      61
+     ],
+     [
+      "ACTION6",
+      32,
+      52
+     ],
+     [
+      "ACTION6",
+      53,
+      61
+     ],
+     [
+      "ACTION6",
+      31,
+      63
+     ],
+     [
+      "ACTION6",
+      63,
+      61
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      62
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      63
+     ],
+     [
+      "ACTION6",
+      47,
+      50
+     ],
+     [
+      "ACTION6",
+      36,
+      62
+     ],
+     [
+      "ACTION6",
+      35,
+      61
+     ],
+     [
+      "ACTION6",
+      31,
+      63
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      61
+     ],
+     [
+      "ACTION6",
+      58,
+      49
+     ],
+     [
+      "ACTION6",
+      36,
+      62
+     ],
+     [
+      "ACTION6",
+      53,
+      61
+     ],
+     [
+      "ACTION6",
+      12,
+      33
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      61
+     ],
+     [
+      "ACTION6",
+      40,
+      51
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      63
+     ],
+     [
+      "ACTION6",
+      16,
+      57
+     ],
+     [
+      "ACTION6",
+      36,
+      62
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      62
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      63
+     ],
+     [
+      "ACTION6",
+      34,
+      52
+     ],
+     [
+      "ACTION6",
+      37,
+      61
+     ],
+     [
+      "ACTION6",
+      17,
+      61
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      63
+     ],
+     [
+      "ACTION6",
+      1,
+      31
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      63
+     ],
+     [
+      "ACTION6",
+      53,
+      51
+     ],
+     [
+      "ACTION6",
+      35,
+      63
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      63
+     ],
+     [
+      "ACTION6",
+      9,
+      48
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      61
+     ],
+     [
+      "ACTION6",
+      12,
+      32
+     ],
+     [
+      "ACTION6",
+      35,
+      61
+     ],
+     [
+      "ACTION6",
+      54,
+      62
+     ],
+     [
+      "ACTION6",
+      5,
+      54
+     ],
+     [
+      "ACTION6",
+      31,
+      62
+     ]
+    ],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      62
+     ],
+     [
+      "ACTION6",
+      27,
+      61
+     ],
+     [
+      "ACTION6",
+      19,
+      61
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      62
+     ],
+     [
+      "ACTION6",
+      14,
+      21
+     ],
+     [
+      "ACTION6",
+      46,
+      62
+     ],
+     [
+      "ACTION6",
+      17,
+      63
+     ],
+     [
+      "ACTION6",
+      5,
+      34
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      63
+     ],
+     [
+      "ACTION6",
+      6,
+      41
+     ],
+     [
+      "ACTION6",
+      30,
+      62
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      63
+     ],
+     [
+      "ACTION6",
+      9,
+      58
+     ],
+     [
+      "ACTION6",
+      19,
+      61
+     ],
+     [
+      "ACTION6",
+      17,
+      61
+     ],
+     [
+      "ACTION6",
+      2,
+      53
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      42
+     ],
+     [
+      "ACTION6",
+      8,
+      52
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      20
+     ],
+     [
+      "ACTION6",
+      0,
+      7
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      24
+     ],
+     [
+      "ACTION6",
+      27,
+      40
+     ],
+     [
+      "ACTION6",
+      32,
+      42
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      25
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      43
+     ],
+     [
+      "ACTION6",
+      8,
+      18
+     ],
+     [
+      "ACTION6",
+      32,
+      39
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      21
+     ],
+     [
+      "ACTION6",
+      9,
+      11
+     ],
+     [
+      "ACTION6",
+      9,
+      42
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      43
+     ],
+     [
+      "ACTION6",
+      28,
+      54
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      25
+     ],
+     [
+      "ACTION6",
+      22,
+      49
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      43
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      25
+     ],
+     [
+      "ACTION6",
+      32,
+      25
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      25
+     ],
+     [
+      "ACTION6",
+      48,
+      55
+     ],
+     [
+      "ACTION6",
+      32,
+      24
+     ],
+     [
+      "ACTION6",
+      32,
+      20
+     ],
+     [
+      "ACTION6",
+      21,
+      37
+     ],
+     [
+      "ACTION6",
+      8,
+      24
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      38
+     ],
+     [
+      "ACTION6",
+      38,
+      46
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      21
+     ],
+     [
+      "ACTION6",
+      47,
+      38
+     ],
+     [
+      "ACTION6",
+      8,
+      24
+     ],
+     [
+      "ACTION6",
+      32,
+      21
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      42
+     ],
+     [
+      "ACTION6",
+      44,
+      35
+     ],
+     [
+      "ACTION6",
+      9,
+      24
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      39
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      20
+     ],
+     [
+      "ACTION6",
+      13,
+      22
+     ],
+     [
+      "ACTION6",
+      33,
+      24
+     ],
+     [
+      "ACTION6",
+      33,
+      21
+     ],
+     [
+      "ACTION6",
+      27,
+      35
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      24
+     ],
+     [
+      "ACTION6",
+      42,
+      11
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      24
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      20
+     ],
+     [
+      "ACTION6",
+      29,
+      17
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      20
+     ],
+     [
+      "ACTION6",
+      52,
+      15
+     ],
+     [
+      "ACTION6",
+      33,
+      20
+     ],
+     [
+      "ACTION6",
+      33,
+      20
+     ],
+     [
+      "ACTION6",
+      28,
+      10
+     ],
+     [
+      "ACTION6",
+      33,
+      24
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      35
+     ],
+     [
+      "ACTION6",
+      47,
+      61
+     ],
+     [
+      "ACTION6",
+      16,
+      62
+     ],
+     [
+      "ACTION6",
+      3,
+      51
+     ],
+     [
+      "ACTION6",
+      25,
+      58
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      63
+     ],
+     [
+      "ACTION6",
+      30,
+      37
+     ],
+     [
+      "ACTION6",
+      4,
+      56
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      63
+     ],
+     [
+      "ACTION6",
+      28,
+      41
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      57
+     ],
+     [
+      "ACTION6",
+      30,
+      39
+     ],
+     [
+      "ACTION6",
+      28,
+      32
+     ],
+     [
+      "ACTION6",
+      52,
+      52
+     ],
+     [
+      "ACTION6",
+      15,
+      52
+     ],
+     [
+      "ACTION6",
+      0,
+      37
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      36
+     ],
+     [
+      "ACTION6",
+      48,
+      54
+     ],
+     [
+      "ACTION6",
+      2,
+      55
+     ],
+     [
+      "ACTION6",
+      22,
+      46
+     ],
+     [
+      "ACTION6",
+      10,
+      54
+     ],
+     [
+      "ACTION6",
+      24,
+      63
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      52
+     ],
+     [
+      "ACTION6",
+      4,
+      58
+     ],
+     [
+      "ACTION6",
+      32,
+      63
+     ]
+    ],
+    "ref_len": 2,
+    "cap": 16,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      25
+     ],
+     [
+      "ACTION6",
+      6,
+      49
+     ],
+     [
+      "ACTION6",
+      9,
+      6
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      0
+     ],
+     [
+      "ACTION6",
+      43,
+      26
+     ],
+     [
+      "ACTION6",
+      4,
+      21
+     ],
+     [
+      "ACTION6",
+      10,
+      13
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      24
+     ],
+     [
+      "ACTION6",
+      36,
+      1
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      11
+     ],
+     [
+      "ACTION6",
+      9,
+      26
+     ],
+     [
+      "ACTION6",
+      5,
+      9
+     ],
+     [
+      "ACTION6",
+      11,
+      27
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      38,
+      10
+     ],
+     [
+      "ACTION6",
+      17,
+      1
+     ],
+     [
+      "ACTION6",
+      52,
+      9
+     ],
+     [
+      "ACTION6",
+      3,
+      6
+     ],
+     [
+      "ACTION6",
+      44,
+      3
+     ],
+     [
+      "ACTION6",
+      10,
+      35
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      15
+     ],
+     [
+      "ACTION6",
+      3,
+      37
+     ],
+     [
+      "ACTION6",
+      16,
+      3
+     ],
+     [
+      "ACTION6",
+      21,
+      46
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      27
+     ],
+     [
+      "ACTION6",
+      47,
+      62
+     ],
+     [
+      "ACTION6",
+      56,
+      35
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      1
+     ],
+     [
+      "ACTION6",
+      0,
+      11
+     ],
+     [
+      "ACTION6",
+      49,
+      13
+     ],
+     [
+      "ACTION6",
+      46,
+      58
+     ],
+     [
+      "ACTION6",
+      60,
+      46
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      13
+     ],
+     [
+      "ACTION6",
+      49,
+      27
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      5
+     ],
+     [
+      "ACTION6",
+      61,
+      16
+     ],
+     [
+      "ACTION6",
+      58,
+      6
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      6
+     ],
+     [
+      "ACTION6",
+      61,
+      43
+     ],
+     [
+      "ACTION6",
+      58,
+      62
+     ],
+     [
+      "ACTION6",
+      35,
+      54
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      47
+     ],
+     [
+      "ACTION6",
+      43,
+      29
+     ],
+     [
+      "ACTION6",
+      55,
+      49
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      36
+     ],
+     [
+      "ACTION6",
+      31,
+      41
+     ],
+     [
+      "ACTION6",
+      56,
+      7
+     ],
+     [
+      "ACTION6",
+      29,
+      24
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      51
+     ],
+     [
+      "ACTION6",
+      52,
+      10
+     ],
+     [
+      "ACTION6",
+      57,
+      4
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      17
+     ],
+     [
+      "ACTION6",
+      53,
+      7
+     ],
+     [
+      "ACTION6",
+      11,
+      23
+     ],
+     [
+      "ACTION6",
+      28,
+      31
+     ],
+     [
+      "ACTION6",
+      0,
+      50
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      15
+     ],
+     [
+      "ACTION6",
+      19,
+      37
+     ],
+     [
+      "ACTION6",
+      31,
+      40
+     ],
+     [
+      "ACTION6",
+      29,
+      1
+     ],
+     [
+      "ACTION6",
+      3,
+      32
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      38
+     ],
+     [
+      "ACTION6",
+      28,
+      0
+     ],
+     [
+      "ACTION6",
+      2,
+      23
+     ],
+     [
+      "ACTION6",
+      26,
+      35
+     ],
+     [
+      "ACTION6",
+      16,
+      9
+     ],
+     [
+      "ACTION6",
+      20,
+      34
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.vc33",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      1
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "853fd5d29a009ceacaf5cbe0d6e309768289732ea76c947a580348fafed08a1c"
+}

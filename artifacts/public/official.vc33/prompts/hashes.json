@@ -1,0 +1,19 @@
+{
+ "game": "official.vc33",
+ "game_source_sha256": "75cbea84f29f4765e8b0feab689ef0859753858fb8bb3994206c25eaa9d3a65d",
+ "section_sha256": "032eaf25136e079cf53cf209da9ca6600b6b3d350caa5ba193c1f6e01babaf20",
+ "prompts": {
+  "w": {
+   "sha256": "e9f7beee7b99a631b8dcfaf47d4addb338b48f52957e258a070d291baed70533",
+   "released_sha256": "0e230760500a32a7b9d5169defe247cad74497375e977e30b731a52734a89c29"
+  },
+  "p": {
+   "sha256": "7585c72b7c18ed7dc816bc06a713eb891debc4f37d91ede7b358daecb283887a",
+   "released_sha256": "9d0b7a2b6ec115a8d375fa46acc1c86af246cec79be8b9f8a6854e48a38cc25b"
+  },
+  "fa": {
+   "sha256": "4c711b54851f1c99e1178eeed1fe2e4672a3b0108d97c7ec174e59f977134523",
+   "released_sha256": "2f93d92053650ba09f32e085fd4221e5fdabfe2a58419c2cd88d270b276bd277"
+  }
+ }
+}

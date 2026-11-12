@@ -1,0 +1,2965 @@
+{
+ "family": "official.dc22",
+ "tier": "public",
+ "game_id": "dc22",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 6,
+ "held_out_levels": [
+  1,
+  3,
+  5
+ ],
+ "support_levels": [
+  0,
+  2,
+  4
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 12,
+   "built": 12,
+   "tries": 13,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 21.4
+  },
+  "Q-off": {
+   "requested": 18,
+   "built": 18,
+   "tries": 19,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 33.8
+  },
+  "Q-lvl": {
+   "requested": 60,
+   "built": 60,
+   "tries": 93,
+   "dup": 33,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 202.6
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.3
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 4.7
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 6.6
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 10.1
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 5.9
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 7,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 11.4
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 16.5
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 36,
+   "dup": 16,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 42.9
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.9
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 30,
+   "dup": 10,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 50.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 27,
+   "dup": 7,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 108.9
+  }
+ ],
+ "construction_wall_s": 263.0,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "74abe3523bd6bc8a0948991caa0ca71855e38542ba2123653a03485e064f252e",
+  "route_sha256": "765241a33560090c5ccc0f4f114d3b88f9c246a30a413bde05cf77716c384e1c",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 125,
+    "cap": 385,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      35
+     ],
+     [
+      "ACTION6",
+      17,
+      49
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      21
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      54
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      58
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      46
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      54,
+      33
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      13
+     ],
+     [
+      "ACTION6",
+      17,
+      53
+     ],
+     [
+      "ACTION6",
+      9,
+      59
+     ],
+     [
+      "ACTION6",
+      17,
+      50
+     ],
+     [
+      "ACTION6",
+      0,
+      19
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      11
+     ],
+     [
+      "ACTION6",
+      20,
+      47
+     ],
+     [
+      "ACTION6",
+      5,
+      23
+     ],
+     [
+      "ACTION6",
+      25,
+      52
+     ]
+    ],
+    "ref_len": 87,
+    "cap": 271,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      53
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      63
+     ],
+     [
+      "ACTION6",
+      36,
+      52
+     ],
+     [
+      "ACTION6",
+      27,
+      6
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      45
+     ],
+     [
+      "ACTION6",
+      28,
+      48
+     ]
+    ],
+    "ref_len": 124,
+    "cap": 382,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      62
+     ]
+    ],
+    "ref_len": 125,
+    "cap": 385,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      57
+     ],
+     [
+      "ACTION6",
+      30,
+      53
+     ],
+     [
+      "ACTION6",
+      48,
+      54
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      48,
+      50
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 128,
+    "cap": 394,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      7
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 126,
+    "cap": 388,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      62
+     ],
+     [
+      "ACTION6",
+      41,
+      57
+     ],
+     [
+      "ACTION6",
+      56,
+      9
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      30
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      44
+     ],
+     [
+      "ACTION6",
+      39,
+      50
+     ],
+     [
+      "ACTION6",
+      4,
+      50
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      52
+     ],
+     [
+      "ACTION6",
+      21,
+      54
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      29
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      53
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      53
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      49
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      39
+     ],
+     [
+      "ACTION6",
+      21,
+      55
+     ],
+     [
+      "ACTION6",
+      6,
+      62
+     ],
+     [
+      "ACTION6",
+      24,
+      55
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      54
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      60,
+      53
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      43
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      1,
+      61
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      45
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      58
+     ],
+     [
+      "ACTION6",
+      23,
+      46
+     ],
+     [
+      "ACTION6",
+      6,
+      1
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      13,
+      23
+     ],
+     [
+      "ACTION6",
+      22,
+      54
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      24
+     ],
+     [
+      "ACTION6",
+      24,
+      53
+     ],
+     [
+      "ACTION6",
+      46,
+      19
+     ],
+     [
+      "ACTION6",
+      41,
+      57
+     ]
+    ],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      44
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      20,
+      50
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      6
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      49
+     ],
+     [
+      "ACTION6",
+      20,
+      53
+     ],
+     [
+      "ACTION6",
+      32,
+      59
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      44
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      44
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      42,
+      56
+     ]
+    ],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      44
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      50
+     ],
+     [
+      "ACTION6",
+      40,
+      55
+     ],
+     [
+      "ACTION6",
+      63,
+      33
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      24
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      55
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      32
+     ],
+     [
+      "ACTION6",
+      40,
+      49
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      34,
+      47
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      52
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      50
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      48,
+      47
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      60
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      10
+     ],
+     [
+      "ACTION6",
+      28,
+      48
+     ],
+     [
+      "ACTION6",
+      52,
+      54
+     ],
+     [
+      "ACTION6",
+      25,
+      44
+     ],
+     [
+      "ACTION6",
+      41,
+      45
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 59,
+    "cap": 187,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      27
+     ],
+     [
+      "ACTION6",
+      29,
+      49
+     ]
+    ],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      23
+     ]
+    ],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      30,
+      45
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      31,
+      56
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      59,
+      34
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 59,
+    "cap": 187,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      43
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      28,
+      54
+     ],
+     [
+      "ACTION6",
+      25,
+      45
+     ]
+    ],
+    "ref_len": 59,
+    "cap": 187,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      13
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      30,
+      57
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      54
+     ],
+     [
+      "ACTION6",
+      29,
+      56
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      4
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      56,
+      23
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      60
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      19
+     ]
+    ],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      5
+     ],
+     [
+      "ACTION6",
+      18,
+      55
+     ]
+    ],
+    "ref_len": 63,
+    "cap": 199,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      46
+     ],
+     [
+      "ACTION6",
+      31,
+      57
+     ],
+     [
+      "ACTION6",
+      3,
+      0
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      19,
+      54
+     ],
+     [
+      "ACTION6",
+      20,
+      46
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      44
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      47,
+      39
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      6
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      28,
+      55
+     ],
+     [
+      "ACTION6",
+      28,
+      45
+     ],
+     [
+      "ACTION6",
+      2,
+      57
+     ]
+    ],
+    "ref_len": 59,
+    "cap": 187,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      28
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      16
+     ],
+     [
+      "ACTION6",
+      30,
+      57
+     ],
+     [
+      "ACTION6",
+      33,
+      6
+     ],
+     [
+      "ACTION6",
+      17,
+      52
+     ]
+    ],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      26
+     ],
+     [
+      "ACTION6",
+      28,
+      43
+     ],
+     [
+      "ACTION6",
+      26,
+      47
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      58
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      11
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      45
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      54
+     ]
+    ],
+    "ref_len": 58,
+    "cap": 184,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      54
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      59
+     ],
+     [
+      "ACTION6",
+      27,
+      58
+     ],
+     [
+      "ACTION6",
+      19,
+      52
+     ],
+     [
+      "ACTION6",
+      19,
+      62
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 159,
+    "cap": 487,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      51
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      11,
+      55
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 246,
+    "cap": 748,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      30,
+      54
+     ]
+    ],
+    "ref_len": 157,
+    "cap": 481,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      57
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 156,
+    "cap": 478,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      46
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      8,
+      58
+     ]
+    ],
+    "ref_len": 321,
+    "cap": 973,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      56
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      9,
+      53
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 247,
+    "cap": 751,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      51
+     ],
+     [
+      "ACTION6",
+      7,
+      53
+     ]
+    ],
+    "ref_len": 324,
+    "cap": 982,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      56
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      25,
+      51
+     ],
+     [
+      "ACTION6",
+      8,
+      54
+     ]
+    ],
+    "ref_len": 245,
+    "cap": 745,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      50
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 156,
+    "cap": 478,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      43
+     ],
+     [
+      "ACTION6",
+      5,
+      54
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 246,
+    "cap": 748,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      44
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      10,
+      54
+     ]
+    ],
+    "ref_len": 323,
+    "cap": 979,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      46
+     ]
+    ],
+    "ref_len": 248,
+    "cap": 754,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      54
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      49
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 155,
+    "cap": 475,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      59
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      45
+     ]
+    ],
+    "ref_len": 247,
+    "cap": 751,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      19
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      51
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      10,
+      58
+     ]
+    ],
+    "ref_len": 244,
+    "cap": 742,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      9,
+      57
+     ],
+     [
+      "ACTION6",
+      11,
+      58
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 244,
+    "cap": 742,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      5
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      48
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 247,
+    "cap": 751,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      11
+     ],
+     [
+      "ACTION6",
+      5,
+      54
+     ],
+     [
+      "ACTION6",
+      27,
+      54
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 246,
+    "cap": 748,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      8
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      48
+     ]
+    ],
+    "ref_len": 248,
+    "cap": 754,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 155,
+    "cap": 475,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      54
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 246,
+    "cap": 748,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      24
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      2
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      43,
+      49
+     ],
+     [
+      "ACTION6",
+      35,
+      48
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      13,
+      9
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      36
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      36,
+      11
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      49
+     ],
+     [
+      "ACTION6",
+      3,
+      50
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      28
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      38
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      48,
+      40
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      62
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      45
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      15,
+      47
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      8
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      49
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      29,
+      57
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 88,
+    "cap": 274,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      61
+     ],
+     [
+      "ACTION6",
+      17,
+      50
+     ],
+     [
+      "ACTION6",
+      38,
+      46
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      32,
+      25
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      59
+     ],
+     [
+      "ACTION6",
+      19,
+      45
+     ],
+     [
+      "ACTION6",
+      26,
+      4
+     ]
+    ],
+    "ref_len": 88,
+    "cap": 274,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      50
+     ],
+     [
+      "ACTION6",
+      21,
+      54
+     ],
+     [
+      "ACTION6",
+      40,
+      55
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 110,
+    "cap": 340,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      56
+     ]
+    ],
+    "ref_len": 126,
+    "cap": 388,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      16
+     ],
+     [
+      "ACTION6",
+      21,
+      59
+     ],
+     [
+      "ACTION6",
+      28,
+      51
+     ],
+     [
+      "ACTION6",
+      31,
+      48
+     ],
+     [
+      "ACTION6",
+      42,
+      57
+     ],
+     [
+      "ACTION6",
+      28,
+      49
+     ]
+    ],
+    "ref_len": 106,
+    "cap": 328,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      3
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      41,
+      55
+     ]
+    ],
+    "ref_len": 125,
+    "cap": 385,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      58
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 126,
+    "cap": 388,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.dc22",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      55
+     ],
+     [
+      "ACTION6",
+      29,
+      56
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 127,
+    "cap": 391,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "3f24d7d30e72e53971ecb8775a264453caadf9f123afbe3e65ddd41cde94a1fb"
+}

@@ -1,0 +1,19 @@
+{
+ "game": "official.tr87",
+ "game_source_sha256": "c55d39b0b9eb9006c8fc2aaee04de826d56c93fec28267121c10e0a436721b7b",
+ "section_sha256": "4e4f5d9659bd0205efbbab4a037c6510e6b1b375cff187f8833fdc7714526f2a",
+ "prompts": {
+  "w": {
+   "sha256": "103428ccb7e9a623490c3f17117e657e3219edbc58c0df99d7539f046b546f3e",
+   "released_sha256": "c9adc36b1a8d453de03636130dc0f86a2ed4e40d97e69556e5ea733bbeabab6b"
+  },
+  "p": {
+   "sha256": "d2ebf775a14c584a71e58f152a2c08e51ec4a8cf1e79b40504a197a9e15698e3",
+   "released_sha256": "0cbfe57ba3a1b569814ff483994f9b321c59ab3e434b87f4f4e835704b33089a"
+  },
+  "fa": {
+   "sha256": "270eb74557fb5ee49cd3290313afa5d99417890e361e99b174356d6236abbc2a",
+   "released_sha256": "578ffb1894c64bf39e36cd67d75237404784a0098df5967d8cccdf7b24ee494a"
+  }
+ }
+}

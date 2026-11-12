@@ -1,0 +1,19 @@
+{
+ "game": "official.dc22",
+ "game_source_sha256": "45919107bff79ff16ddfa68f79f33107a436045c55d0e5d53b99ec186b62a831",
+ "section_sha256": "d5ac15904987c4dbc97aaa745afb8cbe32974ee501329951957e057ae671f9d8",
+ "prompts": {
+  "w": {
+   "sha256": "0dffb38e80c167f77f7893dd7d5375f39996dbe08187ab23ec9566d83a4ca44b",
+   "released_sha256": "55b7e195b05f0f9e22137bdaa48a708c6185e08fe36cfbbf8ee48d01848f7620"
+  },
+  "p": {
+   "sha256": "720d72a5cbe36d4c1d34989a3c712485a8b38d6dbd06b88af48ae2988c78a6ec",
+   "released_sha256": "16c0c7eaba40528fd35229ecbe07a43e3e71b96284fcf5ffb99aae2d457e2e3d"
+  },
+  "fa": {
+   "sha256": "87518cb7bef397368ee009c6dc3c3eb93fd008fa66836f22dee93e918af6bd86",
+   "released_sha256": "1d33592d46e1c1b1d59920841a0fa6bdb0075787149b14a413bb019c740a4fe9"
+  }
+ }
+}

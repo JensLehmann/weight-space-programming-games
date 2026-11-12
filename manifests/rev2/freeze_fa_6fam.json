@@ -1,0 +1,84 @@
+{
+ "budget": {
+  "macs_per_step": 1500000000.0,
+  "params": 150000
+ },
+ "code": {
+  "scripts/blind_eval.py": "f8040e2a3830c4a7d0fe4b458e41397f79ad06b683263f89c77bcdee88f0a766",
+  "scripts/diag_eval.py": "59624231be318fefb66bacad567155fdaedfc953b8a704f58ad3e4d8b7849895",
+  "scripts/eval_artifacts.py": "34cdf0bef11858231b97a5a0437fb16495bd94db5142c5a31faf147d3582a368",
+  "scripts/freeze_fa.py": "cab7b7c80e0531edd5d63f083352c628dbf64a745f57f7213a13ef430ebe0252",
+  "scripts/postdiag_parallel.py": "c8ed8e6ed28e381f6d11a69687a8fec6118a4ea78329909405afbe3ece3a393c",
+  "scripts/run_freearch.py": "e0447db2750e4d039dbca02bcb99d38e71b8c694e8ca0e25cc371202a174e89a",
+  "scripts/run_rev2.py": "d6a49972770fb5c379cb1f03e8327e762ad2f31dc9f71045abce3397ec022549",
+  "scripts/smoke_fa.py": "894d1a6c2571c5481a703746985e29f7f304c5e6530fa5cffffa7ac258af3679",
+  "tests/test_freearch.py": "e86e1790676ac8fc3e3aad8efb1c716d3cd997b068827dc89d06327ad9982ad2",
+  "wsp/_sandbox_runner.py": "ae6ac80fa0ecdbd6559b76f1aa81a72c28b7e04cdbd10e284ff5bf0500b0e0b6",
+  "wsp/_sandbox_runner_fa.py": "c6ade7be428ea62cbd6dd2ff8a5b8548f970e1d92fa6fe6b0394ac37d3d9cfaa",
+  "wsp/actor.py": "444576e4c768de39ef310e1a97ddc17655feb4a19acb42a159bb20875b663d5d",
+  "wsp/envs.py": "fb8285ad26ee755a3a270dd75a7d0aa73260d2f493b82bae3eed8792b583a4ee",
+  "wsp/freearch.py": "bf0b0db146fea7d2314886ca2f108faecf318828f15b45d95ccc280ab2ef255a",
+  "wsp/prompts.py": "38e7d3616fc74a861b1891ba0ec81ca35dd9e9824eb8a1b1fb7cd19d204892a9",
+  "wsp/prompts_fa.py": "5b4fd2d28d3c3ec3141fbc436cbca706b64849d8dd3680b5469a3f5d445edaf7",
+  "wsp/sandbox.py": "5b2ab1ed9abc86d03b6c5449c20c2daed6221ea563c061a96584d112dbed6049",
+  "wsp/session.py": "f65c6ab0c601b9eeec60cd9092b3ff47070b74e4c6995dfb261be405203f6544",
+  "wsp/writer.py": "fad2ed61e4c81de4c0bbad44598133981ac50e0cdc717ae922b045a0bb5703b1"
+ },
+ "condition": "freearch",
+ "families": {
+  "crg": {
+   "manifest_sha256": "0c5d947824b4706ecc6b029824a4bbb3818e1bd2420e42136a40f217f91b56a2",
+   "prompt": {
+    "chars": 86700,
+    "sha256": "01d2cf7fa658fe54d0edf76818c81992a6ab3ae07c88dd4a0712f2596e3929b8"
+   }
+  },
+  "esm": {
+   "manifest_sha256": "517320f40dfdd795dce3669e52448cb6d608eba499cdc30d33f1b5276d916887",
+   "prompt": {
+    "chars": 78552,
+    "sha256": "53ed168925a7be24328f9f20f5d1136cbaee7d4f4d11d3174272dea085b82658"
+   }
+  },
+  "lys": {
+   "manifest_sha256": "90521115e4f08001304b73477cc10bc039ebec66c4a638f926968990aa39ff38",
+   "prompt": {
+    "chars": 80583,
+    "sha256": "3ad27d178befcf3b64b889c513a0b871a97b04dba776c5eb7a73730f28c44a89"
+   }
+  },
+  "mds": {
+   "manifest_sha256": "8072029b0f920bad7b5fc89913294b4df71db493f20ecdf0dda68483576ca256",
+   "prompt": {
+    "chars": 113453,
+    "sha256": "634260a20f2bd13acc4283c3dbfb274c5890110abbbd5f706c97f59d332788af"
+   }
+  },
+  "ruz": {
+   "manifest_sha256": "fde4739f07165b156367614f523aaf0cee82e921b50920215a1c0bd70c43d994",
+   "prompt": {
+    "chars": 72326,
+    "sha256": "6ae81676da473220bebeb3e3336397437c275d4c998baef96d4f8cf97089139d"
+   }
+  },
+  "ztl": {
+   "manifest_sha256": "6cf52523314ddf6079f63ff7c31fa4d679d123c06cb9e1867bd7a27beb27145c",
+   "prompt": {
+    "chars": 65316,
+    "sha256": "d88f4a9c570580e5a63829dea2520a3b9e085ef633a1fb5b36f5150d06282b3c"
+   }
+  }
+ },
+ "freeze_sha256": "8e086f0ecbd579d1901cbf31554b691f68c5febcdd4772db0bac148e0ae89542",
+ "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+ "info": "M",
+ "limits": {
+  "T": 256,
+  "channels": 512,
+  "memory": 256,
+  "node_evals": 10000,
+  "nodes": 1000,
+  "total_channels": 4096,
+  "vector": 4096
+ }
+}

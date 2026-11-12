@@ -1,0 +1,19 @@
+{
+ "game": "official.cd82",
+ "game_source_sha256": "298f48adccc1f03107a84a3703941639b25aabae8f2984e43143d1b11bfe7d28",
+ "section_sha256": "26570ad325290164419dc6583b96fb3db4c0b8db996c264ec9dfa48ef687b291",
+ "prompts": {
+  "w": {
+   "sha256": "61fd8973af5df1b886fb6965c8fc3a97ee84b6c174885f0cc751f59a3a9c8a09",
+   "released_sha256": "0d16140b7684cd6adc96aacca3464e50862f20a8c8d6a9b835773ebc15ab1dc1"
+  },
+  "p": {
+   "sha256": "29da95f6e06a484052a87714ce62fbc0c0cc57f6927cef07902a88ccc6c3421f",
+   "released_sha256": "dfffe45fefc2f480d50e2664063dd6588a5b634c2946eb28cc37c4822d0d6579"
+  },
+  "fa": {
+   "sha256": "eae75b7ae506e489653ddd19f182ddbbec4134ae0291564e7a13b0ffe37f2ac6",
+   "released_sha256": "550a688c4ebadd4b9f2312f5612ffd9020232a190677575af5fa273d2dc573fc"
+  }
+ }
+}

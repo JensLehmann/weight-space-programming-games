@@ -1,0 +1,19 @@
+{
+ "game": "official.wa30",
+ "game_source_sha256": "6de2b32c8551e4a620f662d07991b4b648d3a1bcf605833173b5acad00b4be14",
+ "section_sha256": "d768e393d866a79ba0faaf0b883a5d4f6401e75fc407ee5acb6e672cd5dd17ed",
+ "prompts": {
+  "w": {
+   "sha256": "5188c9e982487cba70d64c71b4a98a9513b92ba247eb709578239f2982007f24",
+   "released_sha256": "2d538a177eabc6c74b375f6139b2856edb45b3f6c8f1e82912ba90435007892d"
+  },
+  "p": {
+   "sha256": "b064fd03eeb47eaa2d59b422af6b8081648437e5df5df05d8bb6fed72c46e0f0",
+   "released_sha256": "2c9aa9f9842dac303b7792dcfa0b7a07c517f480a3aca7fd7b82073049c269f0"
+  },
+  "fa": {
+   "sha256": "3b3223c65d56aca0f27072cc6ff269ba9b516b964a6ab10f0b669b7dd2eb4762",
+   "released_sha256": "ebca95c2de21716e388ad8aaaac7d3906cde040f9dc1da44fc7580bf1a800906"
+  }
+ }
+}

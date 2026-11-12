@@ -1,0 +1,94 @@
+{
+ "source": "deployment-cost measurement of written agents (private tier)",
+ "summary": {
+  "freearch": {
+   "n": 120,
+   "params": {
+    "median": 30157.0,
+    "p90": 99383.30000000002,
+    "max": 146381.0
+   },
+   "macs": {
+    "median": 324561227.5,
+    "p90": 1228271923.9000008,
+    "max": 1486615025.0
+   },
+   "node_evals": {
+    "median": 2362.0,
+    "p90": 9671.400000000001,
+    "max": 9970.0
+   },
+   "gpu_b1_eager_ms": {
+    "median": 23.8,
+    "p90": 115.0,
+    "max": 151.0
+   },
+   "gpu_b1_graph_ms": {
+    "median": 4.65,
+    "p90": 22.0,
+    "max": 31.3
+   },
+   "gpu_b64_us_per_act": {
+    "median": 525.0,
+    "p90": 2060.0,
+    "max": 3850.0
+   },
+   "cpu_b1_ms": {
+    "median": 35.8,
+    "p90": 312.0,
+    "max": 634.0
+   },
+   "graph_captured": 120
+  },
+  "fixed": {
+   "n": 60,
+   "params": {
+    "median": 57289.0,
+    "p90": 57289.0,
+    "max": 57289.0
+   },
+   "macs": {
+    "median": 1332000000.0,
+    "p90": 1332000000.0,
+    "max": 1332000000.0
+   },
+   "gpu_b1_eager_ms": {
+    "median": 4.76,
+    "p90": 6.4,
+    "max": 7.01
+   },
+   "gpu_b1_graph_ms": {
+    "median": 4.83,
+    "p90": 6.45,
+    "max": 7.05
+   },
+   "gpu_b64_us_per_act": {
+    "median": 273.0,
+    "p90": 273.0,
+    "max": 274.0
+   },
+   "cpu_b1_ms": {
+    "median": 36.3,
+    "p90": 37.0,
+    "max": 37.5
+   },
+   "graph_captured": 0
+  },
+  "python": {
+   "n": 54,
+   "sandbox_ms_per_act": {
+    "median": 0.819,
+    "p90": 2.78,
+    "max": 54.9
+   }
+  },
+  "pyreact": {
+   "n": 6,
+   "sandbox_ms_per_act": {
+    "median": 0.743,
+    "p90": 0.948,
+    "max": 1.06
+   }
+  }
+ }
+}

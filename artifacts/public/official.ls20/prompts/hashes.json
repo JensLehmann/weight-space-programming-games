@@ -1,0 +1,19 @@
+{
+ "game": "official.ls20",
+ "game_source_sha256": "483b09053b9a34d19f5b7fbdde1712711781a6b6c4c8baf4b48c233542df4845",
+ "section_sha256": "1c56eebbcfe070641969e403a162c826afe06906771db4651a8e30a131e2ba62",
+ "prompts": {
+  "w": {
+   "sha256": "56f83b7f2b058ea597827a8725eabb28a6c32116643bcaf6c41de686807fba74",
+   "released_sha256": "8ece539320f979134f5e7686db0fc5473f0a6cfb7c7504bfca4064d4afdb7385"
+  },
+  "p": {
+   "sha256": "78d7c2fc8c658d557f76329c9d9adc2504515a9af9e189019e72513a1081de78",
+   "released_sha256": "1c3848a88914e05ab09d8b74172d200685111ed4ed4ef6a01cd94ba26952355c"
+  },
+  "fa": {
+   "sha256": "376fc9f17ee8910d2381ff21d0ce2494ca3458b7b502e6b0c4e085cf7acd6fbf",
+   "released_sha256": "3aa1f3e6917df3c837e8dcd552cf267531a9eaf42eee2942d85404e9e2d4e61f"
+  }
+ }
+}

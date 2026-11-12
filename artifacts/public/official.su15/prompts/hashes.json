@@ -1,0 +1,19 @@
+{
+ "game": "official.su15",
+ "game_source_sha256": "1d74d6af32e61149ca0d1035acc9102124da1c24f860f14db6d9e11529b4a7c0",
+ "section_sha256": "d056b8aafd59d7d63c51acc643f2140d1d6457fd77df205310835e79a24cf705",
+ "prompts": {
+  "w": {
+   "sha256": "cfd484ee344175fe76e04cdad8d86a78be98ee7a0108af78e35d150d86b3f220",
+   "released_sha256": "c268f92f7978cc05ac0677f4a696bd5f0589f686310c8ef031dd1dd5344a9b25"
+  },
+  "p": {
+   "sha256": "77a4a81fd09cf12f641c94635bbe056cf4198146573e9266ec7e0813dea5ef96",
+   "released_sha256": "39e4c808c6ce649665df18501b43a1c40d8a27d424d4182133e456eda8c58f8a"
+  },
+  "fa": {
+   "sha256": "0d60e88a4cd1307d0d77788b4d38304f7e7e27286da972ce0c223c3d658be0ff",
+   "released_sha256": "f716979494d71ab4c1f83090ed6a2a7df718505d9cbf83d7f1594f156b16be04"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.DS_Store
+runs/
+*.local.json
+*.npz
+# only the public tier's query manifests are part of the repository
+manifests/rev2/queries_*.json
+!manifests/rev2/queries_official.*.json

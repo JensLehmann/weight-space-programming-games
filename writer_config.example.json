@@ -1,0 +1,18 @@
+{
+  "_comment": "Optional overrides: copy to writer_config.local.json or point WSP_WRITER_CONFIG at a copy. Without this file the clients use the endpoints and model ids below. Keys are read from OPENAI_API_KEY and ANTHROPIC_API_KEY, never from this file.",
+  "transports": {
+    "responses": {"base_url": "https://api.openai.com/v1"},
+    "anthropic": {"base_url": "https://api.anthropic.com"}
+  },
+  "models": {
+    "astra-6": {"model_id": "gpt-6-astra"},
+    "sol-6.1": {"model_id": "gpt-6.1-sol"},
+    "terra-6.1": {"model_id": "gpt-6.1-terra"},
+    "luna-6": {"model_id": "gpt-6-luna"},
+    "sol-5.6": {"model_id": "gpt-5.6-sol"},
+    "opus-5.5": {"model_id": "claude-opus-5-5"},
+    "sonnet-5.5": {"model_id": "claude-sonnet-5-5"},
+    "haiku-5.5": {"model_id": "claude-haiku-5-5"},
+    "opus-5": {"model_id": "claude-opus-5"}
+  }
+}

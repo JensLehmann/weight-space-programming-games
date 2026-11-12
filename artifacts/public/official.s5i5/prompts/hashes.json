@@ -1,0 +1,19 @@
+{
+ "game": "official.s5i5",
+ "game_source_sha256": "44baa01c2dc63b9a2439381338b1d33e368d2b8e43bb21f3e094d765c4a98533",
+ "section_sha256": "2e621f8bb8b22ef38320e2703eee5298a0c44064b90b8b41312e8d0faea32dd2",
+ "prompts": {
+  "w": {
+   "sha256": "a147ca4c5b11f6ba3ac56afa7d9b3f3eaa440cfa391ade42742fb9a2213c6c8b",
+   "released_sha256": "29ec77c1915a1ebb5ea5233c5cfa8577fac53b2cf872c7c64c6f5417338f4f43"
+  },
+  "p": {
+   "sha256": "7a385f0d99cffaf4349a1565b5a9d36b67f048d1baf31c7f22c15322d5b5eb66",
+   "released_sha256": "06c3bdc2bfb356fea2486e075915739888d7b65c0ef450fefa59c32188ac00c3"
+  },
+  "fa": {
+   "sha256": "d94a2e6ebf000b9372f79790ad2efc324f721d519208fa5b93e003271cac59c3",
+   "released_sha256": "3702f6bb876e64285dc5ec4e51f0a14a8dbd08291a9a0e54846f7d95893ef80b"
+  }
+ }
+}

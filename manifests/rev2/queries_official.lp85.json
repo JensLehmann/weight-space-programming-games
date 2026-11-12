@@ -1,0 +1,3717 @@
+{
+ "family": "official.lp85",
+ "tier": "public",
+ "game_id": "lp85",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 8,
+ "held_out_levels": [
+  1,
+  3,
+  5,
+  7
+ ],
+ "support_levels": [
+  0,
+  2,
+  4,
+  6
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21,
+  "7": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 16,
+   "built": 16,
+   "tries": 17,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 1,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 21.0
+  },
+  "Q-off": {
+   "requested": 24,
+   "built": 24,
+   "tries": 41,
+   "dup": 8,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 9,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 41.6
+  },
+  "Q-lvl": {
+   "requested": 80,
+   "built": 80,
+   "tries": 91,
+   "dup": 8,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 3,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 136.5
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "S-start",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.6
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 4.3
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 4.1
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 5.4
+  },
+  {
+   "qset": "S-dev",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 1,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 7.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 9,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 2,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 9.0
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 13,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 4,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 10.9
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 9,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 11.4
+  },
+  {
+   "qset": "Q-off",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 10,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 3,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 10.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 24,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 3,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 27.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 25,
+   "dup": 5,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 36.9
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 22,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 37.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 20,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 35.4
+  }
+ ],
+ "construction_wall_s": 202.9,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "7d10baec7dd29d07e574bd47ee1ec7912542a72632077a5446798221f41c4ae9",
+  "route_sha256": "1cc1c7a6044b49969c10f0557eda992e398a149bf8fd7805ae623f453f90aa79",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      30,
+      7
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      60
+     ],
+     [
+      "ACTION6",
+      34,
+      60
+     ],
+     [
+      "ACTION6",
+      33,
+      6
+     ],
+     [
+      "ACTION6",
+      34,
+      5
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      6
+     ],
+     [
+      "ACTION6",
+      29,
+      5
+     ],
+     [
+      "ACTION6",
+      34,
+      58
+     ],
+     [
+      "ACTION6",
+      29,
+      4
+     ],
+     [
+      "ACTION6",
+      30,
+      58
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      59
+     ],
+     [
+      "ACTION6",
+      29,
+      5
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      40,
+      26
+     ],
+     [
+      "ACTION6",
+      40,
+      36
+     ],
+     [
+      "ACTION6",
+      41,
+      35
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      37
+     ],
+     [
+      "ACTION6",
+      42,
+      23
+     ],
+     [
+      "ACTION6",
+      42,
+      24
+     ],
+     [
+      "ACTION6",
+      42,
+      39
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      27
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      39
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      52
+     ],
+     [
+      "ACTION6",
+      7,
+      11
+     ],
+     [
+      "ACTION6",
+      8,
+      7
+     ],
+     [
+      "ACTION6",
+      7,
+      7
+     ],
+     [
+      "ACTION6",
+      7,
+      53
+     ],
+     [
+      "ACTION6",
+      10,
+      12
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      10
+     ],
+     [
+      "ACTION6",
+      37,
+      13
+     ],
+     [
+      "ACTION6",
+      41,
+      37
+     ],
+     [
+      "ACTION6",
+      8,
+      11
+     ],
+     [
+      "ACTION6",
+      9,
+      49
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      54
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      9
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      21
+     ],
+     [
+      "ACTION6",
+      20,
+      20
+     ],
+     [
+      "ACTION6",
+      43,
+      34
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      28
+     ],
+     [
+      "ACTION6",
+      44,
+      29
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      19
+     ],
+     [
+      "ACTION6",
+      19,
+      19
+     ],
+     [
+      "ACTION6",
+      32,
+      19
+     ],
+     [
+      "ACTION6",
+      21,
+      19
+     ],
+     [
+      "ACTION6",
+      34,
+      19
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      29
+     ],
+     [
+      "ACTION6",
+      43,
+      29
+     ],
+     [
+      "ACTION6",
+      44,
+      33
+     ],
+     [
+      "ACTION6",
+      41,
+      34
+     ],
+     [
+      "ACTION6",
+      34,
+      19
+     ],
+     [
+      "ACTION6",
+      32,
+      21
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      49
+     ],
+     [
+      "ACTION6",
+      19,
+      19
+     ],
+     [
+      "ACTION6",
+      35,
+      13
+     ],
+     [
+      "ACTION6",
+      17,
+      38
+     ],
+     [
+      "ACTION6",
+      19,
+      19
+     ],
+     [
+      "ACTION6",
+      27,
+      48
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      49
+     ],
+     [
+      "ACTION6",
+      35,
+      49
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      38
+     ],
+     [
+      "ACTION6",
+      18,
+      20
+     ],
+     [
+      "ACTION6",
+      34,
+      15
+     ],
+     [
+      "ACTION6",
+      16,
+      40
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      38
+     ],
+     [
+      "ACTION6",
+      16,
+      21
+     ],
+     [
+      "ACTION6",
+      16,
+      20
+     ],
+     [
+      "ACTION6",
+      34,
+      14
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      49
+     ],
+     [
+      "ACTION6",
+      18,
+      40
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      21
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      40
+     ],
+     [
+      "ACTION6",
+      27,
+      15
+     ],
+     [
+      "ACTION6",
+      19,
+      39
+     ],
+     [
+      "ACTION6",
+      34,
+      13
+     ],
+     [
+      "ACTION6",
+      34,
+      47
+     ],
+     [
+      "ACTION6",
+      27,
+      49
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      13
+     ],
+     [
+      "ACTION6",
+      35,
+      13
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      13
+     ],
+     [
+      "ACTION6",
+      19,
+      40
+     ],
+     [
+      "ACTION6",
+      28,
+      15
+     ],
+     [
+      "ACTION6",
+      34,
+      48
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      40
+     ],
+     [
+      "ACTION6",
+      37,
+      15
+     ],
+     [
+      "ACTION6",
+      26,
+      49
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      48
+     ],
+     [
+      "ACTION6",
+      19,
+      40
+     ],
+     [
+      "ACTION6",
+      37,
+      48
+     ],
+     [
+      "ACTION6",
+      27,
+      13
+     ],
+     [
+      "ACTION6",
+      36,
+      48
+     ],
+     [
+      "ACTION6",
+      27,
+      14
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      15
+     ],
+     [
+      "ACTION6",
+      34,
+      47
+     ],
+     [
+      "ACTION6",
+      17,
+      20
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      40
+     ],
+     [
+      "ACTION6",
+      27,
+      48
+     ],
+     [
+      "ACTION6",
+      36,
+      15
+     ],
+     [
+      "ACTION6",
+      19,
+      19
+     ],
+     [
+      "ACTION6",
+      16,
+      20
+     ],
+     [
+      "ACTION6",
+      37,
+      13
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      13
+     ],
+     [
+      "ACTION6",
+      17,
+      19
+     ],
+     [
+      "ACTION6",
+      34,
+      47
+     ],
+     [
+      "ACTION6",
+      28,
+      47
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      14
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      48
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      20
+     ],
+     [
+      "ACTION6",
+      35,
+      49
+     ],
+     [
+      "ACTION6",
+      16,
+      40
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      13
+     ],
+     [
+      "ACTION6",
+      37,
+      49
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      47
+     ],
+     [
+      "ACTION6",
+      16,
+      20
+     ],
+     [
+      "ACTION6",
+      27,
+      14
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      47
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      47
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      47
+     ],
+     [
+      "ACTION6",
+      24,
+      14
+     ],
+     [
+      "ACTION6",
+      44,
+      24
+     ],
+     [
+      "ACTION6",
+      17,
+      37
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      54
+     ],
+     [
+      "ACTION6",
+      45,
+      54
+     ],
+     [
+      "ACTION6",
+      26,
+      45
+     ],
+     [
+      "ACTION6",
+      14,
+      24
+     ],
+     [
+      "ACTION6",
+      26,
+      46
+     ],
+     [
+      "ACTION6",
+      44,
+      24
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      44
+     ],
+     [
+      "ACTION6",
+      16,
+      36
+     ],
+     [
+      "ACTION6",
+      46,
+      35
+     ],
+     [
+      "ACTION6",
+      37,
+      44
+     ],
+     [
+      "ACTION6",
+      15,
+      36
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      44
+     ],
+     [
+      "ACTION6",
+      7,
+      16
+     ],
+     [
+      "ACTION6",
+      17,
+      54
+     ],
+     [
+      "ACTION6",
+      7,
+      46
+     ],
+     [
+      "ACTION6",
+      17,
+      6
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      54
+     ],
+     [
+      "ACTION6",
+      17,
+      54
+     ],
+     [
+      "ACTION6",
+      16,
+      24
+     ],
+     [
+      "ACTION6",
+      7,
+      47
+     ],
+     [
+      "ACTION6",
+      16,
+      6
+     ],
+     [
+      "ACTION6",
+      37,
+      17
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      37
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      46
+     ],
+     [
+      "ACTION6",
+      24,
+      44
+     ],
+     [
+      "ACTION6",
+      45,
+      7
+     ],
+     [
+      "ACTION6",
+      16,
+      54
+     ],
+     [
+      "ACTION6",
+      45,
+      7
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      15
+     ],
+     [
+      "ACTION6",
+      17,
+      25
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      44
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      45
+     ],
+     [
+      "ACTION6",
+      6,
+      15
+     ],
+     [
+      "ACTION6",
+      7,
+      17
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      14,
+      24
+     ],
+     [
+      "ACTION6",
+      24,
+      45
+     ],
+     [
+      "ACTION6",
+      25,
+      46
+     ],
+     [
+      "ACTION6",
+      56,
+      15
+     ],
+     [
+      "ACTION6",
+      17,
+      7
+     ],
+     [
+      "ACTION6",
+      17,
+      37
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      45
+     ],
+     [
+      "ACTION6",
+      47,
+      36
+     ],
+     [
+      "ACTION6",
+      25,
+      46
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      46
+     ],
+     [
+      "ACTION6",
+      35,
+      15
+     ],
+     [
+      "ACTION6",
+      16,
+      7
+     ],
+     [
+      "ACTION6",
+      15,
+      5
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      14,
+      54
+     ],
+     [
+      "ACTION6",
+      24,
+      16
+     ],
+     [
+      "ACTION6",
+      47,
+      37
+     ],
+     [
+      "ACTION6",
+      44,
+      24
+     ],
+     [
+      "ACTION6",
+      5,
+      15
+     ],
+     [
+      "ACTION6",
+      14,
+      6
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      16
+     ],
+     [
+      "ACTION6",
+      55,
+      17
+     ],
+     [
+      "ACTION6",
+      14,
+      25
+     ],
+     [
+      "ACTION6",
+      5,
+      16
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      14,
+      55
+     ],
+     [
+      "ACTION6",
+      14,
+      6
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      46
+     ],
+     [
+      "ACTION6",
+      44,
+      54
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      37
+     ],
+     [
+      "ACTION6",
+      37,
+      14
+     ],
+     [
+      "ACTION6",
+      46,
+      36
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      45
+     ],
+     [
+      "ACTION6",
+      46,
+      26
+     ],
+     [
+      "ACTION6",
+      25,
+      16
+     ],
+     [
+      "ACTION6",
+      55,
+      14
+     ],
+     [
+      "ACTION6",
+      24,
+      17
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      15
+     ],
+     [
+      "ACTION6",
+      29,
+      44
+     ],
+     [
+      "ACTION6",
+      27,
+      44
+     ],
+     [
+      "ACTION6",
+      17,
+      56
+     ],
+     [
+      "ACTION6",
+      60,
+      29
+     ],
+     [
+      "ACTION6",
+      46,
+      43
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      30,
+      14
+     ],
+     [
+      "ACTION6",
+      28,
+      44
+     ],
+     [
+      "ACTION6",
+      15,
+      27
+     ],
+     [
+      "ACTION6",
+      30,
+      45
+     ],
+     [
+      "ACTION6",
+      59,
+      31
+     ],
+     [
+      "ACTION6",
+      28,
+      45
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      42
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      56
+     ],
+     [
+      "ACTION6",
+      27,
+      14
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      42
+     ],
+     [
+      "ACTION6",
+      17,
+      27
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      43
+     ],
+     [
+      "ACTION6",
+      29,
+      16
+     ],
+     [
+      "ACTION6",
+      58,
+      30
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      14
+     ],
+     [
+      "ACTION6",
+      29,
+      14
+     ],
+     [
+      "ACTION6",
+      45,
+      43
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      14,
+      26
+     ],
+     [
+      "ACTION6",
+      47,
+      41
+     ],
+     [
+      "ACTION6",
+      28,
+      15
+     ],
+     [
+      "ACTION6",
+      59,
+      30
+     ],
+     [
+      "ACTION6",
+      15,
+      58
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      15
+     ],
+     [
+      "ACTION6",
+      16,
+      57
+     ],
+     [
+      "ACTION6",
+      60,
+      30
+     ],
+     [
+      "ACTION6",
+      60,
+      30
+     ],
+     [
+      "ACTION6",
+      17,
+      56
+     ],
+     [
+      "ACTION6",
+      56,
+      53
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      14,
+      27
+     ],
+     [
+      "ACTION6",
+      14,
+      56
+     ],
+     [
+      "ACTION6",
+      59,
+      29
+     ],
+     [
+      "ACTION6",
+      56,
+      54
+     ],
+     [
+      "ACTION6",
+      15,
+      57
+     ],
+     [
+      "ACTION6",
+      17,
+      26
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      29
+     ],
+     [
+      "ACTION6",
+      14,
+      26
+     ],
+     [
+      "ACTION6",
+      15,
+      58
+     ],
+     [
+      "ACTION6",
+      59,
+      30
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      46
+     ],
+     [
+      "ACTION6",
+      15,
+      26
+     ],
+     [
+      "ACTION6",
+      28,
+      14
+     ],
+     [
+      "ACTION6",
+      29,
+      45
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      57
+     ],
+     [
+      "ACTION6",
+      30,
+      44
+     ],
+     [
+      "ACTION6",
+      45,
+      41
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      14
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      42
+     ],
+     [
+      "ACTION6",
+      29,
+      15
+     ],
+     [
+      "ACTION6",
+      15,
+      56
+     ],
+     [
+      "ACTION6",
+      14,
+      57
+     ],
+     [
+      "ACTION6",
+      16,
+      57
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      52
+     ],
+     [
+      "ACTION6",
+      55,
+      54
+     ],
+     [
+      "ACTION6",
+      30,
+      45
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      31
+     ],
+     [
+      "ACTION6",
+      30,
+      15
+     ],
+     [
+      "ACTION6",
+      55,
+      54
+     ],
+     [
+      "ACTION6",
+      29,
+      14
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      57
+     ],
+     [
+      "ACTION6",
+      46,
+      41
+     ],
+     [
+      "ACTION6",
+      16,
+      57
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      58
+     ],
+     [
+      "ACTION6",
+      55,
+      52
+     ],
+     [
+      "ACTION6",
+      54,
+      53
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      29
+     ],
+     [
+      "ACTION6",
+      55,
+      52
+     ],
+     [
+      "ACTION6",
+      15,
+      56
+     ],
+     [
+      "ACTION6",
+      29,
+      44
+     ],
+     [
+      "ACTION6",
+      57,
+      30
+     ],
+     [
+      "ACTION6",
+      54,
+      53
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      54
+     ],
+     [
+      "ACTION6",
+      29,
+      52
+     ],
+     [
+      "ACTION6",
+      56,
+      31
+     ],
+     [
+      "ACTION6",
+      36,
+      52
+     ],
+     [
+      "ACTION6",
+      36,
+      49
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      52
+     ],
+     [
+      "ACTION6",
+      26,
+      53
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      36
+     ],
+     [
+      "ACTION6",
+      24,
+      48
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      36
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      35
+     ],
+     [
+      "ACTION6",
+      36,
+      53
+     ],
+     [
+      "ACTION6",
+      26,
+      50
+     ]
+    ],
+    "ref_len": 2,
+    "cap": 16,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      50
+     ],
+     [
+      "ACTION6",
+      56,
+      31
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      53
+     ],
+     [
+      "ACTION6",
+      35,
+      53
+     ],
+     [
+      "ACTION6",
+      31,
+      49
+     ],
+     [
+      "ACTION6",
+      59,
+      35
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      53
+     ],
+     [
+      "ACTION6",
+      58,
+      32
+     ],
+     [
+      "ACTION6",
+      29,
+      54
+     ],
+     [
+      "ACTION6",
+      31,
+      52
+     ],
+     [
+      "ACTION6",
+      36,
+      53
+     ],
+     [
+      "ACTION6",
+      34,
+      50
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      50
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      30
+     ],
+     [
+      "ACTION6",
+      24,
+      53
+     ],
+     [
+      "ACTION6",
+      25,
+      53
+     ],
+     [
+      "ACTION6",
+      57,
+      31
+     ],
+     [
+      "ACTION6",
+      25,
+      49
+     ],
+     [
+      "ACTION6",
+      24,
+      54
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      49
+     ],
+     [
+      "ACTION6",
+      29,
+      49
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      54
+     ],
+     [
+      "ACTION6",
+      26,
+      49
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      30,
+      54
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      35
+     ],
+     [
+      "ACTION6",
+      26,
+      49
+     ],
+     [
+      "ACTION6",
+      28,
+      49
+     ],
+     [
+      "ACTION6",
+      24,
+      54
+     ],
+     [
+      "ACTION6",
+      29,
+      54
+     ],
+     [
+      "ACTION6",
+      36,
+      52
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      50
+     ],
+     [
+      "ACTION6",
+      25,
+      48
+     ],
+     [
+      "ACTION6",
+      23,
+      52
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      53
+     ],
+     [
+      "ACTION6",
+      26,
+      50
+     ],
+     [
+      "ACTION6",
+      29,
+      49
+     ],
+     [
+      "ACTION6",
+      58,
+      32
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      50
+     ],
+     [
+      "ACTION6",
+      34,
+      53
+     ],
+     [
+      "ACTION6",
+      25,
+      53
+     ],
+     [
+      "ACTION6",
+      35,
+      49
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      50
+     ],
+     [
+      "ACTION6",
+      25,
+      50
+     ],
+     [
+      "ACTION6",
+      56,
+      31
+     ],
+     [
+      "ACTION6",
+      57,
+      32
+     ],
+     [
+      "ACTION6",
+      33,
+      50
+     ],
+     [
+      "ACTION6",
+      33,
+      50
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      32
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      50
+     ],
+     [
+      "ACTION6",
+      26,
+      50
+     ],
+     [
+      "ACTION6",
+      23,
+      52
+     ],
+     [
+      "ACTION6",
+      25,
+      52
+     ],
+     [
+      "ACTION6",
+      26,
+      53
+     ],
+     [
+      "ACTION6",
+      36,
+      50
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      3
+     ],
+     [
+      "ACTION6",
+      29,
+      4
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      7
+     ],
+     [
+      "ACTION6",
+      32,
+      5
+     ],
+     [
+      "ACTION6",
+      29,
+      57
+     ],
+     [
+      "ACTION6",
+      33,
+      3
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      61
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      5
+     ],
+     [
+      "ACTION6",
+      36,
+      7
+     ],
+     [
+      "ACTION6",
+      34,
+      3
+     ],
+     [
+      "ACTION6",
+      30,
+      57
+     ],
+     [
+      "ACTION6",
+      33,
+      4
+     ]
+    ],
+    "ref_len": 2,
+    "cap": 16,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      7
+     ],
+     [
+      "ACTION6",
+      34,
+      4
+     ],
+     [
+      "ACTION6",
+      32,
+      6
+     ]
+    ],
+    "ref_len": 2,
+    "cap": 16,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      59
+     ],
+     [
+      "ACTION6",
+      33,
+      56
+     ],
+     [
+      "ACTION6",
+      32,
+      4
+     ],
+     [
+      "ACTION6",
+      33,
+      61
+     ],
+     [
+      "ACTION6",
+      35,
+      7
+     ],
+     [
+      "ACTION6",
+      32,
+      2
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      34
+     ],
+     [
+      "ACTION6",
+      41,
+      26
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      23
+     ],
+     [
+      "ACTION6",
+      42,
+      36
+     ],
+     [
+      "ACTION6",
+      43,
+      37
+     ],
+     [
+      "ACTION6",
+      42,
+      27
+     ],
+     [
+      "ACTION6",
+      43,
+      38
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      40,
+      23
+     ],
+     [
+      "ACTION6",
+      40,
+      35
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      24
+     ],
+     [
+      "ACTION6",
+      40,
+      22
+     ],
+     [
+      "ACTION6",
+      40,
+      36
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      35
+     ],
+     [
+      "ACTION6",
+      41,
+      24
+     ],
+     [
+      "ACTION6",
+      42,
+      27
+     ],
+     [
+      "ACTION6",
+      43,
+      34
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      40,
+      27
+     ],
+     [
+      "ACTION6",
+      40,
+      35
+     ],
+     [
+      "ACTION6",
+      42,
+      35
+     ],
+     [
+      "ACTION6",
+      41,
+      23
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      50
+     ],
+     [
+      "ACTION6",
+      8,
+      51
+     ],
+     [
+      "ACTION6",
+      39,
+      9
+     ],
+     [
+      "ACTION6",
+      10,
+      52
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      38,
+      38
+     ],
+     [
+      "ACTION6",
+      5,
+      49
+     ],
+     [
+      "ACTION6",
+      8,
+      7
+     ],
+     [
+      "ACTION6",
+      5,
+      50
+     ],
+     [
+      "ACTION6",
+      36,
+      39
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      11
+     ],
+     [
+      "ACTION6",
+      4,
+      10
+     ],
+     [
+      "ACTION6",
+      37,
+      13
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      49
+     ],
+     [
+      "ACTION6",
+      8,
+      53
+     ],
+     [
+      "ACTION6",
+      35,
+      11
+     ],
+     [
+      "ACTION6",
+      41,
+      37
+     ],
+     [
+      "ACTION6",
+      9,
+      9
+     ],
+     [
+      "ACTION6",
+      8,
+      9
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      9
+     ],
+     [
+      "ACTION6",
+      9,
+      49
+     ],
+     [
+      "ACTION6",
+      36,
+      14
+     ],
+     [
+      "ACTION6",
+      11,
+      9
+     ],
+     [
+      "ACTION6",
+      6,
+      8
+     ],
+     [
+      "ACTION6",
+      37,
+      36
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      12
+     ],
+     [
+      "ACTION6",
+      8,
+      8
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      19
+     ],
+     [
+      "ACTION6",
+      41,
+      28
+     ],
+     [
+      "ACTION6",
+      33,
+      22
+     ],
+     [
+      "ACTION6",
+      34,
+      22
+     ],
+     [
+      "ACTION6",
+      42,
+      33
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      22
+     ],
+     [
+      "ACTION6",
+      20,
+      21
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      21
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      33
+     ],
+     [
+      "ACTION6",
+      19,
+      21
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      19
+     ],
+     [
+      "ACTION6",
+      33,
+      19
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lp85",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      29
+     ],
+     [
+      "ACTION6",
+      42,
+      32
+     ],
+     [
+      "ACTION6",
+      42,
+      30
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "02348ec685811d64bdfc5d509c5f40446388988223911f0704fe30a5dd836d11"
+}

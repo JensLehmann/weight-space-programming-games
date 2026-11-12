@@ -1,0 +1,19 @@
+{
+ "game": "official.sc25",
+ "game_source_sha256": "611eb6448a0f65e4a4b9446010b6093a4e2794b344982c22bcfc14e172d9642d",
+ "section_sha256": "2ab789f90a80498c678b5fab1443e79d3f16936e3a11e4caf6fb58265f25bb1e",
+ "prompts": {
+  "w": {
+   "sha256": "8fccaa9981ebc6fa2d13c82c9ed0807eba2221016e5a442f1c2725d529c3b29b",
+   "released_sha256": "828d625961a321d2b28981fb12ae5e1cba62a97e9197045bba87bfcb82b92375"
+  },
+  "p": {
+   "sha256": "313885a7bd40e9e9f01d833bfc052b94272e9db1f34542977c4e62a2423ed8a6",
+   "released_sha256": "bd5d0e36f1d510783f71f1b211fe4116d462d2b8fd741b13ddefc26b55c6ed1d"
+  },
+  "fa": {
+   "sha256": "ec3e1e479d6dcd9ee60c0828527b059ebebca422c6e25a595a335cbaf58ad5c8",
+   "released_sha256": "d180662acee4c700b34d3c193d4213d79e748871ef4d675928f5ea21b3c0b490"
+  }
+ }
+}

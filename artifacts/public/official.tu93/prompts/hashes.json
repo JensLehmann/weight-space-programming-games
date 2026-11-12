@@ -1,0 +1,19 @@
+{
+ "game": "official.tu93",
+ "game_source_sha256": "4e5001eab795ff933602b0ecc7ae34502273a34d329db6b9742952da0aa78229",
+ "section_sha256": "599c702213a9115336ff9a1df67c7ab500fa038329a03d2eec0d07371799573f",
+ "prompts": {
+  "w": {
+   "sha256": "c8e9bdbb7482ee0136ad5298470b216f32890eaf262ee545c7f4d4cc1e7fe63b",
+   "released_sha256": "e5eeaa2d266abc92e449d13531a22a0560188b3d20b1c22063ed9a2de25a69ad"
+  },
+  "p": {
+   "sha256": "81eec337b24830c00635cf6c7960b45f02b3e2dc7045f4ed4d6756c0c7acb6f6",
+   "released_sha256": "834d13707b4bbbaedd0e3ce6c67ff064e90a4a7f680f748240d594e45e50c1f9"
+  },
+  "fa": {
+   "sha256": "c81831304b1dd1bc6c71ba77223f03848e2bf9eab6567b8c48fad1c02a14a171",
+   "released_sha256": "3163b8313151678fa2e10507ccb6ba3f78e270f8bf97873c27f82dfa1d39f25a"
+  }
+ }
+}

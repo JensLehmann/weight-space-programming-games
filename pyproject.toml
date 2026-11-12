@@ -1,0 +1,20 @@
+[project]
+name = "wsp"
+version = "0.0.1"
+description = "Weight-space programming on unseen games: study harness"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.12"
+dependencies = ["numpy", "torch"]
+
+[project.optional-dependencies]
+writer = ["anthropic"]           # Anthropic Messages API client (the Responses API client is stdlib-only)
+public = ["arcengine==0.9.3"]    # engine of the official ARC-AGI-3 games (public tier; the version of the study)
+analysis = ["matplotlib"]        # figures
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["wsp"]

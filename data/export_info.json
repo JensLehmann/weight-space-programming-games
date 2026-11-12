@@ -1,0 +1,115 @@
+{
+ "exported_utc": "2026-11-12T11:16:35Z",
+ "tags": [
+  "rev2_private",
+  "rev2_c3",
+  "rev2_fa",
+  "rev2_public",
+  "rev2_fa_public",
+  "rev2_fa_fixedgraph",
+  "rev2_fa_fixedops",
+  "rev2_private_weak",
+  "rev2_fa_weak",
+  "rev2_pbounded"
+ ],
+ "analysis_files": [
+  "analysis_rev2/fa.json",
+  "analysis_rev2/fa_all.json",
+  "analysis_rev2/fa_controls.json",
+  "analysis_rev2/flags.json",
+  "analysis_rev2/fragility.json",
+  "analysis_rev2/learned_fa.json",
+  "analysis_rev2/matched_robust.json",
+  "analysis_rev2/mechanism.json",
+  "analysis_rev2/pbounded.json",
+  "analysis_rev2/perturbation.json",
+  "analysis_rev2/prespec_extra.json",
+  "analysis_rev2/request_accounting.json",
+  "analysis_rev2/robust.json",
+  "analysis_rev2/rows.json",
+  "analysis_rev2/sensitivity_prelim.json",
+  "analysis_rev2/stage2.json",
+  "analysis_rev2/stage2_robust.json",
+  "analysis_rev2/summary.json",
+  "analysis_rev2/weight_structure.json",
+  "analysis_rev2_c3/rows.json",
+  "analysis_rev2_c3/summary.json",
+  "analysis_rev2_public/rows.json",
+  "analysis_rev2_public/summary.json",
+  "analysis_rev2_weak/rows.json",
+  "analysis_rev2_weak/summary.json"
+ ],
+ "counts": {
+  "sessions": 5864,
+  "sessions_by_tag": {
+   "rev2_private": 1560,
+   "rev2_c3": 254,
+   "rev2_fa": 480,
+   "rev2_public": 1650,
+   "rev2_fa_public": 300,
+   "rev2_fa_fixedgraph": 240,
+   "rev2_fa_fixedops": 240,
+   "rev2_private_weak": 300,
+   "rev2_fa_weak": 600,
+   "rev2_pbounded": 240
+  },
+  "sessions_evaluated": 5864,
+  "baselines": 495,
+  "stage2_rl": 546,
+  "stage2_edit": 36,
+  "baselines_by_tier_method_student": {
+   "private|bc_aug_dihedral|fixed_actor": {
+    "rows": 13,
+    "evaluated": 13
+   },
+   "private|bc_aug|fixed_actor": {
+    "rows": 60,
+    "evaluated": 60
+   },
+   "private|bc_oracle|fixed_actor": {
+    "rows": 20,
+    "evaluated": 20
+   },
+   "private|bc_support|fixed_actor": {
+    "rows": 60,
+    "evaluated": 60
+   },
+   "private|bc_support|writer_fa_graph": {
+    "rows": 20,
+    "evaluated": 16
+   },
+   "private|distill_aug|fixed_actor": {
+    "rows": 40,
+    "evaluated": 40
+   },
+   "private|distill_plain|fixed_actor": {
+    "rows": 40,
+    "evaluated": 40
+   },
+   "private|distill_plain|writer_fa_graph": {
+    "rows": 20,
+    "evaluated": 15
+   },
+   "private|ppo_shaped|fixed_actor": {
+    "rows": 18,
+    "evaluated": 18
+   },
+   "private|ppo|fixed_actor": {
+    "rows": 34,
+    "evaluated": 32
+   },
+   "public|bc_aug|fixed_actor": {
+    "rows": 72,
+    "evaluated": 72
+   },
+   "public|bc_support|fixed_actor": {
+    "rows": 73,
+    "evaluated": 73
+   },
+   "public|ppo|fixed_actor": {
+    "rows": 25,
+    "evaluated": 25
+   }
+  }
+ }
+}

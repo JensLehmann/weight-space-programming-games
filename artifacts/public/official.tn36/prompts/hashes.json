@@ -1,0 +1,19 @@
+{
+ "game": "official.tn36",
+ "game_source_sha256": "0578c83cc664bab3e6d074a469988285db0aa0aff4ed6e949a3344437d42a4ed",
+ "section_sha256": "b4ce80cef1d6953e03e17232923a7d8d58b3f8261c30e9feb6a4ed6e716fe80c",
+ "prompts": {
+  "w": {
+   "sha256": "95755cde2b37ff05e0329082c94a41b30ff9803caed53612e5c5b2f0a6de6c2c",
+   "released_sha256": "5e7b1de868b1b387d7970a07dfec43baec1b2e6cb77b2aa1852834f59ac8fcac"
+  },
+  "p": {
+   "sha256": "d34e29720cb28adfcbb45d93b49c307dc16e907096184b1fefdd768341eb2c80",
+   "released_sha256": "181da0b2d35af50093cd3ff07ea1902bfed2827e8f4cec86db7ddc53f8d70dcb"
+  },
+  "fa": {
+   "sha256": "a8db2bc426fc0a82aa15cc736522cb052bc82c455e368f0a35e5cc7bdbcd2f86",
+   "released_sha256": "6fd48027de84d42ab6da546a9dff82347a3106d67666f60fe833d59ebdcefdd9"
+  }
+ }
+}

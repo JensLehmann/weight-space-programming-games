@@ -1,0 +1,4824 @@
+{
+ "family": "official.lf52",
+ "tier": "public",
+ "game_id": "lf52",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 10,
+ "held_out_levels": [
+  1,
+  3,
+  5,
+  7,
+  9
+ ],
+ "support_levels": [
+  0,
+  2,
+  4,
+  6,
+  8
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21,
+  "7": 21,
+  "9": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 20,
+   "built": 20,
+   "tries": 23,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 107.1
+  },
+  "Q-off": {
+   "requested": 30,
+   "built": 30,
+   "tries": 66,
+   "dup": 36,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 295.7
+  },
+  "Q-lvl": {
+   "requested": 100,
+   "built": 100,
+   "tries": 913,
+   "dup": 813,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 3103.0
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.7
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.9
+  },
+  {
+   "qset": "S-start",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 3.9
+  },
+  {
+   "qset": "S-start",
+   "level": 8,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 5.8
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 10.0
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 16.2
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 16.1
+  },
+  {
+   "qset": "S-dev",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 28.0
+  },
+  {
+   "qset": "S-dev",
+   "level": 8,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 36.8
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 10,
+   "dup": 4,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 28.4
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 9,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 27.5
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 12,
+   "dup": 6,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 46.9
+  },
+  {
+   "qset": "Q-off",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 15,
+   "dup": 9,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 80.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 8,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 20,
+   "dup": 14,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 112.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 143,
+   "dup": 123,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 287.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 232,
+   "dup": 212,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 669.4
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.6
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 281,
+   "dup": 261,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 928.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 4.5
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 66,
+   "dup": 46,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 331.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 9,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 6.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 9,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 191,
+   "dup": 171,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 886.8
+  }
+ ],
+ "construction_wall_s": 3533.8,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "a6b01973a0905a447f6b92d77745719ebb001f9f94ff5bb0076200ef16839030",
+  "route_sha256": "1660978eec8d302e5e7532c991fd22a5109ef52fbb4668ab980ba0e7297a178e",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 90,
+    "cap": 280,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 145,
+    "cap": 445,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [],
+    "ref_len": 113,
+    "cap": 349,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      15,
+      13
+     ],
+     [
+      "ACTION6",
+      15,
+      31
+     ],
+     [
+      "ACTION6",
+      35,
+      52
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      51
+     ],
+     [
+      "ACTION6",
+      24,
+      31
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      24
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      43
+     ],
+     [
+      "ACTION6",
+      19,
+      22
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      13,
+      13
+     ],
+     [
+      "ACTION6",
+      24,
+      19
+     ],
+     [
+      "ACTION6",
+      27,
+      17
+     ],
+     [
+      "ACTION6",
+      49,
+      14
+     ],
+     [
+      "ACTION6",
+      56,
+      16
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      14
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      51,
+      10
+     ],
+     [
+      "ACTION6",
+      29,
+      20
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      25
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      29
+     ],
+     [
+      "ACTION6",
+      6,
+      34
+     ],
+     [
+      "ACTION6",
+      9,
+      32
+     ],
+     [
+      "ACTION6",
+      54,
+      5
+     ],
+     [
+      "ACTION6",
+      11,
+      24
+     ],
+     [
+      "ACTION6",
+      46,
+      9
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      23
+     ],
+     [
+      "ACTION6",
+      31,
+      27
+     ],
+     [
+      "ACTION6",
+      26,
+      20
+     ],
+     [
+      "ACTION6",
+      32,
+      17
+     ]
+    ],
+    "ref_len": 94,
+    "cap": 292,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      44
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 92,
+    "cap": 286,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      46
+     ],
+     [
+      "ACTION6",
+      31,
+      12
+     ]
+    ],
+    "ref_len": 92,
+    "cap": 286,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      10
+     ],
+     [
+      "ACTION6",
+      22,
+      17
+     ],
+     [
+      "ACTION6",
+      13,
+      31
+     ]
+    ],
+    "ref_len": 93,
+    "cap": 289,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      38,
+      60
+     ],
+     [
+      "ACTION6",
+      60,
+      13
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      47
+     ]
+    ],
+    "ref_len": 149,
+    "cap": 457,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      11
+     ],
+     [
+      "ACTION6",
+      40,
+      56
+     ],
+     [
+      "ACTION6",
+      37,
+      36
+     ],
+     [
+      "ACTION6",
+      35,
+      25
+     ],
+     [
+      "ACTION6",
+      56,
+      10
+     ]
+    ],
+    "ref_len": 150,
+    "cap": 460,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      39
+     ]
+    ],
+    "ref_len": 146,
+    "cap": 448,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      5
+     ],
+     [
+      "ACTION6",
+      33,
+      25
+     ]
+    ],
+    "ref_len": 147,
+    "cap": 451,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      19
+     ],
+     [
+      "ACTION6",
+      35,
+      40
+     ],
+     [
+      "ACTION6",
+      17,
+      22
+     ],
+     [
+      "ACTION6",
+      24,
+      35
+     ],
+     [
+      "ACTION6",
+      39,
+      16
+     ],
+     [
+      "ACTION6",
+      54,
+      18
+     ]
+    ],
+    "ref_len": 119,
+    "cap": 367,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      48
+     ]
+    ],
+    "ref_len": 114,
+    "cap": 352,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      46
+     ],
+     [
+      "ACTION6",
+      54,
+      18
+     ],
+     [
+      "ACTION6",
+      41,
+      32
+     ],
+     [
+      "ACTION6",
+      35,
+      16
+     ]
+    ],
+    "ref_len": 117,
+    "cap": 361,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      33
+     ],
+     [
+      "ACTION6",
+      51,
+      16
+     ],
+     [
+      "ACTION6",
+      49,
+      44
+     ],
+     [
+      "ACTION6",
+      48,
+      20
+     ],
+     [
+      "ACTION6",
+      52,
+      31
+     ]
+    ],
+    "ref_len": 118,
+    "cap": 364,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      37
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      37
+     ],
+     [
+      "ACTION6",
+      13,
+      30
+     ],
+     [
+      "ACTION6",
+      37,
+      35
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      21
+     ],
+     [
+      "ACTION6",
+      21,
+      32
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      17
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      13,
+      15
+     ],
+     [
+      "ACTION6",
+      15,
+      6
+     ],
+     [
+      "ACTION6",
+      15,
+      34
+     ],
+     [
+      "ACTION6",
+      47,
+      55
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      11
+     ],
+     [
+      "ACTION6",
+      22,
+      28
+     ],
+     [
+      "ACTION6",
+      24,
+      48
+     ],
+     [
+      "ACTION6",
+      49,
+      14
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      47
+     ],
+     [
+      "ACTION6",
+      57,
+      55
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      36
+     ],
+     [
+      "ACTION6",
+      54,
+      48
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      9,
+      33
+     ],
+     [
+      "ACTION6",
+      53,
+      17
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      39,
+      30
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      7,
+      28
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      55
+     ],
+     [
+      "ACTION6",
+      15,
+      9
+     ],
+     [
+      "ACTION6",
+      18,
+      14
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      40
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      55,
+      51
+     ],
+     [
+      "ACTION6",
+      15,
+      49
+     ],
+     [
+      "ACTION6",
+      9,
+      21
+     ],
+     [
+      "ACTION6",
+      13,
+      25
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      48,
+      49
+     ],
+     [
+      "ACTION6",
+      52,
+      41
+     ],
+     [
+      "ACTION6",
+      17,
+      19
+     ],
+     [
+      "ACTION6",
+      18,
+      22
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      39
+     ],
+     [
+      "ACTION6",
+      12,
+      24
+     ],
+     [
+      "ACTION6",
+      13,
+      12
+     ],
+     [
+      "ACTION6",
+      14,
+      20
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      18,
+      43
+     ],
+     [
+      "ACTION6",
+      20,
+      42
+     ],
+     [
+      "ACTION6",
+      11,
+      26
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      55
+     ],
+     [
+      "ACTION6",
+      17,
+      35
+     ],
+     [
+      "ACTION6",
+      18,
+      20
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      26
+     ],
+     [
+      "ACTION6",
+      16,
+      12
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      34
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      12
+     ],
+     [
+      "ACTION6",
+      35,
+      23
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      45,
+      52
+     ],
+     [
+      "ACTION6",
+      8,
+      48
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      33
+     ],
+     [
+      "ACTION6",
+      17,
+      28
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      27
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      22
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      6
+     ],
+     [
+      "ACTION6",
+      19,
+      38
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      29
+     ],
+     [
+      "ACTION6",
+      33,
+      48
+     ],
+     [
+      "ACTION6",
+      34,
+      41
+     ],
+     [
+      "ACTION6",
+      23,
+      18
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      45
+     ],
+     [
+      "ACTION6",
+      21,
+      12
+     ],
+     [
+      "ACTION6",
+      16,
+      13
+     ],
+     [
+      "ACTION6",
+      63,
+      41
+     ],
+     [
+      "ACTION6",
+      26,
+      34
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      47
+     ],
+     [
+      "ACTION6",
+      30,
+      39
+     ],
+     [
+      "ACTION6",
+      28,
+      5
+     ],
+     [
+      "ACTION6",
+      34,
+      47
+     ],
+     [
+      "ACTION6",
+      18,
+      22
+     ],
+     [
+      "ACTION6",
+      32,
+      12
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      19
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      58
+     ],
+     [
+      "ACTION6",
+      16,
+      29
+     ],
+     [
+      "ACTION6",
+      28,
+      17
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      56
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      57
+     ],
+     [
+      "ACTION6",
+      30,
+      28
+     ],
+     [
+      "ACTION6",
+      23,
+      46
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      41
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      15
+     ],
+     [
+      "ACTION6",
+      25,
+      24
+     ],
+     [
+      "ACTION6",
+      18,
+      15
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      20,
+      23
+     ],
+     [
+      "ACTION6",
+      31,
+      40
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      56
+     ],
+     [
+      "ACTION6",
+      17,
+      46
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      4
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      28,
+      41
+     ],
+     [
+      "ACTION6",
+      24,
+      29
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      37
+     ],
+     [
+      "ACTION6",
+      25,
+      55
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      36,
+      48
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      38
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      16,
+      14
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      45
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      23
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      53
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      29,
+      9
+     ],
+     [
+      "ACTION6",
+      20,
+      19
+     ],
+     [
+      "ACTION6",
+      25,
+      19
+     ],
+     [
+      "ACTION6",
+      22,
+      11
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      44
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      44
+     ],
+     [
+      "ACTION6",
+      26,
+      25
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      59,
+      46
+     ],
+     [
+      "ACTION6",
+      33,
+      10
+     ],
+     [
+      "ACTION6",
+      25,
+      12
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      56
+     ],
+     [
+      "ACTION6",
+      16,
+      37
+     ],
+     [
+      "ACTION6",
+      35,
+      9
+     ],
+     [
+      "ACTION6",
+      30,
+      23
+     ],
+     [
+      "ACTION6",
+      23,
+      15
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      15
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 102,
+    "cap": 316,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      40,
+      47
+     ],
+     [
+      "ACTION6",
+      41,
+      29
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      40,
+      56
+     ]
+    ],
+    "ref_len": 106,
+    "cap": 328,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      24
+     ],
+     [
+      "ACTION6",
+      47,
+      21
+     ],
+     [
+      "ACTION6",
+      49,
+      43
+     ]
+    ],
+    "ref_len": 105,
+    "cap": 325,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      38
+     ],
+     [
+      "ACTION6",
+      45,
+      40
+     ],
+     [
+      "ACTION6",
+      11,
+      14
+     ],
+     [
+      "ACTION6",
+      40,
+      54
+     ],
+     [
+      "ACTION6",
+      42,
+      13
+     ]
+    ],
+    "ref_len": 107,
+    "cap": 331,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      12
+     ],
+     [
+      "ACTION6",
+      48,
+      25
+     ],
+     [
+      "ACTION6",
+      19,
+      20
+     ],
+     [
+      "ACTION6",
+      17,
+      16
+     ],
+     [
+      "ACTION6",
+      46,
+      13
+     ],
+     [
+      "ACTION6",
+      48,
+      59
+     ]
+    ],
+    "ref_len": 108,
+    "cap": 334,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      12
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 105,
+    "cap": 325,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      28,
+      19
+     ],
+     [
+      "ACTION6",
+      17,
+      33
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 106,
+    "cap": 328,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      15
+     ],
+     [
+      "ACTION6",
+      24,
+      24
+     ]
+    ],
+    "ref_len": 104,
+    "cap": 322,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      18
+     ]
+    ],
+    "ref_len": 103,
+    "cap": 319,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      26
+     ]
+    ],
+    "ref_len": 103,
+    "cap": 319,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      36
+     ],
+     [
+      "ACTION6",
+      36,
+      48
+     ],
+     [
+      "ACTION6",
+      50,
+      24
+     ],
+     [
+      "ACTION6",
+      42,
+      20
+     ],
+     [
+      "ACTION6",
+      16,
+      14
+     ],
+     [
+      "ACTION6",
+      22,
+      19
+     ]
+    ],
+    "ref_len": 108,
+    "cap": 334,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      40,
+      23
+     ],
+     [
+      "ACTION6",
+      44,
+      48
+     ],
+     [
+      "ACTION6",
+      49,
+      11
+     ],
+     [
+      "ACTION6",
+      50,
+      40
+     ],
+     [
+      "ACTION6",
+      27,
+      31
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 108,
+    "cap": 334,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      31
+     ],
+     [
+      "ACTION6",
+      35,
+      44
+     ],
+     [
+      "ACTION6",
+      28,
+      22
+     ]
+    ],
+    "ref_len": 105,
+    "cap": 325,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      27
+     ],
+     [
+      "ACTION6",
+      57,
+      30
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      11,
+      18
+     ]
+    ],
+    "ref_len": 107,
+    "cap": 331,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      27
+     ],
+     [
+      "ACTION6",
+      17,
+      22
+     ]
+    ],
+    "ref_len": 104,
+    "cap": 322,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      35
+     ],
+     [
+      "ACTION6",
+      22,
+      11
+     ],
+     [
+      "ACTION6",
+      11,
+      15
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      18
+     ]
+    ],
+    "ref_len": 105,
+    "cap": 325,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      11
+     ],
+     [
+      "ACTION6",
+      44,
+      28
+     ],
+     [
+      "ACTION6",
+      43,
+      53
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      14
+     ],
+     [
+      "ACTION6",
+      27,
+      18
+     ]
+    ],
+    "ref_len": 108,
+    "cap": 334,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 103,
+    "cap": 319,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      28
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      51,
+      15
+     ],
+     [
+      "ACTION6",
+      58,
+      28
+     ],
+     [
+      "ACTION6",
+      35,
+      17
+     ]
+    ],
+    "ref_len": 107,
+    "cap": 331,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      30,
+      17
+     ],
+     [
+      "ACTION6",
+      25,
+      20
+     ]
+    ],
+    "ref_len": 104,
+    "cap": 322,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      32
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 104,
+    "cap": 322,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [],
+    "ref_len": 68,
+    "cap": 214,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      22
+     ]
+    ],
+    "ref_len": 69,
+    "cap": 217,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      37
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      55,
+      55
+     ],
+     [
+      "ACTION6",
+      27,
+      26
+     ]
+    ],
+    "ref_len": 71,
+    "cap": 223,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      57
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      28,
+      14
+     ],
+     [
+      "ACTION6",
+      20,
+      49
+     ],
+     [
+      "ACTION6",
+      20,
+      39
+     ],
+     [
+      "ACTION6",
+      49,
+      57
+     ]
+    ],
+    "ref_len": 72,
+    "cap": 226,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      56
+     ],
+     [
+      "ACTION6",
+      44,
+      17
+     ],
+     [
+      "ACTION6",
+      47,
+      23
+     ],
+     [
+      "ACTION6",
+      44,
+      10
+     ],
+     [
+      "ACTION6",
+      32,
+      19
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 74,
+    "cap": 232,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      46,
+      60
+     ],
+     [
+      "ACTION6",
+      25,
+      26
+     ]
+    ],
+    "ref_len": 70,
+    "cap": 220,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      55
+     ],
+     [
+      "ACTION6",
+      40,
+      38
+     ],
+     [
+      "ACTION6",
+      42,
+      28
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 72,
+    "cap": 226,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      32
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      19,
+      21
+     ]
+    ],
+    "ref_len": 71,
+    "cap": 223,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      40,
+      22
+     ],
+     [
+      "ACTION6",
+      51,
+      32
+     ],
+     [
+      "ACTION6",
+      18,
+      31
+     ],
+     [
+      "ACTION6",
+      23,
+      25
+     ],
+     [
+      "ACTION6",
+      47,
+      28
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      14
+     ],
+     [
+      "ACTION6",
+      41,
+      57
+     ],
+     [
+      "ACTION6",
+      0,
+      41
+     ],
+     [
+      "ACTION6",
+      41,
+      23
+     ]
+    ],
+    "ref_len": 72,
+    "cap": 226,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      15
+     ],
+     [
+      "ACTION6",
+      18,
+      10
+     ]
+    ],
+    "ref_len": 70,
+    "cap": 220,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      18
+     ],
+     [
+      "ACTION6",
+      29,
+      24
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      50
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      45
+     ],
+     [
+      "ACTION6",
+      23,
+      40
+     ],
+     [
+      "ACTION6",
+      19,
+      34
+     ],
+     [
+      "ACTION6",
+      27,
+      46
+     ],
+     [
+      "ACTION6",
+      21,
+      46
+     ],
+     [
+      "ACTION6",
+      24,
+      12
+     ]
+    ],
+    "ref_len": 74,
+    "cap": 232,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      60
+     ],
+     [
+      "ACTION6",
+      39,
+      20
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      41,
+      31
+     ]
+    ],
+    "ref_len": 72,
+    "cap": 226,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      49,
+      50
+     ],
+     [
+      "ACTION6",
+      51,
+      49
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      25,
+      11
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      48,
+      27
+     ],
+     [
+      "ACTION6",
+      22,
+      35
+     ],
+     [
+      "ACTION6",
+      25,
+      16
+     ]
+    ],
+    "ref_len": 71,
+    "cap": 223,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 69,
+    "cap": 217,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      35
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      32,
+      48
+     ],
+     [
+      "ACTION6",
+      46,
+      40
+     ],
+     [
+      "ACTION6",
+      54,
+      42
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      33
+     ],
+     [
+      "ACTION6",
+      52,
+      13
+     ],
+     [
+      "ACTION6",
+      52,
+      8
+     ],
+     [
+      "ACTION6",
+      38,
+      19
+     ],
+     [
+      "ACTION6",
+      24,
+      12
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      34
+     ],
+     [
+      "ACTION6",
+      39,
+      53
+     ],
+     [
+      "ACTION6",
+      26,
+      59
+     ],
+     [
+      "ACTION6",
+      52,
+      31
+     ]
+    ],
+    "ref_len": 72,
+    "cap": 226,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      39
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      25,
+      37
+     ],
+     [
+      "ACTION6",
+      19,
+      34
+     ],
+     [
+      "ACTION6",
+      29,
+      48
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      30
+     ],
+     [
+      "ACTION6",
+      0,
+      3
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      18
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      29
+     ],
+     [
+      "ACTION6",
+      0,
+      52
+     ],
+     [
+      "ACTION6",
+      12,
+      42
+     ],
+     [
+      "ACTION6",
+      41,
+      9
+     ],
+     [
+      "ACTION6",
+      24,
+      25
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      42
+     ],
+     [
+      "ACTION6",
+      22,
+      41
+     ],
+     [
+      "ACTION6",
+      55,
+      44
+     ],
+     [
+      "ACTION6",
+      37,
+      25
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      22
+     ],
+     [
+      "ACTION6",
+      60,
+      23
+     ],
+     [
+      "ACTION6",
+      0,
+      39
+     ],
+     [
+      "ACTION6",
+      50,
+      26
+     ],
+     [
+      "ACTION6",
+      20,
+      22
+     ],
+     [
+      "ACTION6",
+      57,
+      46
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      40,
+      42
+     ],
+     [
+      "ACTION6",
+      37,
+      42
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      8
+     ],
+     [
+      "ACTION6",
+      31,
+      55
+     ],
+     [
+      "ACTION6",
+      46,
+      24
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      8
+     ],
+     [
+      "ACTION6",
+      15,
+      19
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      19
+     ],
+     [
+      "ACTION6",
+      38,
+      43
+     ],
+     [
+      "ACTION6",
+      34,
+      30
+     ],
+     [
+      "ACTION6",
+      48,
+      46
+     ],
+     [
+      "ACTION6",
+      32,
+      16
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      13,
+      7
+     ],
+     [
+      "ACTION6",
+      4,
+      39
+     ],
+     [
+      "ACTION6",
+      16,
+      44
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      25
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      45,
+      56
+     ],
+     [
+      "ACTION6",
+      33,
+      22
+     ],
+     [
+      "ACTION6",
+      62,
+      43
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      45
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      48,
+      47
+     ],
+     [
+      "ACTION6",
+      6,
+      40
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      48,
+      18
+     ],
+     [
+      "ACTION6",
+      0,
+      34
+     ],
+     [
+      "ACTION6",
+      39,
+      48
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      55
+     ],
+     [
+      "ACTION6",
+      34,
+      42
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      38,
+      40
+     ],
+     [
+      "ACTION6",
+      6,
+      29
+     ],
+     [
+      "ACTION6",
+      55,
+      25
+     ],
+     [
+      "ACTION6",
+      6,
+      29
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      26
+     ],
+     [
+      "ACTION6",
+      12,
+      50
+     ],
+     [
+      "ACTION6",
+      0,
+      43
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      32
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      34
+     ],
+     [
+      "ACTION6",
+      38,
+      46
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      58,
+      28
+     ],
+     [
+      "ACTION6",
+      61,
+      20
+     ],
+     [
+      "ACTION6",
+      14,
+      18
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      41
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      38
+     ],
+     [
+      "ACTION6",
+      4,
+      42
+     ],
+     [
+      "ACTION6",
+      44,
+      38
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 9,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      57
+     ],
+     [
+      "ACTION6",
+      55,
+      44
+     ],
+     [
+      "ACTION6",
+      5,
+      22
+     ],
+     [
+      "ACTION6",
+      36,
+      41
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      37
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      26
+     ],
+     [
+      "ACTION6",
+      50,
+      47
+     ],
+     [
+      "ACTION6",
+      15,
+      38
+     ],
+     [
+      "ACTION6",
+      46,
+      40
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      32
+     ],
+     [
+      "ACTION6",
+      34,
+      34
+     ],
+     [
+      "ACTION6",
+      0,
+      63
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      45
+     ],
+     [
+      "ACTION6",
+      44,
+      38
+     ],
+     [
+      "ACTION6",
+      52,
+      52
+     ],
+     [
+      "ACTION6",
+      20,
+      11
+     ],
+     [
+      "ACTION6",
+      37,
+      46
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      50
+     ],
+     [
+      "ACTION6",
+      28,
+      21
+     ],
+     [
+      "ACTION6",
+      40,
+      52
+     ],
+     [
+      "ACTION6",
+      23,
+      44
+     ],
+     [
+      "ACTION6",
+      13,
+      53
+     ],
+     [
+      "ACTION6",
+      41,
+      43
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      21
+     ],
+     [
+      "ACTION6",
+      52,
+      44
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      27
+     ],
+     [
+      "ACTION6",
+      15,
+      44
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      33
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      5,
+      35
+     ],
+     [
+      "ACTION6",
+      50,
+      24
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      14
+     ],
+     [
+      "ACTION6",
+      50,
+      40
+     ],
+     [
+      "ACTION6",
+      54,
+      27
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      15
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      6,
+      13
+     ],
+     [
+      "ACTION6",
+      49,
+      63
+     ],
+     [
+      "ACTION6",
+      11,
+      58
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      13,
+      9
+     ],
+     [
+      "ACTION6",
+      28,
+      14
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      14,
+      30
+     ],
+     [
+      "ACTION6",
+      50,
+      48
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      7
+     ],
+     [
+      "ACTION6",
+      55,
+      11
+     ],
+     [
+      "ACTION6",
+      55,
+      22
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      17,
+      46
+     ],
+     [
+      "ACTION6",
+      6,
+      28
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      27
+     ]
+    ],
+    "ref_len": 91,
+    "cap": 283,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      20
+     ],
+     [
+      "ACTION6",
+      0,
+      54
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      30,
+      32
+     ],
+     [
+      "ACTION6",
+      28,
+      15
+     ],
+     [
+      "ACTION6",
+      29,
+      48
+     ]
+    ],
+    "ref_len": 96,
+    "cap": 298,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      35,
+      26
+     ],
+     [
+      "ACTION6",
+      32,
+      25
+     ],
+     [
+      "ACTION6",
+      28,
+      46
+     ],
+     [
+      "ACTION6",
+      7,
+      40
+     ],
+     [
+      "ACTION6",
+      21,
+      14
+     ]
+    ],
+    "ref_len": 96,
+    "cap": 298,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      17
+     ],
+     [
+      "ACTION6",
+      0,
+      39
+     ],
+     [
+      "ACTION6",
+      28,
+      19
+     ],
+     [
+      "ACTION6",
+      27,
+      28
+     ],
+     [
+      "ACTION6",
+      37,
+      50
+     ]
+    ],
+    "ref_len": 95,
+    "cap": 295,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      34
+     ],
+     [
+      "ACTION6",
+      17,
+      32
+     ],
+     [
+      "ACTION6",
+      18,
+      31
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      20,
+      57
+     ]
+    ],
+    "ref_len": 95,
+    "cap": 295,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 91,
+    "cap": 283,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      15
+     ],
+     [
+      "ACTION6",
+      58,
+      15
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      59,
+      32
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 148,
+    "cap": 454,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      36
+     ],
+     [
+      "ACTION6",
+      26,
+      18
+     ],
+     [
+      "ACTION6",
+      60,
+      51
+     ]
+    ],
+    "ref_len": 148,
+    "cap": 454,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      17
+     ],
+     [
+      "ACTION6",
+      60,
+      19
+     ],
+     [
+      "ACTION6",
+      17,
+      46
+     ],
+     [
+      "ACTION6",
+      49,
+      61
+     ],
+     [
+      "ACTION6",
+      54,
+      32
+     ],
+     [
+      "ACTION6",
+      0,
+      11
+     ]
+    ],
+    "ref_len": 151,
+    "cap": 463,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      40
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      5
+     ],
+     [
+      "ACTION6",
+      17,
+      5
+     ]
+    ],
+    "ref_len": 149,
+    "cap": 457,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      36
+     ],
+     [
+      "ACTION6",
+      49,
+      55
+     ],
+     [
+      "ACTION6",
+      0,
+      33
+     ],
+     [
+      "ACTION6",
+      15,
+      45
+     ]
+    ],
+    "ref_len": 149,
+    "cap": 457,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      48
+     ],
+     [
+      "ACTION6",
+      41,
+      42
+     ],
+     [
+      "ACTION6",
+      25,
+      43
+     ],
+     [
+      "ACTION6",
+      52,
+      34
+     ]
+    ],
+    "ref_len": 150,
+    "cap": 460,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      18
+     ],
+     [
+      "ACTION6",
+      35,
+      28
+     ],
+     [
+      "ACTION6",
+      30,
+      24
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      32,
+      27
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 119,
+    "cap": 367,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      28
+     ],
+     [
+      "ACTION6",
+      38,
+      48
+     ]
+    ],
+    "ref_len": 115,
+    "cap": 355,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      23
+     ],
+     [
+      "ACTION6",
+      26,
+      45
+     ],
+     [
+      "ACTION6",
+      0,
+      4
+     ]
+    ],
+    "ref_len": 116,
+    "cap": 358,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      39
+     ],
+     [
+      "ACTION6",
+      29,
+      38
+     ],
+     [
+      "ACTION6",
+      52,
+      26
+     ]
+    ],
+    "ref_len": 116,
+    "cap": 358,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      47
+     ],
+     [
+      "ACTION6",
+      0,
+      31
+     ],
+     [
+      "ACTION6",
+      52,
+      17
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      49,
+      27
+     ]
+    ],
+    "ref_len": 118,
+    "cap": 364,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.lf52",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      44
+     ],
+     [
+      "ACTION6",
+      40,
+      16
+     ],
+     [
+      "ACTION6",
+      44,
+      22
+     ]
+    ],
+    "ref_len": 116,
+    "cap": 358,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "eed699a8e01d0359bfed127de3cd7e21565e6686e62c4207e60f12702b84999f"
+}

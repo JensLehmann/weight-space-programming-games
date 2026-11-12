@@ -1,0 +1,384 @@
+{
+ "artifacts": 3719,
+ "flagged": 210,
+ "by_kind": {
+  "while loop": 193,
+  "numeric literals": 14,
+  "linear algebra": 5
+ },
+ "by_tag": {
+  "rev2_c3": {
+   "artifacts": 84,
+   "flagged": 0
+  },
+  "rev2_fa": {
+   "artifacts": 451,
+   "flagged": 64
+  },
+  "rev2_fa_fixedgraph": {
+   "artifacts": 240,
+   "flagged": 2
+  },
+  "rev2_fa_fixedops": {
+   "artifacts": 240,
+   "flagged": 50
+  },
+  "rev2_fa_public": {
+   "artifacts": 298,
+   "flagged": 60
+  },
+  "rev2_fa_weak": {
+   "artifacts": 540,
+   "flagged": 25
+  },
+  "rev2_public": {
+   "artifacts": 803,
+   "flagged": 3
+  },
+  "rev2_stage2_edit": {
+   "artifacts": 34,
+   "flagged": 0
+  },
+  "rev2_private": {
+   "artifacts": 732,
+   "flagged": 3
+  },
+  "rev2_private_weak": {
+   "artifacts": 297,
+   "flagged": 3
+  }
+ },
+ "max_abs_cell_change": 0.022887914230019568,
+ "cells": [
+  {
+   "tag": "rev2_fa",
+   "condition": "freearch_feedback_M",
+   "writer": "astra-6",
+   "flagged": 16,
+   "families": 20,
+   "families_kept": 19,
+   "all": 0.9041296296296295,
+   "without_flagged": 0.9270175438596491,
+   "diff": 0.022887914230019568
+  },
+  {
+   "tag": "rev2_fa_public",
+   "condition": "freearch_feedback_M",
+   "writer": "sol-6.1",
+   "flagged": 17,
+   "families": 25,
+   "families_kept": 24,
+   "all": 0.3624232804232804,
+   "without_flagged": 0.3839340828924162,
+   "diff": 0.02151080246913578
+  },
+  {
+   "tag": "rev2_fa_fixedops",
+   "condition": "freearch_feedback_M",
+   "writer": "terra-6.1",
+   "flagged": 12,
+   "families": 20,
+   "families_kept": 19,
+   "all": 0.6816927104864268,
+   "without_flagged": 0.69550499739312,
+   "diff": 0.013812286906693227
+  },
+  {
+   "tag": "rev2_fa",
+   "condition": "freearch_oneshot_M",
+   "writer": "sol-6.1",
+   "flagged": 6,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.5176619585687383,
+   "without_flagged": 0.504814736346516,
+   "diff": -0.012847222222222343
+  },
+  {
+   "tag": "rev2_fa_fixedops",
+   "condition": "freearch_feedback_M",
+   "writer": "astra-6",
+   "flagged": 19,
+   "families": 20,
+   "families_kept": 18,
+   "all": 0.8829398148148148,
+   "without_flagged": 0.8716203703703704,
+   "diff": -0.011319444444444327
+  },
+  {
+   "tag": "rev2_fa",
+   "condition": "freearch_feedback_M",
+   "writer": "terra-6.1",
+   "flagged": 10,
+   "families": 20,
+   "families_kept": 19,
+   "all": 0.7423425925925926,
+   "without_flagged": 0.7529995126705653,
+   "diff": 0.010656920077972698
+  },
+  {
+   "tag": "rev2_fa_fixedops",
+   "condition": "freearch_feedback_M",
+   "writer": "sol-6.1",
+   "flagged": 18,
+   "families": 20,
+   "families_kept": 19,
+   "all": 0.7841593691148776,
+   "without_flagged": 0.7940169161132586,
+   "diff": 0.00985754699838104
+  },
+  {
+   "tag": "rev2_fa_public",
+   "condition": "freearch_feedback_M",
+   "writer": "astra-6",
+   "flagged": 30,
+   "families": 25,
+   "families_kept": 21,
+   "all": 0.4158835978835979,
+   "without_flagged": 0.42534013605442184,
+   "diff": 0.009456538170823925
+  },
+  {
+   "tag": "rev2_fa",
+   "condition": "freearch_oneshot_M",
+   "writer": "astra-6",
+   "flagged": 11,
+   "families": 20,
+   "families_kept": 19,
+   "all": 0.7443287037037037,
+   "without_flagged": 0.753635477582846,
+   "diff": 0.00930677387914225
+  },
+  {
+   "tag": "rev2_fa",
+   "condition": "freearch_feedback_M",
+   "writer": "sol-6.1",
+   "flagged": 13,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.840064588979223,
+   "without_flagged": 0.8485321815718156,
+   "diff": 0.008467592592592665
+  },
+  {
+   "tag": "rev2_fa_public",
+   "condition": "freearch_feedback_M",
+   "writer": "opus-5.5",
+   "flagged": 5,
+   "families": 25,
+   "families_kept": 25,
+   "all": 0.12925925925925927,
+   "without_flagged": 0.12121693121693122,
+   "diff": -0.008042328042328045
+  },
+  {
+   "tag": "rev2_fa_weak",
+   "condition": "freearch_oneshot_M",
+   "writer": "haiku-5.5",
+   "flagged": 1,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.058967592592592585,
+   "without_flagged": 0.051432870370370365,
+   "diff": -0.00753472222222222
+  },
+  {
+   "tag": "rev2_fa",
+   "condition": "freearch_oneshot_M",
+   "writer": "terra-6.1",
+   "flagged": 5,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.5061757689893283,
+   "without_flagged": 0.5131803986189578,
+   "diff": 0.007004629629629555
+  },
+  {
+   "tag": "rev2_fa_weak",
+   "condition": "freearch_feedback_M",
+   "writer": "opus-5",
+   "flagged": 6,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.33073835224227943,
+   "without_flagged": 0.3377186959334283,
+   "diff": 0.00698034369114886
+  },
+  {
+   "tag": "rev2_fa",
+   "condition": "freearch_oneshot_M",
+   "writer": "opus-5.5",
+   "flagged": 1,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.4009705533354769,
+   "without_flagged": 0.40763722000214353,
+   "diff": 0.006666666666666654
+  },
+  {
+   "tag": "rev2_fa_fixedops",
+   "condition": "freearch_feedback_M",
+   "writer": "opus-5.5",
+   "flagged": 1,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.5634227967632783,
+   "without_flagged": 0.5679366856521673,
+   "diff": 0.004513888888888928
+  },
+  {
+   "tag": "rev2_fa_weak",
+   "condition": "freearch_feedback_M",
+   "writer": "sol-5.6",
+   "flagged": 5,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.4766149484023089,
+   "without_flagged": 0.4809945780319385,
+   "diff": 0.004379629629629622
+  },
+  {
+   "tag": "rev2_fa_weak",
+   "condition": "freearch_feedback_M",
+   "writer": "luna-6",
+   "flagged": 2,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.14422967479674798,
+   "without_flagged": 0.14844263775971095,
+   "diff": 0.004212962962962974
+  },
+  {
+   "tag": "rev2_fa_weak",
+   "condition": "freearch_oneshot_M",
+   "writer": "sol-5.6",
+   "flagged": 2,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.2532835844318895,
+   "without_flagged": 0.25625580665411174,
+   "diff": 0.002972222222222265
+  },
+  {
+   "tag": "rev2_private",
+   "condition": "weights_feedback_M_full",
+   "writer": "astra-6",
+   "flagged": 2,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.5633712258662136,
+   "without_flagged": 0.5611027073476951,
+   "diff": -0.002268518518518503
+  },
+  {
+   "tag": "rev2_public",
+   "condition": "weights_oneshot_M_full",
+   "writer": "sol-6.1",
+   "flagged": 1,
+   "families": 25,
+   "families_kept": 25,
+   "all": 0.04,
+   "without_flagged": 0.042222222222222223,
+   "diff": 0.0022222222222222227
+  },
+  {
+   "tag": "rev2_fa_weak",
+   "condition": "freearch_oneshot_M",
+   "writer": "opus-5",
+   "flagged": 7,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.2083696239646012,
+   "without_flagged": 0.20660094850948507,
+   "diff": -0.0017686754551161366
+  },
+  {
+   "tag": "rev2_fa",
+   "condition": "freearch_feedback_M",
+   "writer": "opus-5.5",
+   "flagged": 2,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.6849986507280327,
+   "without_flagged": 0.6861375396169216,
+   "diff": 0.0011388888888889115
+  },
+  {
+   "tag": "rev2_fa_fixedgraph",
+   "condition": "freearch_feedback_M",
+   "writer": "astra-6",
+   "flagged": 2,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.5848526365348399,
+   "without_flagged": 0.5837554143126177,
+   "diff": -0.001097222222222194
+  },
+  {
+   "tag": "rev2_private_weak",
+   "condition": "weights_feedback_M_full",
+   "writer": "opus-5",
+   "flagged": 3,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.15902585434752653,
+   "without_flagged": 0.15956057656974879,
+   "diff": 0.0005347222222222558
+  },
+  {
+   "tag": "rev2_fa_public",
+   "condition": "freearch_feedback_M",
+   "writer": "terra-6.1",
+   "flagged": 8,
+   "families": 25,
+   "families_kept": 24,
+   "all": 0.26100264550264546,
+   "without_flagged": 0.2607445987654321,
+   "diff": -0.0002580467372133577
+  },
+  {
+   "tag": "rev2_public",
+   "condition": "weights_feedback_M_full",
+   "writer": "astra-6",
+   "flagged": 1,
+   "families": 25,
+   "families_kept": 25,
+   "all": 0.07813492063492063,
+   "without_flagged": 0.07829365079365079,
+   "diff": 0.00015873015873016372
+  },
+  {
+   "tag": "rev2_fa_weak",
+   "condition": "freearch_oneshot_M",
+   "writer": "luna-6",
+   "flagged": 2,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.08610648148148149,
+   "without_flagged": 0.08610648148148149,
+   "diff": 0.0
+  },
+  {
+   "tag": "rev2_public",
+   "condition": "weights_oneshot_M_full",
+   "writer": "sonnet-5.5",
+   "flagged": 1,
+   "families": 25,
+   "families_kept": 25,
+   "all": 0.002116402116402116,
+   "without_flagged": 0.002116402116402116,
+   "diff": 0.0
+  },
+  {
+   "tag": "rev2_private",
+   "condition": "weights_oneshot_M_full",
+   "writer": "sol-6.1",
+   "flagged": 1,
+   "families": 20,
+   "families_kept": 20,
+   "all": 0.32010633220032764,
+   "without_flagged": 0.32010633220032764,
+   "diff": 0.0
+  }
+ ]
+}

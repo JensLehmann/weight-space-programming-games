@@ -1,0 +1,19 @@
+{
+ "game": "official.ka59",
+ "game_source_sha256": "a465e6371d4c7cdc1140092e7fb68269b18abc0e5b1fcd226016c9c38c747236",
+ "section_sha256": "a201e7901910b731293ad3555d445a5b4e8994dff0e80bf8a50aacfe733c2f23",
+ "prompts": {
+  "w": {
+   "sha256": "90fb4ac17d2b69608d4720c167a5793ca5a23ec8a1e61016f38a6b49aa5fb023",
+   "released_sha256": "26a264e110a983d9d9107130b58c92b61859c8b525998a47d59fb35ebd22584d"
+  },
+  "p": {
+   "sha256": "2977651f420c9f78b650546f1bbeec6aec07cca37f592a69a071fd4220fbeadf",
+   "released_sha256": "7c9823c040bd0c119d5f3ae484044647f637ba2822a794bca26c0b4ecf9af126"
+  },
+  "fa": {
+   "sha256": "b734a2f87dc4f934e5c04bebf10b0024a679f8fb1691232dcfb785e78663997d",
+   "released_sha256": "546fd7be4ac25235fa3db8ed4f7d44f81d7226b6d47e3fd00f6dea4456d388d4"
+  }
+ }
+}

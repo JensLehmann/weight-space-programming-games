@@ -1,0 +1,19 @@
+{
+ "game": "official.cn04",
+ "game_source_sha256": "42159c459e21dacfe86f065b712707c8d8e4f408eb2bcd86b2a41f167db4d8b0",
+ "section_sha256": "79f5f0a675db821b936cc8e8e491bb49651b40b83c310fb552a9fc6bde788db3",
+ "prompts": {
+  "w": {
+   "sha256": "27152f28decb7f4278b787a2d2cd3c52f1d88349360133e6e86d492ed159600b",
+   "released_sha256": "40fadc4c9b03965af718f902af8e2de17e661b27dc766bd2532d4c5bbf37a6c9"
+  },
+  "p": {
+   "sha256": "00112c88d9bd54be3534365421693dfd5031e4dec329a759c303d152657a85c6",
+   "released_sha256": "bb9e23e5b04185408c29bd270c10436264057567336a47e73905320d6073ff86"
+  },
+  "fa": {
+   "sha256": "375fb19c754b04ed4a85dc0edcf219cd9f8591dc2bc398b92ff6eb7046143e25",
+   "released_sha256": "87c41d3af874ed762dc5464c3dfcb91157be0f4e3307d18a74547be165069efd"
+  }
+ }
+}

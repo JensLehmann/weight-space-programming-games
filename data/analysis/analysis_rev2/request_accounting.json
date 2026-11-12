@@ -1,0 +1,2145 @@
+{
+ "definitions": {
+  "request": "one submission to a writer model",
+  "completed": "complete response",
+  "truncated": "output cap reached",
+  "refused": "usage-policy stop",
+  "api_error": "accepted request that failed at the API",
+  "interrupted": "no outcome because the session was interrupted",
+  "restarted_sessions": "sessions re-run from scratch after an interruption, or after an API failure of their first request; only the final attempt is scored",
+  "no_artifact": "final sessions without a valid artifact (score 0)"
+ },
+ "ledger": {
+  "requests": 12994,
+  "reconciliation": {
+   "in design (final sessions)": 11637,
+   "in design (discarded attempts)": 548,
+   "outside the design (sessions discarded unevaluated)": 112,
+   "outside the main study (prompt pilots, smoke tests and the preliminary study)": 697
+  }
+ },
+ "by_arm": {
+  "priv:W1": {
+   "sessions": 540,
+   "requests": 571,
+   "disp": {
+    "completed": 530,
+    "refused": 9,
+    "api_error": 1,
+    "interrupted": 31
+   },
+   "restarted_sessions": 31,
+   "no_artifact": 40,
+   "no_artifact_why": {
+    "invalid_artifact": 30,
+    "writer_refusal": 9,
+    "writer_unknown": 1
+   },
+   "tokens_in": 14352705,
+   "tokens_out": 13774284
+  },
+  "priv:P1": {
+   "sessions": 540,
+   "requests": 560,
+   "disp": {
+    "completed": 540,
+    "interrupted": 20
+   },
+   "restarted_sessions": 20,
+   "no_artifact": 6,
+   "no_artifact_why": {
+    "invalid_artifact": 6
+   },
+   "tokens_in": 13480608,
+   "tokens_out": 10462455
+  },
+  "priv:W2": {
+   "sessions": 240,
+   "requests": 915,
+   "disp": {
+    "completed": 870,
+    "refused": 8,
+    "interrupted": 37
+   },
+   "restarted_sessions": 38,
+   "no_artifact": 8,
+   "no_artifact_why": {
+    "writer_refusal": 8
+   },
+   "tokens_in": 35339769,
+   "tokens_out": 16379377
+  },
+  "priv:P2": {
+   "sessions": 240,
+   "requests": 306,
+   "disp": {
+    "completed": 289,
+    "interrupted": 17
+   },
+   "restarted_sessions": 18,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 7577164,
+   "tokens_out": 4073434
+  },
+  "priv:PR": {
+   "sessions": 140,
+   "requests": 141,
+   "disp": {
+    "completed": 140,
+    "interrupted": 1
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "invalid_artifact": 2
+   },
+   "tokens_in": 3496447,
+   "tokens_out": 2787681
+  },
+  "priv:ABL": {
+   "sessions": 114,
+   "requests": 116,
+   "disp": {
+    "completed": 107,
+    "refused": 7,
+    "interrupted": 2
+   },
+   "restarted_sessions": 2,
+   "no_artifact": 14,
+   "no_artifact_why": {
+    "invalid_artifact": 7,
+    "writer_refusal": 7
+   },
+   "tokens_in": 2852225,
+   "tokens_out": 2356985
+  },
+  "priv:FA1": {
+   "sessions": 240,
+   "requests": 242,
+   "disp": {
+    "completed": 239,
+    "api_error": 1,
+    "interrupted": 2
+   },
+   "restarted_sessions": 2,
+   "no_artifact": 28,
+   "no_artifact_why": {
+    "invalid_artifact": 27,
+    "writer_unknown": 1
+   },
+   "tokens_in": 6859756,
+   "tokens_out": 5842780
+  },
+  "priv:FA2": {
+   "sessions": 240,
+   "requests": 556,
+   "disp": {
+    "completed": 547,
+    "refused": 1,
+    "interrupted": 8
+   },
+   "restarted_sessions": 8,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_refusal": 1
+   },
+   "tokens_in": 22650670,
+   "tokens_out": 10174248
+  },
+  "priv:EDIT": {
+   "sessions": 36,
+   "requests": 115,
+   "disp": {
+    "completed": 107,
+    "api_error": 5,
+    "refused": 3
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "writer_refusal": 1,
+    "writer_error": 1
+   },
+   "tokens_in": 12117122,
+   "tokens_out": 1268732
+  },
+  "priv:FAA": {
+   "sessions": 240,
+   "requests": 840,
+   "disp": {
+    "completed": 840
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 38929362,
+   "tokens_out": 16195794
+  },
+  "priv:FAB": {
+   "sessions": 240,
+   "requests": 608,
+   "disp": {
+    "completed": 608
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 26323075,
+   "tokens_out": 11597404
+  },
+  "priv:W2w": {
+   "sessions": 300,
+   "requests": 1150,
+   "disp": {
+    "completed": 1145,
+    "api_error": 4,
+    "truncated": 1
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 3,
+   "no_artifact_why": {
+    "writer_unknown": 2,
+    "writer_incomplete": 1
+   },
+   "tokens_in": 48259424,
+   "tokens_out": 21308273
+  },
+  "priv:FA1w": {
+   "sessions": 300,
+   "requests": 300,
+   "disp": {
+    "completed": 300
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 55,
+   "no_artifact_why": {
+    "invalid_artifact": 55
+   },
+   "tokens_in": 9299241,
+   "tokens_out": 8056564
+  },
+  "priv:FA2w": {
+   "sessions": 300,
+   "requests": 1103,
+   "disp": {
+    "completed": 1099,
+    "api_error": 4
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 5,
+   "no_artifact_why": {
+    "invalid_artifact": 3,
+    "writer_unknown": 2
+   },
+   "tokens_in": 50494080,
+   "tokens_out": 18444013
+  },
+  "priv:PB": {
+   "sessions": 240,
+   "requests": 443,
+   "disp": {
+    "completed": 415,
+    "api_error": 22,
+    "interrupted": 6
+   },
+   "restarted_sessions": 21,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_error": 1
+   },
+   "tokens_in": 14840082,
+   "tokens_out": 6729393
+  },
+  "pub:W1": {
+   "sessions": 525,
+   "requests": 558,
+   "disp": {
+    "completed": 526,
+    "interrupted": 32
+   },
+   "restarted_sessions": 32,
+   "no_artifact": 21,
+   "no_artifact_why": {
+    "invalid_artifact": 21
+   },
+   "tokens_in": 32959560,
+   "tokens_out": 10374761
+  },
+  "pub:P1": {
+   "sessions": 525,
+   "requests": 525,
+   "disp": {
+    "completed": 525
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 15,
+   "no_artifact_why": {
+    "invalid_artifact": 15
+   },
+   "tokens_in": 32054550,
+   "tokens_out": 9803159
+  },
+  "pub:W2": {
+   "sessions": 300,
+   "requests": 1386,
+   "disp": {
+    "completed": 1338,
+    "api_error": 4,
+    "refused": 1,
+    "interrupted": 43
+   },
+   "restarted_sessions": 96,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_refusal": 1
+   },
+   "tokens_in": 101396343,
+   "tokens_out": 21703764
+  },
+  "pub:P2": {
+   "sessions": 300,
+   "requests": 705,
+   "disp": {
+    "completed": 696,
+    "api_error": 5,
+    "interrupted": 4
+   },
+   "restarted_sessions": 17,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 54052127,
+   "tokens_out": 9070981
+  },
+  "pub:FA2": {
+   "sessions": 300,
+   "requests": 1045,
+   "disp": {
+    "completed": 1021,
+    "interrupted": 24
+   },
+   "restarted_sessions": 24,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "invalid_artifact": 2
+   },
+   "tokens_in": 82015144,
+   "tokens_out": 14842846
+  }
+ },
+ "by_arm_writer": {
+  "priv:W1|astra-6": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1449060,
+   "tokens_out": 1835560
+  },
+  "priv:W1|sol-6.1": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 1449060,
+   "tokens_out": 1697771
+  },
+  "priv:W1|opus-5.5": {
+   "sessions": 60,
+   "requests": 67,
+   "disp": {
+    "completed": 51,
+    "refused": 9,
+    "interrupted": 7
+   },
+   "restarted_sessions": 7,
+   "no_artifact": 9,
+   "no_artifact_why": {
+    "writer_refusal": 9
+   },
+   "tokens_in": 1782927,
+   "tokens_out": 1820186
+  },
+  "priv:W1|terra-6.1": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 1449060,
+   "tokens_out": 749354
+  },
+  "priv:W1|luna-6": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 18,
+   "no_artifact_why": {
+    "invalid_artifact": 18
+   },
+   "tokens_in": 1449060,
+   "tokens_out": 1524869
+  },
+  "priv:W1|sonnet-5.5": {
+   "sessions": 60,
+   "requests": 68,
+   "disp": {
+    "completed": 60,
+    "interrupted": 8
+   },
+   "restarted_sessions": 8,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1782927,
+   "tokens_out": 1292647
+  },
+  "priv:W1|haiku-5.5": {
+   "sessions": 60,
+   "requests": 68,
+   "disp": {
+    "completed": 60,
+    "interrupted": 8
+   },
+   "restarted_sessions": 8,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1782927,
+   "tokens_out": 924645
+  },
+  "priv:W1|sol-5.6": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "invalid_artifact": 2
+   },
+   "tokens_in": 1449060,
+   "tokens_out": 1630509
+  },
+  "priv:W1|opus-5": {
+   "sessions": 60,
+   "requests": 68,
+   "disp": {
+    "completed": 59,
+    "api_error": 1,
+    "interrupted": 8
+   },
+   "restarted_sessions": 8,
+   "no_artifact": 9,
+   "no_artifact_why": {
+    "invalid_artifact": 8,
+    "writer_unknown": 1
+   },
+   "tokens_in": 1758624,
+   "tokens_out": 2298743
+  },
+  "priv:P1|astra-6": {
+   "sessions": 60,
+   "requests": 62,
+   "disp": {
+    "completed": 60,
+    "interrupted": 2
+   },
+   "restarted_sessions": 2,
+   "no_artifact": 3,
+   "no_artifact_why": {
+    "invalid_artifact": 3
+   },
+   "tokens_in": 1365600,
+   "tokens_out": 1032625
+  },
+  "priv:P1|sol-6.1": {
+   "sessions": 60,
+   "requests": 61,
+   "disp": {
+    "completed": 60,
+    "interrupted": 1
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1365600,
+   "tokens_out": 837277
+  },
+  "priv:P1|opus-5.5": {
+   "sessions": 60,
+   "requests": 64,
+   "disp": {
+    "completed": 60,
+    "interrupted": 4
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1663167,
+   "tokens_out": 999403
+  },
+  "priv:P1|terra-6.1": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1365600,
+   "tokens_out": 727818
+  },
+  "priv:P1|luna-6": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 1365600,
+   "tokens_out": 1876512
+  },
+  "priv:P1|sonnet-5.5": {
+   "sessions": 60,
+   "requests": 64,
+   "disp": {
+    "completed": 60,
+    "interrupted": 4
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 1663167,
+   "tokens_out": 932540
+  },
+  "priv:P1|haiku-5.5": {
+   "sessions": 60,
+   "requests": 64,
+   "disp": {
+    "completed": 60,
+    "interrupted": 4
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 1663167,
+   "tokens_out": 1642115
+  },
+  "priv:P1|sol-5.6": {
+   "sessions": 60,
+   "requests": 61,
+   "disp": {
+    "completed": 60,
+    "interrupted": 1
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1365600,
+   "tokens_out": 973917
+  },
+  "priv:P1|opus-5": {
+   "sessions": 60,
+   "requests": 64,
+   "disp": {
+    "completed": 60,
+    "interrupted": 4
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1663107,
+   "tokens_out": 1440248
+  },
+  "priv:W2|astra-6": {
+   "sessions": 60,
+   "requests": 216,
+   "disp": {
+    "completed": 206,
+    "interrupted": 10
+   },
+   "restarted_sessions": 10,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 7894863,
+   "tokens_out": 4370780
+  },
+  "priv:W2|sol-6.1": {
+   "sessions": 60,
+   "requests": 250,
+   "disp": {
+    "completed": 240,
+    "interrupted": 10
+   },
+   "restarted_sessions": 11,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 9436806,
+   "tokens_out": 4629199
+  },
+  "priv:W2|opus-5.5": {
+   "sessions": 60,
+   "requests": 223,
+   "disp": {
+    "refused": 8,
+    "completed": 198,
+    "interrupted": 17
+   },
+   "restarted_sessions": 17,
+   "no_artifact": 8,
+   "no_artifact_why": {
+    "writer_refusal": 8
+   },
+   "tokens_in": 9471053,
+   "tokens_out": 4782123
+  },
+  "priv:W2|terra-6.1": {
+   "sessions": 60,
+   "requests": 226,
+   "disp": {
+    "completed": 226
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 8537047,
+   "tokens_out": 2597275
+  },
+  "priv:P2|astra-6": {
+   "sessions": 60,
+   "requests": 77,
+   "disp": {
+    "completed": 71,
+    "interrupted": 6
+   },
+   "restarted_sessions": 6,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1757032,
+   "tokens_out": 1111592
+  },
+  "priv:P2|sol-6.1": {
+   "sessions": 60,
+   "requests": 67,
+   "disp": {
+    "completed": 64,
+    "interrupted": 3
+   },
+   "restarted_sessions": 3,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1498559,
+   "tokens_out": 894979
+  },
+  "priv:P2|opus-5.5": {
+   "sessions": 60,
+   "requests": 87,
+   "disp": {
+    "completed": 80,
+    "interrupted": 7
+   },
+   "restarted_sessions": 7,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 2503433,
+   "tokens_out": 1226834
+  },
+  "priv:P2|terra-6.1": {
+   "sessions": 60,
+   "requests": 75,
+   "disp": {
+    "completed": 74,
+    "interrupted": 1
+   },
+   "restarted_sessions": 2,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 1818140,
+   "tokens_out": 840029
+  },
+  "priv:PR|astra-6": {
+   "sessions": 20,
+   "requests": 21,
+   "disp": {
+    "completed": 20,
+    "interrupted": 1
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 456760,
+   "tokens_out": 379941
+  },
+  "priv:PR|sol-6.1": {
+   "sessions": 20,
+   "requests": 20,
+   "disp": {
+    "completed": 20
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "invalid_artifact": 2
+   },
+   "tokens_in": 456760,
+   "tokens_out": 297935
+  },
+  "priv:PR|opus-5.5": {
+   "sessions": 20,
+   "requests": 20,
+   "disp": {
+    "completed": 20
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 556469,
+   "tokens_out": 381576
+  },
+  "priv:PR|terra-6.1": {
+   "sessions": 20,
+   "requests": 20,
+   "disp": {
+    "completed": 20
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 456760,
+   "tokens_out": 267514
+  },
+  "priv:PR|luna-6": {
+   "sessions": 20,
+   "requests": 20,
+   "disp": {
+    "completed": 20
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 456760,
+   "tokens_out": 602920
+  },
+  "priv:PR|sonnet-5.5": {
+   "sessions": 20,
+   "requests": 20,
+   "disp": {
+    "completed": 20
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 556469,
+   "tokens_out": 324693
+  },
+  "priv:PR|haiku-5.5": {
+   "sessions": 20,
+   "requests": 20,
+   "disp": {
+    "completed": 20
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 556469,
+   "tokens_out": 533102
+  },
+  "priv:ABL|astra-6": {
+   "sessions": 30,
+   "requests": 30,
+   "disp": {
+    "completed": 30
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 695235,
+   "tokens_out": 728509
+  },
+  "priv:ABL|sol-6.1": {
+   "sessions": 30,
+   "requests": 32,
+   "disp": {
+    "completed": 30,
+    "interrupted": 2
+   },
+   "restarted_sessions": 2,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "invalid_artifact": 2
+   },
+   "tokens_in": 695235,
+   "tokens_out": 625286
+  },
+  "priv:ABL|opus-5.5": {
+   "sessions": 30,
+   "requests": 30,
+   "disp": {
+    "completed": 23,
+    "refused": 7
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 7,
+   "no_artifact_why": {
+    "writer_refusal": 7
+   },
+   "tokens_in": 846955,
+   "tokens_out": 812498
+  },
+  "priv:ABL|terra-6.1": {
+   "sessions": 6,
+   "requests": 6,
+   "disp": {
+    "completed": 6
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 138729,
+   "tokens_out": 36255
+  },
+  "priv:ABL|luna-6": {
+   "sessions": 6,
+   "requests": 6,
+   "disp": {
+    "completed": 6
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 3,
+   "no_artifact_why": {
+    "invalid_artifact": 3
+   },
+   "tokens_in": 138729,
+   "tokens_out": 38834
+  },
+  "priv:ABL|sonnet-5.5": {
+   "sessions": 6,
+   "requests": 6,
+   "disp": {
+    "completed": 6
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 168671,
+   "tokens_out": 42512
+  },
+  "priv:ABL|haiku-5.5": {
+   "sessions": 6,
+   "requests": 6,
+   "disp": {
+    "completed": 6
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 168671,
+   "tokens_out": 73091
+  },
+  "priv:FA1|astra-6": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 3,
+   "no_artifact_why": {
+    "invalid_artifact": 3
+   },
+   "tokens_in": 1624800,
+   "tokens_out": 1579246
+  },
+  "priv:FA1|sol-6.1": {
+   "sessions": 60,
+   "requests": 62,
+   "disp": {
+    "completed": 60,
+    "interrupted": 2
+   },
+   "restarted_sessions": 2,
+   "no_artifact": 16,
+   "no_artifact_why": {
+    "invalid_artifact": 16
+   },
+   "tokens_in": 1624800,
+   "tokens_out": 1531050
+  },
+  "priv:FA1|opus-5.5": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 59,
+    "api_error": 1
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 5,
+   "no_artifact_why": {
+    "invalid_artifact": 4,
+    "writer_unknown": 1
+   },
+   "tokens_in": 1985356,
+   "tokens_out": 1776008
+  },
+  "priv:FA1|terra-6.1": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 4,
+   "no_artifact_why": {
+    "invalid_artifact": 4
+   },
+   "tokens_in": 1624800,
+   "tokens_out": 956476
+  },
+  "priv:FA2|astra-6": {
+   "sessions": 60,
+   "requests": 87,
+   "disp": {
+    "completed": 84,
+    "interrupted": 3
+   },
+   "restarted_sessions": 3,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 2697229,
+   "tokens_out": 1986290
+  },
+  "priv:FA2|sol-6.1": {
+   "sessions": 60,
+   "requests": 121,
+   "disp": {
+    "completed": 117,
+    "interrupted": 4
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 4393190,
+   "tokens_out": 2321710
+  },
+  "priv:FA2|opus-5.5": {
+   "sessions": 60,
+   "requests": 168,
+   "disp": {
+    "completed": 167,
+    "refused": 1
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_refusal": 1
+   },
+   "tokens_in": 8285664,
+   "tokens_out": 3563133
+  },
+  "priv:FA2|terra-6.1": {
+   "sessions": 60,
+   "requests": 180,
+   "disp": {
+    "completed": 179,
+    "interrupted": 1
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 7274587,
+   "tokens_out": 2303115
+  },
+  "priv:EDIT|astra-6": {
+   "sessions": 12,
+   "requests": 32,
+   "disp": {
+    "completed": 28,
+    "api_error": 4
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 3113272,
+   "tokens_out": 527178
+  },
+  "priv:EDIT|sol-6.1": {
+   "sessions": 12,
+   "requests": 41,
+   "disp": {
+    "completed": 40,
+    "api_error": 1
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_error": 1
+   },
+   "tokens_in": 3980015,
+   "tokens_out": 561000
+  },
+  "priv:EDIT|opus-5.5": {
+   "sessions": 12,
+   "requests": 42,
+   "disp": {
+    "completed": 39,
+    "refused": 3
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_refusal": 1
+   },
+   "tokens_in": 5023835,
+   "tokens_out": 180554
+  },
+  "priv:FAA|astra-6": {
+   "sessions": 60,
+   "requests": 188,
+   "disp": {
+    "completed": 188
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 8206869,
+   "tokens_out": 4161765
+  },
+  "priv:FAA|sol-6.1": {
+   "sessions": 60,
+   "requests": 212,
+   "disp": {
+    "completed": 212
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 9511773,
+   "tokens_out": 4223344
+  },
+  "priv:FAA|opus-5.5": {
+   "sessions": 60,
+   "requests": 220,
+   "disp": {
+    "completed": 220
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 11644632,
+   "tokens_out": 4944008
+  },
+  "priv:FAA|terra-6.1": {
+   "sessions": 60,
+   "requests": 220,
+   "disp": {
+    "completed": 220
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 9566088,
+   "tokens_out": 2866677
+  },
+  "priv:FAB|astra-6": {
+   "sessions": 60,
+   "requests": 91,
+   "disp": {
+    "completed": 91
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 3104548,
+   "tokens_out": 2248025
+  },
+  "priv:FAB|sol-6.1": {
+   "sessions": 60,
+   "requests": 141,
+   "disp": {
+    "completed": 141
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 5878616,
+   "tokens_out": 2866872
+  },
+  "priv:FAB|opus-5.5": {
+   "sessions": 60,
+   "requests": 188,
+   "disp": {
+    "completed": 188
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 9545588,
+   "tokens_out": 4122335
+  },
+  "priv:FAB|terra-6.1": {
+   "sessions": 60,
+   "requests": 188,
+   "disp": {
+    "completed": 188
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 7794323,
+   "tokens_out": 2360172
+  },
+  "priv:W2w|luna-6": {
+   "sessions": 60,
+   "requests": 236,
+   "disp": {
+    "completed": 236
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 8540813,
+   "tokens_out": 4805352
+  },
+  "priv:W2w|sonnet-5.5": {
+   "sessions": 60,
+   "requests": 232,
+   "disp": {
+    "completed": 232
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 10420093,
+   "tokens_out": 3952077
+  },
+  "priv:W2w|haiku-5.5": {
+   "sessions": 60,
+   "requests": 232,
+   "disp": {
+    "completed": 232
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 10266722,
+   "tokens_out": 2588813
+  },
+  "priv:W2w|sol-5.6": {
+   "sessions": 60,
+   "requests": 228,
+   "disp": {
+    "completed": 227,
+    "truncated": 1
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_incomplete": 1
+   },
+   "tokens_in": 8931750,
+   "tokens_out": 4550417
+  },
+  "priv:W2w|opus-5": {
+   "sessions": 60,
+   "requests": 222,
+   "disp": {
+    "completed": 218,
+    "api_error": 4
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "writer_unknown": 2
+   },
+   "tokens_in": 10100046,
+   "tokens_out": 5411614
+  },
+  "priv:FA1w|luna-6": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 26,
+   "no_artifact_why": {
+    "invalid_artifact": 26
+   },
+   "tokens_in": 1624800,
+   "tokens_out": 2088549
+  },
+  "priv:FA1w|sonnet-5.5": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 8,
+   "no_artifact_why": {
+    "invalid_artifact": 8
+   },
+   "tokens_in": 2016567,
+   "tokens_out": 1105271
+  },
+  "priv:FA1w|haiku-5.5": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 9,
+   "no_artifact_why": {
+    "invalid_artifact": 9
+   },
+   "tokens_in": 2016567,
+   "tokens_out": 1154382
+  },
+  "priv:FA1w|sol-5.6": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 11,
+   "no_artifact_why": {
+    "invalid_artifact": 11
+   },
+   "tokens_in": 1624800,
+   "tokens_out": 1628276
+  },
+  "priv:FA1w|opus-5": {
+   "sessions": 60,
+   "requests": 60,
+   "disp": {
+    "completed": 60
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 2016507,
+   "tokens_out": 2080086
+  },
+  "priv:FA2w|luna-6": {
+   "sessions": 60,
+   "requests": 238,
+   "disp": {
+    "completed": 238
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 3,
+   "no_artifact_why": {
+    "invalid_artifact": 3
+   },
+   "tokens_in": 9503832,
+   "tokens_out": 4340798
+  },
+  "priv:FA2w|sonnet-5.5": {
+   "sessions": 60,
+   "requests": 215,
+   "disp": {
+    "completed": 215
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 10324095,
+   "tokens_out": 3221955
+  },
+  "priv:FA2w|haiku-5.5": {
+   "sessions": 60,
+   "requests": 227,
+   "disp": {
+    "completed": 226,
+    "api_error": 1
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_unknown": 1
+   },
+   "tokens_in": 10590803,
+   "tokens_out": 2921395
+  },
+  "priv:FA2w|sol-5.6": {
+   "sessions": 60,
+   "requests": 205,
+   "disp": {
+    "completed": 205
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 9073536,
+   "tokens_out": 3628524
+  },
+  "priv:FA2w|opus-5": {
+   "sessions": 60,
+   "requests": 218,
+   "disp": {
+    "completed": 215,
+    "api_error": 3
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_unknown": 1
+   },
+   "tokens_in": 11001814,
+   "tokens_out": 4331341
+  },
+  "priv:PB|astra-6": {
+   "sessions": 60,
+   "requests": 86,
+   "disp": {
+    "completed": 81,
+    "api_error": 5
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 2432406,
+   "tokens_out": 1358696
+  },
+  "priv:PB|sol-6.1": {
+   "sessions": 60,
+   "requests": 113,
+   "disp": {
+    "completed": 102,
+    "api_error": 5,
+    "interrupted": 6
+   },
+   "restarted_sessions": 8,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_error": 1
+   },
+   "tokens_in": 3411581,
+   "tokens_out": 1339824
+  },
+  "priv:PB|opus-5.5": {
+   "sessions": 60,
+   "requests": 123,
+   "disp": {
+    "completed": 123
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 5054079,
+   "tokens_out": 2687098
+  },
+  "priv:PB|terra-6.1": {
+   "sessions": 60,
+   "requests": 121,
+   "disp": {
+    "completed": 109,
+    "api_error": 12
+   },
+   "restarted_sessions": 9,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 3942016,
+   "tokens_out": 1343775
+  },
+  "pub:W1|astra-6": {
+   "sessions": 75,
+   "requests": 87,
+   "disp": {
+    "completed": 75,
+    "interrupted": 12
+   },
+   "restarted_sessions": 12,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 4170327,
+   "tokens_out": 2360730
+  },
+  "pub:W1|sol-6.1": {
+   "sessions": 75,
+   "requests": 87,
+   "disp": {
+    "completed": 75,
+    "interrupted": 12
+   },
+   "restarted_sessions": 12,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 4170327,
+   "tokens_out": 2123942
+  },
+  "pub:W1|opus-5.5": {
+   "sessions": 75,
+   "requests": 77,
+   "disp": {
+    "completed": 75,
+    "interrupted": 2
+   },
+   "restarted_sessions": 2,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 5413389,
+   "tokens_out": 1203313
+  },
+  "pub:W1|terra-6.1": {
+   "sessions": 75,
+   "requests": 76,
+   "disp": {
+    "completed": 75,
+    "interrupted": 1
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 4,
+   "no_artifact_why": {
+    "invalid_artifact": 4
+   },
+   "tokens_in": 4170327,
+   "tokens_out": 949669
+  },
+  "pub:W1|luna-6": {
+   "sessions": 75,
+   "requests": 80,
+   "disp": {
+    "completed": 76,
+    "interrupted": 4
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 16,
+   "no_artifact_why": {
+    "invalid_artifact": 16
+   },
+   "tokens_in": 4208412,
+   "tokens_out": 2510092
+  },
+  "pub:W1|sonnet-5.5": {
+   "sessions": 75,
+   "requests": 76,
+   "disp": {
+    "completed": 75,
+    "interrupted": 1
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 5413389,
+   "tokens_out": 764730
+  },
+  "pub:W1|haiku-5.5": {
+   "sessions": 75,
+   "requests": 75,
+   "disp": {
+    "completed": 75
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 5413389,
+   "tokens_out": 462285
+  },
+  "pub:P1|astra-6": {
+   "sessions": 75,
+   "requests": 75,
+   "disp": {
+    "completed": 75
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 4,
+   "no_artifact_why": {
+    "invalid_artifact": 4
+   },
+   "tokens_in": 4065927,
+   "tokens_out": 1660791
+  },
+  "pub:P1|sol-6.1": {
+   "sessions": 75,
+   "requests": 75,
+   "disp": {
+    "completed": 75
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 4065927,
+   "tokens_out": 1337579
+  },
+  "pub:P1|opus-5.5": {
+   "sessions": 75,
+   "requests": 75,
+   "disp": {
+    "completed": 75
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 5263614,
+   "tokens_out": 873665
+  },
+  "pub:P1|terra-6.1": {
+   "sessions": 75,
+   "requests": 75,
+   "disp": {
+    "completed": 75
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "invalid_artifact": 1
+   },
+   "tokens_in": 4065927,
+   "tokens_out": 1050441
+  },
+  "pub:P1|luna-6": {
+   "sessions": 75,
+   "requests": 75,
+   "disp": {
+    "completed": 75
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 5,
+   "no_artifact_why": {
+    "invalid_artifact": 5
+   },
+   "tokens_in": 4065927,
+   "tokens_out": 2809457
+  },
+  "pub:P1|sonnet-5.5": {
+   "sessions": 75,
+   "requests": 75,
+   "disp": {
+    "completed": 75
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "invalid_artifact": 2
+   },
+   "tokens_in": 5263614,
+   "tokens_out": 949424
+  },
+  "pub:P1|haiku-5.5": {
+   "sessions": 75,
+   "requests": 75,
+   "disp": {
+    "completed": 75
+   },
+   "restarted_sessions": 0,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "invalid_artifact": 2
+   },
+   "tokens_in": 5263614,
+   "tokens_out": 1121802
+  },
+  "pub:W2|astra-6": {
+   "sessions": 75,
+   "requests": 341,
+   "disp": {
+    "completed": 327,
+    "interrupted": 14
+   },
+   "restarted_sessions": 30,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 23369280,
+   "tokens_out": 7528257
+  },
+  "pub:W2|sol-6.1": {
+   "sessions": 75,
+   "requests": 362,
+   "disp": {
+    "completed": 340,
+    "api_error": 3,
+    "interrupted": 19
+   },
+   "restarted_sessions": 30,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 24375432,
+   "tokens_out": 6906001
+  },
+  "pub:W2|opus-5.5": {
+   "sessions": 75,
+   "requests": 338,
+   "disp": {
+    "completed": 332,
+    "api_error": 1,
+    "refused": 1,
+    "interrupted": 4
+   },
+   "restarted_sessions": 18,
+   "no_artifact": 1,
+   "no_artifact_why": {
+    "writer_refusal": 1
+   },
+   "tokens_in": 29845561,
+   "tokens_out": 3453374
+  },
+  "pub:W2|terra-6.1": {
+   "sessions": 75,
+   "requests": 345,
+   "disp": {
+    "completed": 339,
+    "interrupted": 6
+   },
+   "restarted_sessions": 18,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 23806070,
+   "tokens_out": 3816132
+  },
+  "pub:P2|astra-6": {
+   "sessions": 75,
+   "requests": 119,
+   "disp": {
+    "completed": 119
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 7898626,
+   "tokens_out": 2276236
+  },
+  "pub:P2|sol-6.1": {
+   "sessions": 75,
+   "requests": 166,
+   "disp": {
+    "completed": 160,
+    "api_error": 2,
+    "interrupted": 4
+   },
+   "restarted_sessions": 8,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 11491511,
+   "tokens_out": 2474905
+  },
+  "pub:P2|opus-5.5": {
+   "sessions": 75,
+   "requests": 236,
+   "disp": {
+    "completed": 236
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 21592737,
+   "tokens_out": 2226520
+  },
+  "pub:P2|terra-6.1": {
+   "sessions": 75,
+   "requests": 184,
+   "disp": {
+    "completed": 181,
+    "api_error": 3
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 13069253,
+   "tokens_out": 2093320
+  },
+  "pub:FA2|astra-6": {
+   "sessions": 75,
+   "requests": 223,
+   "disp": {
+    "completed": 217,
+    "interrupted": 6
+   },
+   "restarted_sessions": 6,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 16621992,
+   "tokens_out": 4559744
+  },
+  "pub:FA2|sol-6.1": {
+   "sessions": 75,
+   "requests": 251,
+   "disp": {
+    "completed": 245,
+    "interrupted": 6
+   },
+   "restarted_sessions": 6,
+   "no_artifact": 2,
+   "no_artifact_why": {
+    "invalid_artifact": 2
+   },
+   "tokens_in": 18701393,
+   "tokens_out": 4277879
+  },
+  "pub:FA2|opus-5.5": {
+   "sessions": 75,
+   "requests": 291,
+   "disp": {
+    "completed": 285,
+    "interrupted": 6
+   },
+   "restarted_sessions": 6,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 26484337,
+   "tokens_out": 2648009
+  },
+  "pub:FA2|terra-6.1": {
+   "sessions": 75,
+   "requests": 280,
+   "disp": {
+    "completed": 274,
+    "interrupted": 6
+   },
+   "restarted_sessions": 6,
+   "no_artifact": 0,
+   "no_artifact_why": {},
+   "tokens_in": 20207422,
+   "tokens_out": 3357214
+  }
+ },
+ "by_writer": {
+  "astra-6": {
+   "sessions": 977,
+   "requests": 1855,
+   "disp": {
+    "completed": 1792,
+    "api_error": 9,
+    "interrupted": 54
+   },
+   "restarted_sessions": 75,
+   "no_artifact": 11,
+   "no_artifact_why": {
+    "invalid_artifact": 11
+   },
+   "tokens_in": 90923826,
+   "tokens_out": 39705965
+  },
+  "sol-6.1": {
+   "sessions": 977,
+   "requests": 2121,
+   "disp": {
+    "completed": 2041,
+    "api_error": 11,
+    "interrupted": 69
+   },
+   "restarted_sessions": 87,
+   "no_artifact": 26,
+   "no_artifact_why": {
+    "invalid_artifact": 24,
+    "writer_error": 2
+   },
+   "tokens_in": 106506585,
+   "tokens_out": 38946553
+  },
+  "opus-5.5": {
+   "sessions": 977,
+   "requests": 2309,
+   "disp": {
+    "completed": 2231,
+    "refused": 29,
+    "api_error": 2,
+    "interrupted": 47
+   },
+   "restarted_sessions": 65,
+   "no_artifact": 33,
+   "no_artifact_why": {
+    "writer_refusal": 27,
+    "invalid_artifact": 5,
+    "writer_unknown": 1
+   },
+   "tokens_in": 146962796,
+   "tokens_out": 37700637
+  },
+  "terra-6.1": {
+   "sessions": 941,
+   "requests": 2176,
+   "disp": {
+    "completed": 2146,
+    "api_error": 15,
+    "interrupted": 15
+   },
+   "restarted_sessions": 41,
+   "no_artifact": 11,
+   "no_artifact_why": {
+    "invalid_artifact": 11
+   },
+   "tokens_in": 109286149,
+   "tokens_out": 26315236
+  },
+  "luna-6": {
+   "sessions": 476,
+   "requests": 835,
+   "disp": {
+    "completed": 831,
+    "interrupted": 4
+   },
+   "restarted_sessions": 4,
+   "no_artifact": 72,
+   "no_artifact_why": {
+    "invalid_artifact": 72
+   },
+   "tokens_in": 31353933,
+   "tokens_out": 20597383
+  },
+  "sonnet-5.5": {
+   "sessions": 476,
+   "requests": 816,
+   "disp": {
+    "completed": 803,
+    "interrupted": 13
+   },
+   "restarted_sessions": 13,
+   "no_artifact": 11,
+   "no_artifact_why": {
+    "invalid_artifact": 11
+   },
+   "tokens_in": 37608992,
+   "tokens_out": 12585849
+  },
+  "haiku-5.5": {
+   "sessions": 476,
+   "requests": 827,
+   "disp": {
+    "completed": 814,
+    "api_error": 1,
+    "interrupted": 12
+   },
+   "restarted_sessions": 12,
+   "no_artifact": 13,
+   "no_artifact_why": {
+    "invalid_artifact": 12,
+    "writer_unknown": 1
+   },
+   "tokens_in": 37722329,
+   "tokens_out": 11421630
+  },
+  "sol-5.6": {
+   "sessions": 300,
+   "requests": 614,
+   "disp": {
+    "completed": 612,
+    "truncated": 1,
+    "interrupted": 1
+   },
+   "restarted_sessions": 1,
+   "no_artifact": 14,
+   "no_artifact_why": {
+    "invalid_artifact": 13,
+    "writer_incomplete": 1
+   },
+   "tokens_in": 22444746,
+   "tokens_out": 12411643
+  },
+  "opus-5": {
+   "sessions": 300,
+   "requests": 632,
+   "disp": {
+    "completed": 612,
+    "api_error": 8,
+    "interrupted": 12
+   },
+   "restarted_sessions": 12,
+   "no_artifact": 13,
+   "no_artifact_why": {
+    "invalid_artifact": 9,
+    "writer_unknown": 4
+   },
+   "tokens_in": 26540098,
+   "tokens_out": 15562032
+  }
+ },
+ "total": {
+  "sessions": 5900,
+  "requests": 12185,
+  "disp": {
+   "completed": 11882,
+   "refused": 29,
+   "api_error": 46,
+   "truncated": 1,
+   "interrupted": 227
+  },
+  "restarted_sessions": 310,
+  "no_artifact": 204,
+  "no_artifact_why": {
+   "invalid_artifact": 168,
+   "writer_refusal": 27,
+   "writer_unknown": 6,
+   "writer_incomplete": 1,
+   "writer_error": 2
+  },
+  "tokens_in": 609349454,
+  "tokens_out": 215246928
+ },
+ "restarts": {
+  "restarted_final_sessions": 310,
+  "discarded_attempts": 329,
+  "after_api_failure_of_first_request": 25
+ },
+ "outcome_blindness_support_check": {
+  "pub:W2": {
+   "n": 63,
+   "mean_rerun_minus_original": -0.011043771043771041,
+   "rerun_better": 19,
+   "original_better": 17,
+   "tie": 27
+  },
+  "*": {
+   "n": 99,
+   "mean_rerun_minus_original": 0.002702785430058164,
+   "rerun_better": 36,
+   "original_better": 32,
+   "tie": 31
+  },
+  "priv:W2": {
+   "n": 23,
+   "mean_rerun_minus_original": -0.04159420289855071,
+   "rerun_better": 8,
+   "original_better": 13,
+   "tie": 2
+  },
+  "priv:P2": {
+   "n": 1,
+   "mean_rerun_minus_original": 0.0,
+   "rerun_better": 0,
+   "original_better": 0,
+   "tie": 1
+  },
+  "pub:P2": {
+   "n": 9,
+   "mean_rerun_minus_original": 0.06703703703703703,
+   "rerun_better": 6,
+   "original_better": 2,
+   "tie": 1
+  },
+  "priv:FA2": {
+   "n": 3,
+   "mean_rerun_minus_original": 0.43888888888888894,
+   "rerun_better": 3,
+   "original_better": 0,
+   "tie": 0
+  }
+ },
+ "scope_totals": {
+  "private fixed actor + P-react + ablations + public (tags rev2_private, rev2_c3, rev2_public)": {
+   "requests": 5293,
+   "tokens_in": 276791275,
+   "tokens_out": 94986277
+  },
+  "private main (rev2_private)": {
+   "requests": 2201,
+   "tokens_in": 69267533,
+   "tokens_out": 43554459
+  },
+  "free architecture (rev2_fa, rev2_fa_public)": {
+   "requests": 1806,
+   "tokens_in": 111441391,
+   "tokens_out": 30773800
+  },
+  "FA controls and weaker writers (rev2_fa_fixedgraph, rev2_fa_fixedops, rev2_fa_weak, rev2_private_weak, rev2_pbounded)": {
+   "requests": 4423,
+   "tokens_in": 187636217,
+   "tokens_out": 82331441
+  },
+  "FA controls (rev2_fa_fixedgraph, rev2_fa_fixedops)": {
+   "requests": 1448,
+   "tokens_in": 65252437,
+   "tokens_out": 27793198
+  },
+  "weaker writers (rev2_fa_weak, rev2_private_weak)": {
+   "requests": 2553,
+   "tokens_in": 108052745,
+   "tokens_out": 47808850
+  },
+  "RL->WSP repair (rev2_stage2_edit)": {
+   "requests": 115,
+   "tokens_in": 12117122,
+   "tokens_out": 1268732
+  },
+  "all in design": {
+   "requests": 11637,
+   "tokens_in": 587986005,
+   "tokens_out": 209360250
+  }
+ },
+ "sensitivity_headline": {
+  "priv:W2|astra-6": {
+   "arm": "W2 (fixed actor)",
+   "writer": "astra-6",
+   "sessions": 60,
+   "restarted": 10,
+   "families_with_restart": 10,
+   "headline": 0.5633712258662136,
+   "n_families": 20,
+   "excl_restarted": 0.5657326192718142,
+   "excl_n_families": 20,
+   "delta_excl": 0.002361393405600598
+  },
+  "priv:W2|sol-6.1": {
+   "arm": "W2 (fixed actor)",
+   "writer": "sol-6.1",
+   "sessions": 60,
+   "restarted": 11,
+   "families_with_restart": 11,
+   "headline": 0.43354794413057124,
+   "n_families": 20,
+   "excl_restarted": 0.4300527699309479,
+   "excl_n_families": 20,
+   "delta_excl": -0.003495174199623363
+  },
+  "priv:W2|opus-5.5": {
+   "arm": "W2 (fixed actor)",
+   "writer": "opus-5.5",
+   "sessions": 60,
+   "restarted": 17,
+   "families_with_restart": 17,
+   "headline": 0.3558222118873731,
+   "n_families": 20,
+   "excl_restarted": 0.351207218509332,
+   "excl_n_families": 20,
+   "delta_excl": -0.00461499337804111
+  },
+  "priv:W2|terra-6.1": {
+   "arm": "W2 (fixed actor)",
+   "writer": "terra-6.1",
+   "sessions": 60,
+   "restarted": 0,
+   "families_with_restart": 0,
+   "headline": 0.3347247963651953,
+   "n_families": 20,
+   "excl_restarted": 0.3347247963651953,
+   "excl_n_families": 20,
+   "delta_excl": 0.0
+  },
+  "priv:P2|astra-6": {
+   "arm": "P2",
+   "writer": "astra-6",
+   "sessions": 60,
+   "restarted": 6,
+   "families_with_restart": 6,
+   "headline": 0.9995,
+   "n_families": 20,
+   "excl_restarted": 0.9995,
+   "excl_n_families": 20,
+   "delta_excl": 0.0
+  },
+  "priv:P2|sol-6.1": {
+   "arm": "P2",
+   "writer": "sol-6.1",
+   "sessions": 60,
+   "restarted": 3,
+   "families_with_restart": 3,
+   "headline": 0.9955138888888889,
+   "n_families": 20,
+   "excl_restarted": 0.9955138888888889,
+   "excl_n_families": 20,
+   "delta_excl": 0.0
+  },
+  "priv:P2|opus-5.5": {
+   "arm": "P2",
+   "writer": "opus-5.5",
+   "sessions": 60,
+   "restarted": 7,
+   "families_with_restart": 7,
+   "headline": 0.9661932674199625,
+   "n_families": 20,
+   "excl_restarted": 0.9606029896421846,
+   "excl_n_families": 20,
+   "delta_excl": -0.0055902777777778745
+  },
+  "priv:P2|terra-6.1": {
+   "arm": "P2",
+   "writer": "terra-6.1",
+   "sessions": 60,
+   "restarted": 2,
+   "families_with_restart": 2,
+   "headline": 0.984712962962963,
+   "n_families": 20,
+   "excl_restarted": 0.9828796296296296,
+   "excl_n_families": 20,
+   "delta_excl": -0.0018333333333333535
+  },
+  "priv:FA2|astra-6": {
+   "arm": "FA W2",
+   "writer": "astra-6",
+   "sessions": 60,
+   "restarted": 3,
+   "families_with_restart": 3,
+   "headline": 0.9041296296296295,
+   "n_families": 20,
+   "excl_restarted": 0.9024907407407408,
+   "excl_n_families": 20,
+   "delta_excl": -0.0016388888888887454
+  },
+  "priv:FA2|sol-6.1": {
+   "arm": "FA W2",
+   "writer": "sol-6.1",
+   "sessions": 60,
+   "restarted": 4,
+   "families_with_restart": 3,
+   "headline": 0.840064588979223,
+   "n_families": 20,
+   "excl_restarted": 0.8369534778681121,
+   "excl_n_families": 20,
+   "delta_excl": -0.0031111111111108425
+  },
+  "priv:FA2|opus-5.5": {
+   "arm": "FA W2",
+   "writer": "opus-5.5",
+   "sessions": 60,
+   "restarted": 0,
+   "families_with_restart": 0,
+   "headline": 0.6849986507280327,
+   "n_families": 20,
+   "excl_restarted": 0.6849986507280327,
+   "excl_n_families": 20,
+   "delta_excl": 0.0
+  },
+  "priv:FA2|terra-6.1": {
+   "arm": "FA W2",
+   "writer": "terra-6.1",
+   "sessions": 60,
+   "restarted": 1,
+   "families_with_restart": 1,
+   "headline": 0.7423425925925926,
+   "n_families": 20,
+   "excl_restarted": 0.7433379629629631,
+   "excl_n_families": 20,
+   "delta_excl": 0.000995370370370452
+  }
+ }
+}

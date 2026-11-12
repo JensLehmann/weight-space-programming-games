@@ -1,0 +1,4275 @@
+{
+ "family": "official.tu93",
+ "tier": "public",
+ "game_id": "tu93",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 9,
+ "held_out_levels": [
+  2,
+  4,
+  6,
+  8
+ ],
+ "support_levels": [
+  0,
+  1,
+  3,
+  5,
+  7
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "2": 21,
+  "4": 21,
+  "6": 21,
+  "8": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 20,
+   "built": 20,
+   "tries": 24,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 2,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "wall_s": 17.3,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   }
+  },
+  "Q-off": {
+   "requested": 30,
+   "built": 30,
+   "tries": 51,
+   "dup": 15,
+   "left_level": 0,
+   "attempt_end": 4,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 1,
+   "wall_s": 28.9,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   }
+  },
+  "Q-lvl": {
+   "requested": 80,
+   "built": 80,
+   "tries": 257,
+   "dup": 117,
+   "left_level": 0,
+   "attempt_end": 46,
+   "no_moves": 0,
+   "uncertified": 5,
+   "dup_rejected": 9,
+   "wall_s": 160.2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 5
+   }
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "S-start",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "S-start",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "S-start",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.2
+  },
+  {
+   "qset": "S-start",
+   "level": 7,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.0
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 0.8
+  },
+  {
+   "qset": "S-dev",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 1.3
+  },
+  {
+   "qset": "S-dev",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 2.7
+  },
+  {
+   "qset": "S-dev",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 6,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 1,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 7.5
+  },
+  {
+   "qset": "S-dev",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 1,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 5.0
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 1.4
+  },
+  {
+   "qset": "Q-off",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 9,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 2.4
+  },
+  {
+   "qset": "Q-off",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 10,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 1,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 4.6
+  },
+  {
+   "qset": "Q-off",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 12,
+   "dup": 5,
+   "left_level": 0,
+   "attempt_end": 1,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 11.1
+  },
+  {
+   "qset": "Q-off",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 14,
+   "dup": 5,
+   "left_level": 0,
+   "attempt_end": 3,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 9.4
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 33,
+   "dup": 13,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 10.9
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 28,
+   "dup": 8,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 24.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.0
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 31,
+   "dup": 7,
+   "left_level": 0,
+   "attempt_end": 3,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 25.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 8,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 8,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 165,
+   "dup": 89,
+   "left_level": 0,
+   "attempt_end": 43,
+   "no_moves": 0,
+   "uncertified": 4,
+   "dup_rejected": 9,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 4
+   },
+   "wall_s": 99.4
+  }
+ ],
+ "construction_wall_s": 212.5,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "80e41888f9f7b1a0c03e02c0aff3814e0fd68eb5b35ef22bb3649c87fc60a23f",
+  "route_sha256": "5293363ac59588e22711e225bcf2c089f885a39813bacd10e9c7bae7a9b8aa56",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.tu93",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "2f6b4eac2da665055daa2dfb04770c261b376d18d7ebd9ca1e40ef88343287c3"
+}

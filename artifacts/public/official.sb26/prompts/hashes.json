@@ -1,0 +1,19 @@
+{
+ "game": "official.sb26",
+ "game_source_sha256": "754434b4125ae476f2dc3063c9b757c4bbba7a521d45789be635f1ad0fc766d8",
+ "section_sha256": "71c67ea5ec254d9799fb565132e63c60f9f092345a2944b0425ade7c01921bb1",
+ "prompts": {
+  "w": {
+   "sha256": "0dbb6aaf87730fdf5f98406db3fbc023aee7ed6f49fc66b6171da3cdd1392e7f",
+   "released_sha256": "01a2351a7c1e8bb44d877f23cc4c2f498ed4cbc50edbc4d94da808df29bc407f"
+  },
+  "p": {
+   "sha256": "5db18d36bc9711545accd63a21bf7b58ca4647d5ed6c8f27caa44c6297a5a103",
+   "released_sha256": "3e3370a86a4cc8cbcbedba8079eb3cffecfb40345d56be1f908de7f9c6ae946a"
+  },
+  "fa": {
+   "sha256": "39a17598547a0f5d5ad053aa228d318c9fb89277e603bd34a29af3c8b18836fd",
+   "released_sha256": "0f44150aaee4cd934dd005c7301631170e1b53211a9c57d30e78fd2c4a1a86ad"
+  }
+ }
+}

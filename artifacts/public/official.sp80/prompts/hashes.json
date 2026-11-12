@@ -1,0 +1,19 @@
+{
+ "game": "official.sp80",
+ "game_source_sha256": "c66c9e93f01cccb1eba403fd699d83a696ab60d2ca28b0bb1087c55be328e07e",
+ "section_sha256": "eac770422b4d3917d98950b6bfdfe5068c87d9c20b236edf33607d2f4865c1ff",
+ "prompts": {
+  "w": {
+   "sha256": "36ef2546ec723d45ac4f9a44437876d8f67cc8771e956d08c434a63e8f574f35",
+   "released_sha256": "5dfdf2c5ca9691cc88377fa9c35338f0ae7d0116399b12ff3e4ca0c427535710"
+  },
+  "p": {
+   "sha256": "090715a81ca4eb8c94848cee2641e5416f0a7ff23865e551a2f461e76ecbc227",
+   "released_sha256": "d337afb7dc94755de22067ea8c9c8acbe0bbfe7c2670b75027911eafc813b6e1"
+  },
+  "fa": {
+   "sha256": "ac2b64d725a633e2de102353fd039dba8e6186fa3f64055353907e4b40ff6a00",
+   "released_sha256": "13f5eef78833d571dfc6875efdcbac16d4a8d66eb104fdf3f97a202d539eb914"
+  }
+ }
+}

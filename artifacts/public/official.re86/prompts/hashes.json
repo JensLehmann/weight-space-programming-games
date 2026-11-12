@@ -1,0 +1,19 @@
+{
+ "game": "official.re86",
+ "game_source_sha256": "bb89c244ef40117ca629e4684d4b65f2dd1a9aa42f733380c424b3929104cb47",
+ "section_sha256": "53950a4aa8e12156d2b0a8c395a1fbc8666d67a84bbe4207f34bebe6d3a3dff1",
+ "prompts": {
+  "w": {
+   "sha256": "bdb52ffef154123ffea30bc1e6523868988577a984960109990caf58a2935999",
+   "released_sha256": "cbb46edd16455c5277124d3bf400a0fb0a912fa5fd80a87d6e2889e5586a9e98"
+  },
+  "p": {
+   "sha256": "e69cdd2a0bdde8d6687b988899da1ec2cdde0d1f7103a49d6168f1062484e87f",
+   "released_sha256": "6b733c7a12ca6b9b44ffa480f306668e56d192aed28e546f18b17acff3f7b097"
+  },
+  "fa": {
+   "sha256": "cbf79aa137804c5bffacd71641552f801b464ac86eb868f926e18f48ab07f172",
+   "released_sha256": "9cc2e5029b50c43e32f07c80d2150206480af2003d24d059d560b4ada5b7473d"
+  }
+ }
+}

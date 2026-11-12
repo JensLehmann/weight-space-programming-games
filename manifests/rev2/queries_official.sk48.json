@@ -1,0 +1,4062 @@
+{
+ "family": "official.sk48",
+ "tier": "public",
+ "game_id": "sk48",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 8,
+ "held_out_levels": [
+  1,
+  3,
+  5,
+  7
+ ],
+ "support_levels": [
+  0,
+  2,
+  4,
+  6
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21,
+  "7": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 16,
+   "built": 16,
+   "tries": 26,
+   "dup": 6,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 4,
+   "dup_rejected": 0,
+   "wall_s": 81.0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 4
+   }
+  },
+  "Q-off": {
+   "requested": 24,
+   "built": 24,
+   "tries": 45,
+   "dup": 19,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 2,
+   "dup_rejected": 0,
+   "wall_s": 121.2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 2
+   }
+  },
+  "Q-lvl": {
+   "requested": 80,
+   "built": 80,
+   "tries": 191,
+   "dup": 97,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 12,
+   "dup_rejected": 2,
+   "wall_s": 556.9,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 12
+   }
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.6
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.0
+  },
+  {
+   "qset": "S-start",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.5
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 6.1
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 6,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 16.4
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 6,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 16.1
+  },
+  {
+   "qset": "S-dev",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 9,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 4,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 4
+   },
+   "wall_s": 42.4
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 15,
+   "dup": 9,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 18.9
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 7,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 23.6
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 13,
+   "dup": 7,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 36.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 10,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 2,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 2
+   },
+   "wall_s": 42.5
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 60,
+   "dup": 40,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 130.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 41,
+   "dup": 21,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 117.9
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.4
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 36,
+   "dup": 16,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 115.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 54,
+   "dup": 20,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 12,
+   "dup_rejected": 2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 12
+   },
+   "wall_s": 193.0
+  }
+ ],
+ "construction_wall_s": 767.7,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "b6ca05eed7ba81fe5a6a26c58410fa7daddf2039d3d1c42f600aaf9f6f0111e3",
+  "route_sha256": "4ce75f113066ec5c8a192d3192ed9ff91e2592ab73d359cda97315d7f7685956",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      4,
+      31
+     ],
+     [
+      "ACTION6",
+      61,
+      7
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 82,
+    "cap": 256,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 82,
+    "cap": 256,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 81,
+    "cap": 253,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 82,
+    "cap": 256,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 78,
+    "cap": 244,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 81,
+    "cap": 253,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 81,
+    "cap": 253,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 39,
+    "cap": 127,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      38
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 77,
+    "cap": 241,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 75,
+    "cap": 235,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      36
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      29
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 75,
+    "cap": 235,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      59,
+      38
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 75,
+    "cap": 235,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 74,
+    "cap": 232,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      32
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      31
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      7,
+      30
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      59,
+      38
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      32
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      34
+     ],
+     [
+      "ACTION6",
+      29,
+      8
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      29
+     ],
+     [
+      "ACTION6",
+      31,
+      10
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      34
+     ],
+     [
+      "ACTION6",
+      29,
+      8
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      59,
+      38
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      34
+     ],
+     [
+      "ACTION6",
+      34,
+      8
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      58,
+      38
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      57,
+      16
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      56,
+      38
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      5,
+      34
+     ],
+     [
+      "ACTION6",
+      25,
+      9
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      34
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      7,
+      30
+     ],
+     [
+      "ACTION6",
+      16,
+      8
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sk48",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "fc2b1bdf84f688d2dab1b66c378c2f1f23f2478b92ba213dc5eba116fbda6346"
+}

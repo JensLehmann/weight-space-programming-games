@@ -1,0 +1,2772 @@
+{
+ "family": "official.r11l",
+ "tier": "public",
+ "game_id": "r11l",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 6,
+ "held_out_levels": [
+  1,
+  3,
+  5
+ ],
+ "support_levels": [
+  0,
+  2,
+  4
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 12,
+   "built": 12,
+   "tries": 15,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 2,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "wall_s": 24.0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   }
+  },
+  "Q-off": {
+   "requested": 18,
+   "built": 18,
+   "tries": 20,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 36.2
+  },
+  "Q-lvl": {
+   "requested": 60,
+   "built": 60,
+   "tries": 130,
+   "dup": 8,
+   "left_level": 0,
+   "attempt_end": 61,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "wall_s": 218.3,
+   "uncertified_reasons": {
+    "no_direct_plan:UNKNOWN": 1
+   }
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 4.0
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 2,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 11.8
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 8.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 8,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 10.4
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 13.8
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 12.0
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 74,
+   "dup": 7,
+   "left_level": 0,
+   "attempt_end": 47,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 102.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 36,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 14,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:UNKNOWN": 1
+   },
+   "wall_s": 70.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 20,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 46.0
+  }
+ ],
+ "construction_wall_s": 280.5,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "95d58ebaa8c758e905821bb4f5881d47166c8f5aec158bfea7585902c01040d0",
+  "route_sha256": "f0133f9e7c487a8c482f66a982c9d277775bddf057975e3d72553f56f4d1cd40",
+  "lives_exprs": [
+   "-e.yledlprvvkb"
+  ],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      6
+     ],
+     [
+      "ACTION6",
+      1,
+      26
+     ],
+     [
+      "ACTION6",
+      1,
+      18
+     ],
+     [
+      "ACTION6",
+      60,
+      51
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      8
+     ],
+     [
+      "ACTION6",
+      1,
+      44
+     ],
+     [
+      "ACTION6",
+      42,
+      12
+     ],
+     [
+      "ACTION6",
+      2,
+      47
+     ],
+     [
+      "ACTION6",
+      48,
+      58
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      60
+     ],
+     [
+      "ACTION6",
+      62,
+      51
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      56
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      11
+     ],
+     [
+      "ACTION6",
+      5,
+      1
+     ],
+     [
+      "ACTION6",
+      5,
+      60
+     ],
+     [
+      "ACTION6",
+      45,
+      7
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      39,
+      48
+     ],
+     [
+      "ACTION6",
+      0,
+      8
+     ],
+     [
+      "ACTION6",
+      41,
+      3
+     ],
+     [
+      "ACTION6",
+      17,
+      6
+     ],
+     [
+      "ACTION6",
+      56,
+      5
+     ],
+     [
+      "ACTION6",
+      4,
+      58
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      5
+     ],
+     [
+      "ACTION6",
+      47,
+      42
+     ],
+     [
+      "ACTION6",
+      39,
+      50
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      11
+     ],
+     [
+      "ACTION6",
+      46,
+      37
+     ],
+     [
+      "ACTION6",
+      19,
+      3
+     ],
+     [
+      "ACTION6",
+      60,
+      13
+     ],
+     [
+      "ACTION6",
+      63,
+      20
+     ],
+     [
+      "ACTION6",
+      1,
+      9
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      56
+     ],
+     [
+      "ACTION6",
+      36,
+      24
+     ],
+     [
+      "ACTION6",
+      55,
+      34
+     ],
+     [
+      "ACTION6",
+      47,
+      2
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      51
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      25
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      32
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      61
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      60
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      61
+     ],
+     [
+      "ACTION6",
+      4,
+      61
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      13
+     ],
+     [
+      "ACTION6",
+      50,
+      6
+     ],
+     [
+      "ACTION6",
+      51,
+      4
+     ],
+     [
+      "ACTION6",
+      0,
+      62
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      56
+     ],
+     [
+      "ACTION6",
+      48,
+      62
+     ],
+     [
+      "ACTION6",
+      62,
+      62
+     ],
+     [
+      "ACTION6",
+      20,
+      55
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      55
+     ],
+     [
+      "ACTION6",
+      3,
+      0
+     ],
+     [
+      "ACTION6",
+      2,
+      58
+     ],
+     [
+      "ACTION6",
+      59,
+      59
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      14,
+      25
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      0
+     ],
+     [
+      "ACTION6",
+      24,
+      24
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      23
+     ],
+     [
+      "ACTION6",
+      32,
+      54
+     ],
+     [
+      "ACTION6",
+      0,
+      1
+     ],
+     [
+      "ACTION6",
+      58,
+      60
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      38
+     ],
+     [
+      "ACTION6",
+      26,
+      39
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      2
+     ],
+     [
+      "ACTION6",
+      20,
+      10
+     ],
+     [
+      "ACTION6",
+      8,
+      50
+     ],
+     [
+      "ACTION6",
+      61,
+      0
+     ],
+     [
+      "ACTION6",
+      61,
+      63
+     ],
+     [
+      "ACTION6",
+      22,
+      8
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      57
+     ],
+     [
+      "ACTION6",
+      30,
+      58
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      16
+     ],
+     [
+      "ACTION6",
+      54,
+      10
+     ],
+     [
+      "ACTION6",
+      5,
+      58
+     ],
+     [
+      "ACTION6",
+      3,
+      58
+     ],
+     [
+      "ACTION6",
+      57,
+      7
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      10
+     ],
+     [
+      "ACTION6",
+      48,
+      1
+     ],
+     [
+      "ACTION6",
+      48,
+      0
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      0
+     ],
+     [
+      "ACTION6",
+      59,
+      9
+     ],
+     [
+      "ACTION6",
+      50,
+      12
+     ],
+     [
+      "ACTION6",
+      3,
+      4
+     ],
+     [
+      "ACTION6",
+      24,
+      32
+     ],
+     [
+      "ACTION6",
+      26,
+      19
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      53
+     ],
+     [
+      "ACTION6",
+      29,
+      24
+     ],
+     [
+      "ACTION6",
+      22,
+      31
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      61
+     ],
+     [
+      "ACTION6",
+      49,
+      6
+     ],
+     [
+      "ACTION6",
+      23,
+      26
+     ],
+     [
+      "ACTION6",
+      26,
+      22
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      5
+     ],
+     [
+      "ACTION6",
+      34,
+      44
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      59
+     ],
+     [
+      "ACTION6",
+      56,
+      11
+     ],
+     [
+      "ACTION6",
+      60,
+      59
+     ],
+     [
+      "ACTION6",
+      11,
+      36
+     ],
+     [
+      "ACTION6",
+      22,
+      27
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      32
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      40
+     ],
+     [
+      "ACTION6",
+      32,
+      33
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      15
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      6
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      28
+     ],
+     [
+      "ACTION6",
+      61,
+      39
+     ],
+     [
+      "ACTION6",
+      32,
+      33
+     ],
+     [
+      "ACTION6",
+      52,
+      53
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      56
+     ],
+     [
+      "ACTION6",
+      11,
+      53
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      47
+     ],
+     [
+      "ACTION6",
+      44,
+      0
+     ],
+     [
+      "ACTION6",
+      1,
+      57
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      36
+     ],
+     [
+      "ACTION6",
+      2,
+      1
+     ],
+     [
+      "ACTION6",
+      35,
+      62
+     ],
+     [
+      "ACTION6",
+      32,
+      25
+     ],
+     [
+      "ACTION6",
+      35,
+      0
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      52
+     ],
+     [
+      "ACTION6",
+      7,
+      17
+     ],
+     [
+      "ACTION6",
+      3,
+      63
+     ],
+     [
+      "ACTION6",
+      21,
+      61
+     ],
+     [
+      "ACTION6",
+      3,
+      58
+     ],
+     [
+      "ACTION6",
+      6,
+      34
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      54
+     ],
+     [
+      "ACTION6",
+      32,
+      27
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      0
+     ],
+     [
+      "ACTION6",
+      6,
+      40
+     ],
+     [
+      "ACTION6",
+      61,
+      45
+     ],
+     [
+      "ACTION6",
+      30,
+      25
+     ],
+     [
+      "ACTION6",
+      18,
+      23
+     ],
+     [
+      "ACTION6",
+      62,
+      58
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      18
+     ],
+     [
+      "ACTION6",
+      10,
+      52
+     ],
+     [
+      "ACTION6",
+      33,
+      2
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      12
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      56
+     ],
+     [
+      "ACTION6",
+      35,
+      26
+     ],
+     [
+      "ACTION6",
+      61,
+      38
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      26
+     ],
+     [
+      "ACTION6",
+      35,
+      25
+     ],
+     [
+      "ACTION6",
+      46,
+      9
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      1
+     ],
+     [
+      "ACTION6",
+      63,
+      8
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      27
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      30
+     ],
+     [
+      "ACTION6",
+      26,
+      37
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      58
+     ],
+     [
+      "ACTION6",
+      18,
+      15
+     ],
+     [
+      "ACTION6",
+      31,
+      12
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      28
+     ],
+     [
+      "ACTION6",
+      32,
+      13
+     ],
+     [
+      "ACTION6",
+      34,
+      2
+     ],
+     [
+      "ACTION6",
+      36,
+      1
+     ],
+     [
+      "ACTION6",
+      0,
+      62
+     ],
+     [
+      "ACTION6",
+      22,
+      39
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      37
+     ],
+     [
+      "ACTION6",
+      27,
+      30
+     ],
+     [
+      "ACTION6",
+      31,
+      2
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      63
+     ],
+     [
+      "ACTION6",
+      56,
+      23
+     ],
+     [
+      "ACTION6",
+      15,
+      50
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      2
+     ],
+     [
+      "ACTION6",
+      42,
+      1
+     ],
+     [
+      "ACTION6",
+      31,
+      60
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      1
+     ],
+     [
+      "ACTION6",
+      57,
+      9
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      59
+     ],
+     [
+      "ACTION6",
+      1,
+      16
+     ],
+     [
+      "ACTION6",
+      59,
+      50
+     ],
+     [
+      "ACTION6",
+      22,
+      56
+     ],
+     [
+      "ACTION6",
+      43,
+      33
+     ],
+     [
+      "ACTION6",
+      29,
+      1
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      17
+     ],
+     [
+      "ACTION6",
+      61,
+      60
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      58
+     ],
+     [
+      "ACTION6",
+      1,
+      59
+     ],
+     [
+      "ACTION6",
+      6,
+      0
+     ],
+     [
+      "ACTION6",
+      18,
+      20
+     ],
+     [
+      "ACTION6",
+      36,
+      58
+     ],
+     [
+      "ACTION6",
+      30,
+      58
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      25
+     ],
+     [
+      "ACTION6",
+      12,
+      10
+     ],
+     [
+      "ACTION6",
+      33,
+      58
+     ],
+     [
+      "ACTION6",
+      41,
+      58
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      5
+     ],
+     [
+      "ACTION6",
+      1,
+      24
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      61
+     ],
+     [
+      "ACTION6",
+      6,
+      62
+     ],
+     [
+      "ACTION6",
+      37,
+      56
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      17
+     ],
+     [
+      "ACTION6",
+      0,
+      31
+     ],
+     [
+      "ACTION6",
+      59,
+      0
+     ],
+     [
+      "ACTION6",
+      55,
+      0
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      20
+     ],
+     [
+      "ACTION6",
+      59,
+      38
+     ],
+     [
+      "ACTION6",
+      43,
+      0
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      0
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      0
+     ],
+     [
+      "ACTION6",
+      41,
+      1
+     ],
+     [
+      "ACTION6",
+      42,
+      2
+     ],
+     [
+      "ACTION6",
+      5,
+      2
+     ],
+     [
+      "ACTION6",
+      34,
+      0
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      57
+     ],
+     [
+      "ACTION6",
+      53,
+      25
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      27
+     ],
+     [
+      "ACTION6",
+      28,
+      45
+     ],
+     [
+      "ACTION6",
+      47,
+      15
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      24
+     ],
+     [
+      "ACTION6",
+      57,
+      39
+     ],
+     [
+      "ACTION6",
+      51,
+      47
+     ],
+     [
+      "ACTION6",
+      28,
+      45
+     ],
+     [
+      "ACTION6",
+      1,
+      13
+     ],
+     [
+      "ACTION6",
+      27,
+      0
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      35
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      60
+     ],
+     [
+      "ACTION6",
+      0,
+      27
+     ],
+     [
+      "ACTION6",
+      44,
+      48
+     ],
+     [
+      "ACTION6",
+      32,
+      0
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      45
+     ],
+     [
+      "ACTION6",
+      18,
+      32
+     ],
+     [
+      "ACTION6",
+      33,
+      63
+     ],
+     [
+      "ACTION6",
+      34,
+      9
+     ],
+     [
+      "ACTION6",
+      2,
+      2
+     ],
+     [
+      "ACTION6",
+      52,
+      49
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      44
+     ],
+     [
+      "ACTION6",
+      23,
+      23
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      38
+     ],
+     [
+      "ACTION6",
+      3,
+      9
+     ],
+     [
+      "ACTION6",
+      46,
+      16
+     ],
+     [
+      "ACTION6",
+      6,
+      5
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      19
+     ],
+     [
+      "ACTION6",
+      1,
+      30
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      47
+     ],
+     [
+      "ACTION6",
+      1,
+      29
+     ],
+     [
+      "ACTION6",
+      46,
+      19
+     ],
+     [
+      "ACTION6",
+      5,
+      43
+     ],
+     [
+      "ACTION6",
+      2,
+      25
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      56
+     ],
+     [
+      "ACTION6",
+      63,
+      1
+     ],
+     [
+      "ACTION6",
+      13,
+      61
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      45
+     ],
+     [
+      "ACTION6",
+      5,
+      48
+     ],
+     [
+      "ACTION6",
+      25,
+      0
+     ],
+     [
+      "ACTION6",
+      63,
+      48
+     ],
+     [
+      "ACTION6",
+      0,
+      56
+     ],
+     [
+      "ACTION6",
+      25,
+      2
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      4
+     ],
+     [
+      "ACTION6",
+      2,
+      55
+     ],
+     [
+      "ACTION6",
+      0,
+      4
+     ],
+     [
+      "ACTION6",
+      4,
+      0
+     ],
+     [
+      "ACTION6",
+      58,
+      50
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      24
+     ],
+     [
+      "ACTION6",
+      48,
+      41
+     ],
+     [
+      "ACTION6",
+      29,
+      62
+     ],
+     [
+      "ACTION6",
+      46,
+      46
+     ],
+     [
+      "ACTION6",
+      46,
+      44
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      32
+     ],
+     [
+      "ACTION6",
+      6,
+      11
+     ],
+     [
+      "ACTION6",
+      58,
+      14
+     ],
+     [
+      "ACTION6",
+      13,
+      1
+     ],
+     [
+      "ACTION6",
+      2,
+      4
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      15,
+      5
+     ],
+     [
+      "ACTION6",
+      9,
+      0
+     ],
+     [
+      "ACTION6",
+      25,
+      56
+     ],
+     [
+      "ACTION6",
+      45,
+      8
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      57
+     ],
+     [
+      "ACTION6",
+      30,
+      63
+     ],
+     [
+      "ACTION6",
+      39,
+      1
+     ],
+     [
+      "ACTION6",
+      26,
+      17
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      2
+     ],
+     [
+      "ACTION6",
+      26,
+      48
+     ],
+     [
+      "ACTION6",
+      9,
+      4
+     ],
+     [
+      "ACTION6",
+      16,
+      39
+     ],
+     [
+      "ACTION6",
+      39,
+      53
+     ],
+     [
+      "ACTION6",
+      56,
+      4
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      54
+     ],
+     [
+      "ACTION6",
+      36,
+      46
+     ],
+     [
+      "ACTION6",
+      0,
+      16
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      38,
+      14
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      0
+     ],
+     [
+      "ACTION6",
+      16,
+      18
+     ],
+     [
+      "ACTION6",
+      8,
+      33
+     ],
+     [
+      "ACTION6",
+      55,
+      50
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      56
+     ],
+     [
+      "ACTION6",
+      5,
+      29
+     ],
+     [
+      "ACTION6",
+      18,
+      34
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      28
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      58
+     ],
+     [
+      "ACTION6",
+      4,
+      32
+     ],
+     [
+      "ACTION6",
+      62,
+      1
+     ],
+     [
+      "ACTION6",
+      40,
+      2
+     ],
+     [
+      "ACTION6",
+      63,
+      32
+     ],
+     [
+      "ACTION6",
+      13,
+      13
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.r11l",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      58
+     ],
+     [
+      "ACTION6",
+      14,
+      18
+     ],
+     [
+      "ACTION6",
+      12,
+      47
+     ],
+     [
+      "ACTION6",
+      44,
+      54
+     ],
+     [
+      "ACTION6",
+      40,
+      13
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "aa3a60977bd93b05b3fcc5165d418c2c86ef52db9ba812a7ebabf52c321d5612"
+}

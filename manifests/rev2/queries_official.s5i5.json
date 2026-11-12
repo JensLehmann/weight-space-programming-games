@@ -1,0 +1,3773 @@
+{
+ "family": "official.s5i5",
+ "tier": "public",
+ "game_id": "s5i5",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 8,
+ "held_out_levels": [
+  1,
+  3,
+  5,
+  7
+ ],
+ "support_levels": [
+  0,
+  2,
+  4,
+  6
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21,
+  "7": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 16,
+   "built": 16,
+   "tries": 17,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "wall_s": 40.2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   }
+  },
+  "Q-off": {
+   "requested": 24,
+   "built": 24,
+   "tries": 29,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 4,
+   "dup_rejected": 0,
+   "wall_s": 70.2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 4
+   }
+  },
+  "Q-lvl": {
+   "requested": 80,
+   "built": 80,
+   "tries": 149,
+   "dup": 23,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 37,
+   "dup_rejected": 9,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 37
+   },
+   "wall_s": 534.7
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.9
+  },
+  {
+   "qset": "S-start",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.2
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 5.6
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 9.7
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 8.3
+  },
+  {
+   "qset": "S-dev",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 16.6
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 7,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 6.3
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 10.0
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 11.1
+  },
+  {
+   "qset": "Q-off",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 10,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 4,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 4
+   },
+   "wall_s": 42.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 41,
+   "dup": 11,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 6,
+   "dup_rejected": 4,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 6
+   },
+   "wall_s": 95.6
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 45,
+   "dup": 8,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 15,
+   "dup_rejected": 2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 15
+   },
+   "wall_s": 169.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 26,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 5,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 5
+   },
+   "wall_s": 93.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 37,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 11,
+   "dup_rejected": 3,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 11
+   },
+   "wall_s": 176.1
+  }
+ ],
+ "construction_wall_s": 652.2,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "341f85bac1fb5ca7a3315a367405c3c993a57ce4dd0ff01cc8aaa72bf6c6ed34",
+  "route_sha256": "444b99e3fea1bd4632c28fb5eee2e949e79d7d1540eaa1062768188c163e6591",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      35
+     ],
+     [
+      "ACTION6",
+      46,
+      24
+     ],
+     [
+      "ACTION6",
+      63,
+      19
+     ],
+     [
+      "ACTION6",
+      9,
+      30
+     ],
+     [
+      "ACTION6",
+      41,
+      23
+     ],
+     [
+      "ACTION6",
+      9,
+      29
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      47
+     ],
+     [
+      "ACTION6",
+      23,
+      44
+     ],
+     [
+      "ACTION6",
+      63,
+      27
+     ],
+     [
+      "ACTION6",
+      24,
+      46
+     ],
+     [
+      "ACTION6",
+      45,
+      27
+     ],
+     [
+      "ACTION6",
+      63,
+      20
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      54
+     ],
+     [
+      "ACTION6",
+      35,
+      26
+     ],
+     [
+      "ACTION6",
+      21,
+      38
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      40
+     ],
+     [
+      "ACTION6",
+      46,
+      21
+     ],
+     [
+      "ACTION6",
+      21,
+      48
+     ],
+     [
+      "ACTION6",
+      22,
+      45
+     ],
+     [
+      "ACTION6",
+      18,
+      38
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      47
+     ],
+     [
+      "ACTION6",
+      16,
+      27
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      56
+     ],
+     [
+      "ACTION6",
+      22,
+      43
+     ],
+     [
+      "ACTION6",
+      49,
+      50
+     ],
+     [
+      "ACTION6",
+      54,
+      57
+     ],
+     [
+      "ACTION6",
+      17,
+      33
+     ],
+     [
+      "ACTION6",
+      56,
+      38
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      35
+     ],
+     [
+      "ACTION6",
+      54,
+      32
+     ],
+     [
+      "ACTION6",
+      50,
+      17
+     ],
+     [
+      "ACTION6",
+      58,
+      14
+     ],
+     [
+      "ACTION6",
+      60,
+      30
+     ],
+     [
+      "ACTION6",
+      57,
+      8
+     ]
+    ],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      50
+     ],
+     [
+      "ACTION6",
+      56,
+      29
+     ],
+     [
+      "ACTION6",
+      48,
+      46
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      4
+     ],
+     [
+      "ACTION6",
+      10,
+      15
+     ],
+     [
+      "ACTION6",
+      55,
+      42
+     ],
+     [
+      "ACTION6",
+      25,
+      34
+     ],
+     [
+      "ACTION6",
+      59,
+      58
+     ],
+     [
+      "ACTION6",
+      37,
+      21
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      29
+     ],
+     [
+      "ACTION6",
+      24,
+      24
+     ],
+     [
+      "ACTION6",
+      55,
+      11
+     ],
+     [
+      "ACTION6",
+      58,
+      36
+     ],
+     [
+      "ACTION6",
+      58,
+      25
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      6
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      51
+     ],
+     [
+      "ACTION6",
+      55,
+      37
+     ],
+     [
+      "ACTION6",
+      59,
+      44
+     ],
+     [
+      "ACTION6",
+      63,
+      40
+     ],
+     [
+      "ACTION6",
+      59,
+      7
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      39
+     ],
+     [
+      "ACTION6",
+      29,
+      39
+     ],
+     [
+      "ACTION6",
+      53,
+      56
+     ],
+     [
+      "ACTION6",
+      52,
+      26
+     ]
+    ],
+    "ref_len": 57,
+    "cap": 181,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      2
+     ],
+     [
+      "ACTION6",
+      10,
+      40
+     ],
+     [
+      "ACTION6",
+      49,
+      27
+     ],
+     [
+      "ACTION6",
+      60,
+      8
+     ],
+     [
+      "ACTION6",
+      51,
+      32
+     ],
+     [
+      "ACTION6",
+      52,
+      60
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      17
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      34
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      45
+     ],
+     [
+      "ACTION6",
+      58,
+      39
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      40
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      43
+     ],
+     [
+      "ACTION6",
+      63,
+      18
+     ],
+     [
+      "ACTION6",
+      58,
+      38
+     ],
+     [
+      "ACTION6",
+      58,
+      49
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      29
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      30
+     ],
+     [
+      "ACTION6",
+      35,
+      43
+     ],
+     [
+      "ACTION6",
+      57,
+      45
+     ],
+     [
+      "ACTION6",
+      60,
+      34
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      28
+     ],
+     [
+      "ACTION6",
+      59,
+      22
+     ],
+     [
+      "ACTION6",
+      56,
+      11
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      60
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      26
+     ],
+     [
+      "ACTION6",
+      11,
+      42
+     ],
+     [
+      "ACTION6",
+      58,
+      18
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      42
+     ],
+     [
+      "ACTION6",
+      54,
+      27
+     ],
+     [
+      "ACTION6",
+      54,
+      19
+     ],
+     [
+      "ACTION6",
+      57,
+      18
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      28
+     ],
+     [
+      "ACTION6",
+      11,
+      37
+     ],
+     [
+      "ACTION6",
+      55,
+      41
+     ],
+     [
+      "ACTION6",
+      58,
+      48
+     ],
+     [
+      "ACTION6",
+      57,
+      12
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      11
+     ],
+     [
+      "ACTION6",
+      63,
+      40
+     ],
+     [
+      "ACTION6",
+      60,
+      44
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      10
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      26
+     ],
+     [
+      "ACTION6",
+      63,
+      11
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      45
+     ],
+     [
+      "ACTION6",
+      10,
+      41
+     ],
+     [
+      "ACTION6",
+      57,
+      25
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      56
+     ],
+     [
+      "ACTION6",
+      63,
+      63
+     ],
+     [
+      "ACTION6",
+      56,
+      25
+     ],
+     [
+      "ACTION6",
+      63,
+      58
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      27
+     ],
+     [
+      "ACTION6",
+      59,
+      28
+     ],
+     [
+      "ACTION6",
+      60,
+      41
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      15
+     ],
+     [
+      "ACTION6",
+      57,
+      38
+     ],
+     [
+      "ACTION6",
+      58,
+      27
+     ],
+     [
+      "ACTION6",
+      55,
+      41
+     ],
+     [
+      "ACTION6",
+      54,
+      22
+     ],
+     [
+      "ACTION6",
+      55,
+      40
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      59
+     ],
+     [
+      "ACTION6",
+      28,
+      44
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      60
+     ],
+     [
+      "ACTION6",
+      59,
+      37
+     ],
+     [
+      "ACTION6",
+      56,
+      40
+     ],
+     [
+      "ACTION6",
+      11,
+      37
+     ],
+     [
+      "ACTION6",
+      55,
+      34
+     ],
+     [
+      "ACTION6",
+      9,
+      40
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      27
+     ],
+     [
+      "ACTION6",
+      33,
+      13
+     ],
+     [
+      "ACTION6",
+      59,
+      41
+     ],
+     [
+      "ACTION6",
+      21,
+      35
+     ],
+     [
+      "ACTION6",
+      59,
+      26
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      39,
+      20
+     ],
+     [
+      "ACTION6",
+      58,
+      6
+     ],
+     [
+      "ACTION6",
+      19,
+      47
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      45
+     ],
+     [
+      "ACTION6",
+      55,
+      11
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      26
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      3
+     ],
+     [
+      "ACTION6",
+      51,
+      37
+     ],
+     [
+      "ACTION6",
+      51,
+      7
+     ],
+     [
+      "ACTION6",
+      19,
+      10
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      55
+     ],
+     [
+      "ACTION6",
+      46,
+      11
+     ],
+     [
+      "ACTION6",
+      45,
+      9
+     ],
+     [
+      "ACTION6",
+      63,
+      60
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      14
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      37
+     ],
+     [
+      "ACTION6",
+      47,
+      58
+     ],
+     [
+      "ACTION6",
+      25,
+      20
+     ],
+     [
+      "ACTION6",
+      44,
+      30
+     ],
+     [
+      "ACTION6",
+      51,
+      48
+     ],
+     [
+      "ACTION6",
+      16,
+      11
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      29
+     ],
+     [
+      "ACTION6",
+      51,
+      11
+     ],
+     [
+      "ACTION6",
+      42,
+      31
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      10
+     ],
+     [
+      "ACTION6",
+      55,
+      10
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      8
+     ],
+     [
+      "ACTION6",
+      58,
+      6
+     ],
+     [
+      "ACTION6",
+      17,
+      9
+     ],
+     [
+      "ACTION6",
+      58,
+      8
+     ],
+     [
+      "ACTION6",
+      56,
+      60
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      11
+     ],
+     [
+      "ACTION6",
+      53,
+      34
+     ],
+     [
+      "ACTION6",
+      24,
+      21
+     ],
+     [
+      "ACTION6",
+      52,
+      34
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      49
+     ],
+     [
+      "ACTION6",
+      58,
+      14
+     ],
+     [
+      "ACTION6",
+      59,
+      11
+     ],
+     [
+      "ACTION6",
+      45,
+      6
+     ],
+     [
+      "ACTION6",
+      49,
+      14
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      46
+     ],
+     [
+      "ACTION6",
+      57,
+      56
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      13
+     ],
+     [
+      "ACTION6",
+      57,
+      7
+     ],
+     [
+      "ACTION6",
+      54,
+      56
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      56
+     ],
+     [
+      "ACTION6",
+      57,
+      5
+     ],
+     [
+      "ACTION6",
+      60,
+      13
+     ],
+     [
+      "ACTION6",
+      49,
+      19
+     ],
+     [
+      "ACTION6",
+      56,
+      4
+     ],
+     [
+      "ACTION6",
+      43,
+      30
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      18
+     ],
+     [
+      "ACTION6",
+      56,
+      32
+     ],
+     [
+      "ACTION6",
+      51,
+      49
+     ],
+     [
+      "ACTION6",
+      63,
+      54
+     ],
+     [
+      "ACTION6",
+      50,
+      13
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      57
+     ],
+     [
+      "ACTION6",
+      58,
+      10
+     ],
+     [
+      "ACTION6",
+      45,
+      52
+     ],
+     [
+      "ACTION6",
+      63,
+      25
+     ],
+     [
+      "ACTION6",
+      59,
+      8
+     ],
+     [
+      "ACTION6",
+      52,
+      20
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      19
+     ],
+     [
+      "ACTION6",
+      55,
+      34
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      7
+     ],
+     [
+      "ACTION6",
+      56,
+      12
+     ],
+     [
+      "ACTION6",
+      57,
+      35
+     ],
+     [
+      "ACTION6",
+      60,
+      12
+     ],
+     [
+      "ACTION6",
+      59,
+      13
+     ],
+     [
+      "ACTION6",
+      56,
+      54
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      20
+     ],
+     [
+      "ACTION6",
+      58,
+      7
+     ],
+     [
+      "ACTION6",
+      47,
+      19
+     ],
+     [
+      "ACTION6",
+      54,
+      25
+     ],
+     [
+      "ACTION6",
+      57,
+      35
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      9
+     ],
+     [
+      "ACTION6",
+      34,
+      57
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      14
+     ],
+     [
+      "ACTION6",
+      57,
+      18
+     ],
+     [
+      "ACTION6",
+      45,
+      14
+     ],
+     [
+      "ACTION6",
+      40,
+      58
+     ],
+     [
+      "ACTION6",
+      60,
+      30
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      12
+     ],
+     [
+      "ACTION6",
+      36,
+      4
+     ],
+     [
+      "ACTION6",
+      57,
+      9
+     ],
+     [
+      "ACTION6",
+      59,
+      48
+     ],
+     [
+      "ACTION6",
+      50,
+      15
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      32
+     ],
+     [
+      "ACTION6",
+      60,
+      45
+     ],
+     [
+      "ACTION6",
+      55,
+      16
+     ],
+     [
+      "ACTION6",
+      4,
+      42
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      15
+     ],
+     [
+      "ACTION6",
+      33,
+      59
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      48,
+      33
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      55
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      32
+     ],
+     [
+      "ACTION6",
+      29,
+      31
+     ],
+     [
+      "ACTION6",
+      47,
+      52
+     ],
+     [
+      "ACTION6",
+      63,
+      44
+     ],
+     [
+      "ACTION6",
+      55,
+      34
+     ],
+     [
+      "ACTION6",
+      63,
+      45
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      37
+     ],
+     [
+      "ACTION6",
+      29,
+      22
+     ],
+     [
+      "ACTION6",
+      50,
+      53
+     ],
+     [
+      "ACTION6",
+      28,
+      53
+     ],
+     [
+      "ACTION6",
+      50,
+      15
+     ],
+     [
+      "ACTION6",
+      27,
+      19
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      15
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      17
+     ],
+     [
+      "ACTION6",
+      58,
+      32
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      29
+     ],
+     [
+      "ACTION6",
+      40,
+      58
+     ],
+     [
+      "ACTION6",
+      51,
+      51
+     ],
+     [
+      "ACTION6",
+      13,
+      34
+     ],
+     [
+      "ACTION6",
+      51,
+      50
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      44
+     ],
+     [
+      "ACTION6",
+      46,
+      51
+     ],
+     [
+      "ACTION6",
+      51,
+      33
+     ],
+     [
+      "ACTION6",
+      60,
+      18
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      47
+     ],
+     [
+      "ACTION6",
+      59,
+      31
+     ],
+     [
+      "ACTION6",
+      58,
+      56
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      48,
+      33
+     ],
+     [
+      "ACTION6",
+      50,
+      53
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      47
+     ],
+     [
+      "ACTION6",
+      27,
+      44
+     ],
+     [
+      "ACTION6",
+      49,
+      34
+     ],
+     [
+      "ACTION6",
+      8,
+      40
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      48,
+      47
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      17
+     ],
+     [
+      "ACTION6",
+      54,
+      53
+     ],
+     [
+      "ACTION6",
+      51,
+      15
+     ],
+     [
+      "ACTION6",
+      27,
+      54
+     ],
+     [
+      "ACTION6",
+      56,
+      48
+     ],
+     [
+      "ACTION6",
+      39,
+      56
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      37
+     ],
+     [
+      "ACTION6",
+      27,
+      47
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      17
+     ],
+     [
+      "ACTION6",
+      28,
+      38
+     ],
+     [
+      "ACTION6",
+      57,
+      25
+     ],
+     [
+      "ACTION6",
+      28,
+      38
+     ],
+     [
+      "ACTION6",
+      45,
+      34
+     ],
+     [
+      "ACTION6",
+      31,
+      4
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      30
+     ],
+     [
+      "ACTION6",
+      19,
+      46
+     ],
+     [
+      "ACTION6",
+      10,
+      45
+     ],
+     [
+      "ACTION6",
+      55,
+      29
+     ],
+     [
+      "ACTION6",
+      33,
+      52
+     ],
+     [
+      "ACTION6",
+      54,
+      6
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      60
+     ],
+     [
+      "ACTION6",
+      23,
+      55
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      19,
+      46
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      48
+     ],
+     [
+      "ACTION6",
+      18,
+      6
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      9
+     ],
+     [
+      "ACTION6",
+      15,
+      26
+     ],
+     [
+      "ACTION6",
+      57,
+      13
+     ],
+     [
+      "ACTION6",
+      4,
+      61
+     ],
+     [
+      "ACTION6",
+      6,
+      42
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      44
+     ],
+     [
+      "ACTION6",
+      14,
+      17
+     ],
+     [
+      "ACTION6",
+      54,
+      8
+     ],
+     [
+      "ACTION6",
+      19,
+      51
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      8
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      61
+     ],
+     [
+      "ACTION6",
+      33,
+      48
+     ],
+     [
+      "ACTION6",
+      11,
+      44
+     ],
+     [
+      "ACTION6",
+      5,
+      47
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      47
+     ],
+     [
+      "ACTION6",
+      13,
+      61
+     ],
+     [
+      "ACTION6",
+      21,
+      46
+     ],
+     [
+      "ACTION6",
+      10,
+      52
+     ],
+     [
+      "ACTION6",
+      24,
+      57
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      47
+     ],
+     [
+      "ACTION6",
+      42,
+      44
+     ],
+     [
+      "ACTION6",
+      58,
+      26
+     ],
+     [
+      "ACTION6",
+      4,
+      43
+     ],
+     [
+      "ACTION6",
+      41,
+      46
+     ],
+     [
+      "ACTION6",
+      10,
+      47
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      58
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      9
+     ],
+     [
+      "ACTION6",
+      40,
+      41
+     ],
+     [
+      "ACTION6",
+      57,
+      20
+     ],
+     [
+      "ACTION6",
+      57,
+      27
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      57
+     ],
+     [
+      "ACTION6",
+      25,
+      40
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      43
+     ],
+     [
+      "ACTION6",
+      63,
+      52
+     ],
+     [
+      "ACTION6",
+      3,
+      58
+     ],
+     [
+      "ACTION6",
+      13,
+      44
+     ],
+     [
+      "ACTION6",
+      54,
+      11
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      47
+     ],
+     [
+      "ACTION6",
+      13,
+      61
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      16
+     ],
+     [
+      "ACTION6",
+      16,
+      26
+     ],
+     [
+      "ACTION6",
+      18,
+      50
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      50
+     ],
+     [
+      "ACTION6",
+      2,
+      38
+     ],
+     [
+      "ACTION6",
+      20,
+      47
+     ],
+     [
+      "ACTION6",
+      3,
+      45
+     ],
+     [
+      "ACTION6",
+      23,
+      40
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      43
+     ],
+     [
+      "ACTION6",
+      22,
+      7
+     ],
+     [
+      "ACTION6",
+      9,
+      57
+     ],
+     [
+      "ACTION6",
+      57,
+      7
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      23
+     ],
+     [
+      "ACTION6",
+      4,
+      51
+     ],
+     [
+      "ACTION6",
+      2,
+      46
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      12
+     ],
+     [
+      "ACTION6",
+      13,
+      47
+     ],
+     [
+      "ACTION6",
+      54,
+      29
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      39,
+      22
+     ],
+     [
+      "ACTION6",
+      63,
+      41
+     ],
+     [
+      "ACTION6",
+      63,
+      5
+     ],
+     [
+      "ACTION6",
+      35,
+      25
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      11
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      31
+     ],
+     [
+      "ACTION6",
+      10,
+      29
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      48
+     ],
+     [
+      "ACTION6",
+      19,
+      42
+     ],
+     [
+      "ACTION6",
+      63,
+      22
+     ],
+     [
+      "ACTION6",
+      37,
+      22
+     ],
+     [
+      "ACTION6",
+      46,
+      23
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      37
+     ],
+     [
+      "ACTION6",
+      63,
+      46
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      31
+     ],
+     [
+      "ACTION6",
+      43,
+      25
+     ],
+     [
+      "ACTION6",
+      35,
+      24
+     ],
+     [
+      "ACTION6",
+      22,
+      44
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      55
+     ],
+     [
+      "ACTION6",
+      54,
+      17
+     ]
+    ],
+    "ref_len": 39,
+    "cap": 127,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      35
+     ],
+     [
+      "ACTION6",
+      50,
+      35
+     ],
+     [
+      "ACTION6",
+      49,
+      7
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      54
+     ],
+     [
+      "ACTION6",
+      3,
+      50
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      49,
+      12
+     ],
+     [
+      "ACTION6",
+      34,
+      29
+     ],
+     [
+      "ACTION6",
+      45,
+      37
+     ],
+     [
+      "ACTION6",
+      46,
+      19
+     ],
+     [
+      "ACTION6",
+      48,
+      47
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      35
+     ],
+     [
+      "ACTION6",
+      55,
+      10
+     ],
+     [
+      "ACTION6",
+      46,
+      14
+     ],
+     [
+      "ACTION6",
+      46,
+      27
+     ]
+    ],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      11
+     ],
+     [
+      "ACTION6",
+      48,
+      14
+     ],
+     [
+      "ACTION6",
+      51,
+      36
+     ],
+     [
+      "ACTION6",
+      59,
+      19
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      52
+     ],
+     [
+      "ACTION6",
+      56,
+      40
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      58
+     ],
+     [
+      "ACTION6",
+      25,
+      41
+     ],
+     [
+      "ACTION6",
+      59,
+      29
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      57,
+      42
+     ],
+     [
+      "ACTION6",
+      38,
+      36
+     ],
+     [
+      "ACTION6",
+      58,
+      34
+     ],
+     [
+      "ACTION6",
+      37,
+      30
+     ],
+     [
+      "ACTION6",
+      55,
+      51
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      14
+     ],
+     [
+      "ACTION6",
+      38,
+      37
+     ],
+     [
+      "ACTION6",
+      55,
+      6
+     ],
+     [
+      "ACTION6",
+      30,
+      55
+     ],
+     [
+      "ACTION6",
+      58,
+      10
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      53
+     ],
+     [
+      "ACTION6",
+      32,
+      56
+     ],
+     [
+      "ACTION6",
+      55,
+      12
+     ],
+     [
+      "ACTION6",
+      59,
+      39
+     ],
+     [
+      "ACTION6",
+      57,
+      29
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      26
+     ],
+     [
+      "ACTION6",
+      23,
+      15
+     ],
+     [
+      "ACTION6",
+      57,
+      49
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      58,
+      16
+     ],
+     [
+      "ACTION6",
+      6,
+      24
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      38
+     ],
+     [
+      "ACTION6",
+      45,
+      41
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      30
+     ],
+     [
+      "ACTION6",
+      47,
+      55
+     ],
+     [
+      "ACTION6",
+      49,
+      16
+     ]
+    ],
+    "ref_len": 57,
+    "cap": 181,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      33
+     ],
+     [
+      "ACTION6",
+      45,
+      44
+     ],
+     [
+      "ACTION6",
+      56,
+      6
+     ],
+     [
+      "ACTION6",
+      60,
+      9
+     ],
+     [
+      "ACTION6",
+      47,
+      45
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      52
+     ],
+     [
+      "ACTION6",
+      13,
+      49
+     ],
+     [
+      "ACTION6",
+      52,
+      58
+     ],
+     [
+      "ACTION6",
+      60,
+      12
+     ],
+     [
+      "ACTION6",
+      17,
+      13
+     ],
+     [
+      "ACTION6",
+      58,
+      6
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.s5i5",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      52
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "5533af47ffa93c6dfbddc0a5c5fd09f2a65684bf5a39fac8d94937ede1147c17"
+}

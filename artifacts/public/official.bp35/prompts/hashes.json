@@ -1,0 +1,19 @@
+{
+ "game": "official.bp35",
+ "game_source_sha256": "bf5c3be5a017c08d36a6b5e9e1b098fee087996f1adcb7f663faa237648e8e86",
+ "section_sha256": "dff6bdd08d503edda77bf7ce835bcd227df048b74037c18dca910912df402187",
+ "prompts": {
+  "w": {
+   "sha256": "70b2ae8f40dc2ffb14f02161f5f37acd8495ba714e7e6261636685b7045cc2ae",
+   "released_sha256": "e8b07cf0b9ac43119346b039cc863df3c01775ac89df67295d6f4097173b7ec2"
+  },
+  "p": {
+   "sha256": "11866bdc344de0a7f9d3d440e12673485527220124ec041465b91d63831b3f92",
+   "released_sha256": "25996ee900979720f527ac29e29d4e1df1472b46aa3bd786413ca7451afe0b8a"
+  },
+  "fa": {
+   "sha256": "347f92d1adadecd81f59698c73510fa66acfb82d6657b109bf51b087fe580921",
+   "released_sha256": "382e35a798faf79a1a47155d2d320966a523d170627966f0d6c328ea29cab2f3"
+  }
+ }
+}

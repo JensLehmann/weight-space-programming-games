@@ -1,0 +1,3963 @@
+{
+ "steps": [
+  0,
+  8192,
+  16384,
+  40960,
+  81920,
+  163840,
+  303104
+ ],
+ "table": {
+  "standard|astra-6": {
+   "families": [
+    "crg",
+    "esm",
+    "lys",
+    "mds",
+    "ruz",
+    "ztl"
+   ],
+   "curve": [
+    0.612,
+    0.016,
+    0.015,
+    0.011,
+    0.011,
+    0.011,
+    0.011
+   ]
+  },
+  "robust|astra-6": {
+   "families": [
+    "crg",
+    "esm",
+    "lys",
+    "mds",
+    "ruz",
+    "ztl"
+   ],
+   "curve": [
+    0.624,
+    0.071,
+    0.025,
+    0.004,
+    0.003,
+    0.007,
+    0.004
+   ]
+  },
+  "standard|sol-6.1": {
+   "families": [
+    "crg",
+    "esm",
+    "lys",
+    "mds",
+    "ztl"
+   ],
+   "curve": [
+    0.594,
+    0.014,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01
+   ]
+  },
+  "robust|sol-6.1": {
+   "families": [
+    "crg",
+    "esm",
+    "lys",
+    "mds",
+    "ztl"
+   ],
+   "curve": [
+    0.442,
+    0.05,
+    0.049,
+    0.041,
+    0.029,
+    0.029,
+    0.031
+   ]
+  },
+  "standard|opus-5.5": {
+   "families": [
+    "crg",
+    "esm",
+    "mds",
+    "ztl"
+   ],
+   "curve": [
+    0.476,
+    0.025,
+    0.025,
+    0.033,
+    0.031,
+    0.027,
+    0.02
+   ]
+  },
+  "robust|opus-5.5": {
+   "families": [
+    "crg",
+    "esm",
+    "mds",
+    "ztl"
+   ],
+   "curve": [
+    0.329,
+    0.086,
+    0.087,
+    0.081,
+    0.092,
+    0.097,
+    0.099
+   ]
+  }
+ },
+ "runs": [
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.25833333333333336,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.26666666666666666,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.25416666666666665,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.25833333333333336,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.26666666666666666,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.25416666666666665,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.029166666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.029166666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0375,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.029166666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.029166666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0375,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.10416666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.09583333333333334,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.08333333333333333,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.10416666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.09583333333333334,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.08333333333333333,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "crg",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.86,
+    0.74,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.4633333333333333,
+   "diverged": true,
+   "theta0_final": 0.06666666666666667
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.86,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.47,
+   "diverged": true,
+   "theta0_final": 0.14
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.86,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.47,
+   "diverged": true,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.86,
+    0.85,
+    0.6866666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.4633333333333333,
+   "diverged": true,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.86,
+    0.64,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.47,
+   "diverged": true,
+   "theta0_final": 0.14666666666666667
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.86,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.47,
+   "diverged": true,
+   "theta0_final": 0.13
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.43333333333333335,
+    0.27666666666666667,
+    0.2833333333333333,
+    0.37666666666666665,
+    0.2833333333333333,
+    0.36666666666666664,
+    0.38
+   ],
+   "sampled_init": 0.02,
+   "diverged": false,
+   "theta0_final": 0.06666666666666667
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.43333333333333335,
+    0.3466666666666667,
+    0.35,
+    0.3333333333333333,
+    0.4533333333333333,
+    0.36666666666666664,
+    0.4066666666666667
+   ],
+   "sampled_init": 0.023333333333333334,
+   "diverged": false,
+   "theta0_final": 0.14
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.43333333333333335,
+    0.31,
+    0.36,
+    0.25,
+    0.34,
+    0.39,
+    0.37
+   ],
+   "sampled_init": 0.023333333333333334,
+   "diverged": false,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.43333333333333335,
+    0.32666666666666666,
+    0.31666666666666665,
+    0.21666666666666667,
+    0.28,
+    0.30333333333333334,
+    0.32
+   ],
+   "sampled_init": 0.02,
+   "diverged": false,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.43333333333333335,
+    0.37,
+    0.36666666666666664,
+    0.28,
+    0.32666666666666666,
+    0.4166666666666667,
+    0.43333333333333335
+   ],
+   "sampled_init": 0.023333333333333334,
+   "diverged": false,
+   "theta0_final": 0.14666666666666667
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.43333333333333335,
+    0.3233333333333333,
+    0.30666666666666664,
+    0.42,
+    0.4666666666666667,
+    0.45,
+    0.43333333333333335
+   ],
+   "sampled_init": 0.023333333333333334,
+   "diverged": false,
+   "theta0_final": 0.13
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.72,
+    0.15,
+    0.16333333333333333,
+    0.18,
+    0.03,
+    0.09333333333333334,
+    0.13666666666666666
+   ],
+   "sampled_init": 0.02,
+   "diverged": false,
+   "theta0_final": 0.06666666666666667
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.72,
+    0.19,
+    0.18333333333333332,
+    0.17333333333333334,
+    0.11,
+    0.07,
+    0.12
+   ],
+   "sampled_init": 0.02,
+   "diverged": false,
+   "theta0_final": 0.14
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.72,
+    0.17333333333333334,
+    0.14333333333333334,
+    0.12666666666666668,
+    0.14333333333333334,
+    0.11666666666666667,
+    0.07666666666666666
+   ],
+   "sampled_init": 0.023333333333333334,
+   "diverged": false,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.72,
+    0.27,
+    0.21666666666666667,
+    0.18,
+    0.08666666666666667,
+    0.08666666666666667,
+    0.04666666666666667
+   ],
+   "sampled_init": 0.02,
+   "diverged": false,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.72,
+    0.18,
+    0.26,
+    0.2,
+    0.17666666666666667,
+    0.16333333333333333,
+    0.15
+   ],
+   "sampled_init": 0.02,
+   "diverged": false,
+   "theta0_final": 0.14666666666666667
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.72,
+    0.27,
+    0.25666666666666665,
+    0.22,
+    0.24666666666666667,
+    0.14666666666666667,
+    0.16
+   ],
+   "sampled_init": 0.023333333333333334,
+   "diverged": false,
+   "theta0_final": 0.13
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.8833333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.5166666666666667,
+   "diverged": true,
+   "theta0_final": 0.06666666666666667
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.8833333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.5466666666666666,
+   "diverged": true,
+   "theta0_final": 0.14
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.8833333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.51,
+   "diverged": true,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.8833333333333333,
+    0.18,
+    0.16,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.5166666666666667,
+   "diverged": true,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.8833333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.5466666666666666,
+   "diverged": true,
+   "theta0_final": 0.14666666666666667
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.8833333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.51,
+   "diverged": true,
+   "theta0_final": 0.13
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.9033333333333333,
+    0.06666666666666667,
+    0.02,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.8366666666666667,
+   "diverged": false,
+   "theta0_final": 0.06666666666666667
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.9033333333333333,
+    0.0033333333333333335,
+    0.0,
+    0.0,
+    0.023333333333333334,
+    0.02666666666666667,
+    0.06666666666666667
+   ],
+   "sampled_init": 0.8366666666666667,
+   "diverged": false,
+   "theta0_final": 0.14
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.9033333333333333,
+    0.04,
+    0.05,
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.8666666666666667,
+   "diverged": false,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.9033333333333333,
+    0.056666666666666664,
+    0.043333333333333335,
+    0.12666666666666668,
+    0.10333333333333333,
+    0.16333333333333333,
+    0.06333333333333334
+   ],
+   "sampled_init": 0.8366666666666667,
+   "diverged": false,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.9033333333333333,
+    0.06666666666666667,
+    0.11,
+    0.24,
+    0.21,
+    0.08,
+    0.0
+   ],
+   "sampled_init": 0.8366666666666667,
+   "diverged": false,
+   "theta0_final": 0.14666666666666667
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.9033333333333333,
+    0.0,
+    0.02666666666666667,
+    0.04,
+    0.04,
+    0.02,
+    0.0
+   ],
+   "sampled_init": 0.8666666666666667,
+   "diverged": false,
+   "theta0_final": 0.13
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.5333333333333333,
+   "diverged": true,
+   "theta0_final": 0.06666666666666667
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.5266666666666666,
+   "diverged": true,
+   "theta0_final": 0.14
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.53,
+   "diverged": true,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.5333333333333333,
+   "diverged": true,
+   "theta0_final": 0.1
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.5266666666666666,
+   "diverged": true,
+   "theta0_final": 0.14666666666666667
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "esm",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.53,
+   "diverged": true,
+   "theta0_final": 0.13
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.9833333333333333,
+    0.005555555555555556,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.019444444444444445,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.9833333333333333,
+    0.0,
+    0.05,
+    0.03333333333333333,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.025,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.9833333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.016666666666666666,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.9833333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.019444444444444445,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.9833333333333333,
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.025,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.9833333333333333,
+    0.05,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.016666666666666666,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.4888888888888889,
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.4888888888888889,
+    0.0,
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.4888888888888889,
+    0.0,
+    0.016666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.4888888888888889,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.4888888888888889,
+    0.03333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.4888888888888889,
+    0.03333333333333333,
+    0.03333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.825,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.8277777777777777,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.825,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.8416666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.825,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.8361111111111111,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.825,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.8277777777777777,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.825,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.8416666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.825,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.8361111111111111,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889
+   ],
+   "sampled_init": 0.9888888888888889,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889
+   ],
+   "sampled_init": 0.9861111111111112,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889
+   ],
+   "sampled_init": 0.9888888888888889,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889
+   ],
+   "sampled_init": 0.9888888888888889,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889
+   ],
+   "sampled_init": 0.9861111111111112,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889,
+    0.9888888888888889
+   ],
+   "sampled_init": 0.9888888888888889,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.9694444444444444,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.9861111111111112,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.9694444444444444,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.9694444444444444,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.9694444444444444,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.9777777777777777,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.9694444444444444,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.9861111111111112,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.9694444444444444,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.9694444444444444,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "lys",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.9694444444444444,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.9777777777777777,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0033333333333333335,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0033333333333333335,
+    0.0033333333333333335,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.02,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.013333333333333334,
+   "diverged": true,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.02,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.006666666666666667,
+   "diverged": true,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.02,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.013333333333333334,
+   "diverged": true,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.02,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.013333333333333334,
+   "diverged": true,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.02,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.006666666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.02,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.013333333333333334,
+   "diverged": true,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "mds",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.9,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0125,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.9,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.004166666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.9,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0125,
+   "diverged": false,
+   "theta0_final": 0.0125
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.9,
+    0.008333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.004166666666666667,
+    0.0
+   ],
+   "sampled_init": 0.0125,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.9,
+    0.025,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.004166666666666667,
+   "diverged": false,
+   "theta0_final": 0.008333333333333333
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.9,
+    0.0,
+    0.0,
+    0.0,
+    0.004166666666666667,
+    0.004166666666666667,
+    0.004166666666666667
+   ],
+   "sampled_init": 0.0125,
+   "diverged": false,
+   "theta0_final": 0.008333333333333333
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.008333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.058333333333333334,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.008333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.05416666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.008333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.07083333333333333,
+   "diverged": false,
+   "theta0_final": 0.0125
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.008333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.058333333333333334,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.008333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.05416666666666667,
+   "diverged": false,
+   "theta0_final": 0.008333333333333333
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.008333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.07083333333333333,
+   "diverged": false,
+   "theta0_final": 0.008333333333333333
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.9291666666666667,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.03333333333333333,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.9291666666666667,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.029166666666666667,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.9291666666666667,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.025,
+   "diverged": false,
+   "theta0_final": 0.0125
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.9291666666666667,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.03333333333333333,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.9291666666666667,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.029166666666666667,
+   "diverged": false,
+   "theta0_final": 0.008333333333333333
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.9291666666666667,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.025,
+   "diverged": false,
+   "theta0_final": 0.008333333333333333
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.0125,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0125,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.0125,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.016666666666666666,
+   "diverged": true,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ruz",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.0125,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.016666666666666666,
+   "diverged": false,
+   "theta0_final": 0.0125
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.0125,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.0125,
+   "diverged": false,
+   "theta0_final": 0.0
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.0125,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.016666666666666666,
+   "diverged": true,
+   "theta0_final": 0.008333333333333333
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ruz",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.0125,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.016666666666666666,
+   "diverged": false,
+   "theta0_final": 0.008333333333333333
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.009523809523809525,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.13333333333333333,
+    0.01904761904761905
+   ],
+   "sampled_init": 0.13333333333333333,
+   "diverged": false,
+   "theta0_final": 0.01904761904761905
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.02857142857142857,
+    0.047619047619047616,
+    0.03333333333333333,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.0
+   ],
+   "sampled_init": 0.14285714285714285,
+   "diverged": false,
+   "theta0_final": 0.02857142857142857
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.06190476190476191,
+    0.08095238095238096,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.06666666666666667,
+    0.01904761904761905
+   ],
+   "sampled_init": 0.11428571428571428,
+   "diverged": false,
+   "theta0_final": 0.05238095238095238
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.03333333333333333,
+    0.014285714285714285,
+    0.009523809523809525,
+    0.014285714285714285,
+    0.004761904761904762,
+    0.04285714285714286
+   ],
+   "sampled_init": 0.13333333333333333,
+   "diverged": false,
+   "theta0_final": 0.03333333333333333
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.05238095238095238,
+    0.004761904761904762,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.004761904761904762,
+    0.0
+   ],
+   "sampled_init": 0.14285714285714285,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "robust",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.04285714285714286,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.0,
+    0.04285714285714286
+   ],
+   "sampled_init": 0.11428571428571428,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    0.8809523809523809,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.009523809523809525,
+    0.0,
+    0.004761904761904762,
+    0.0
+   ],
+   "sampled_init": 0.638095238095238,
+   "diverged": false,
+   "theta0_final": 0.01904761904761905
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    0.8809523809523809,
+    0.01904761904761905,
+    0.014285714285714285,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.6190476190476191,
+   "diverged": false,
+   "theta0_final": 0.02857142857142857
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    0.8809523809523809,
+    0.01904761904761905,
+    0.014285714285714285,
+    0.023809523809523808,
+    0.004761904761904762,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.638095238095238,
+   "diverged": false,
+   "theta0_final": 0.05238095238095238
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    0.8809523809523809,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.638095238095238,
+   "diverged": false,
+   "theta0_final": 0.03333333333333333
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    0.8809523809523809,
+    0.009523809523809525,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.014285714285714285,
+    0.009523809523809525
+   ],
+   "sampled_init": 0.6190476190476191,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "robust",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    0.8809523809523809,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.014285714285714285
+   ],
+   "sampled_init": 0.638095238095238,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.023809523809523808,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.15714285714285714,
+    0.01904761904761905
+   ],
+   "sampled_init": 0.26666666666666666,
+   "diverged": false,
+   "theta0_final": 0.01904761904761905
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.1,
+    0.09047619047619047,
+    0.06666666666666667,
+    0.004761904761904762,
+    0.009523809523809525,
+    0.1380952380952381
+   ],
+   "sampled_init": 0.2904761904761905,
+   "diverged": false,
+   "theta0_final": 0.02857142857142857
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.009523809523809525,
+    0.004761904761904762,
+    0.004761904761904762,
+    0.014285714285714285,
+    0.009523809523809525,
+    0.01904761904761905
+   ],
+   "sampled_init": 0.29523809523809524,
+   "diverged": false,
+   "theta0_final": 0.05238095238095238
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.26666666666666666,
+   "diverged": false,
+   "theta0_final": 0.03333333333333333
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.014285714285714285,
+    0.0,
+    0.0,
+    0.03333333333333333
+   ],
+   "sampled_init": 0.2904761904761905,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "robust",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.009523809523809525,
+    0.004761904761904762,
+    0.03333333333333333
+   ],
+   "sampled_init": 0.29523809523809524,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.9809523809523809,
+   "diverged": true,
+   "theta0_final": 0.01904761904761905
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905
+   ],
+   "sampled_init": 0.9904761904761905,
+   "diverged": false,
+   "theta0_final": 0.02857142857142857
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381
+   ],
+   "sampled_init": 0.9952380952380953,
+   "diverged": false,
+   "theta0_final": 0.05238095238095238
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 0.9809523809523809,
+   "diverged": true,
+   "theta0_final": 0.03333333333333333
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381
+   ],
+   "sampled_init": 0.9904761904761905,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "standard",
+   "writer": "astra-6",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.12380952380952381
+   ],
+   "sampled_init": 0.9952380952380953,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 1.0,
+   "diverged": true,
+   "theta0_final": 0.01904761904761905
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524
+   ],
+   "sampled_init": 0.9952380952380953,
+   "diverged": false,
+   "theta0_final": 0.02857142857142857
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524
+   ],
+   "sampled_init": 1.0,
+   "diverged": false,
+   "theta0_final": 0.05238095238095238
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905
+   ],
+   "sampled_init": 1.0,
+   "diverged": false,
+   "theta0_final": 0.03333333333333333
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905
+   ],
+   "sampled_init": 0.9952380952380953,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "standard",
+   "writer": "opus-5.5",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905
+   ],
+   "sampled_init": 1.0,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905
+   ],
+   "sampled_init": 1.0,
+   "diverged": false,
+   "theta0_final": 0.01904761904761905
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905
+   ],
+   "sampled_init": 1.0,
+   "diverged": false,
+   "theta0_final": 0.02857142857142857
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "shaped",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905,
+    0.01904761904761905
+   ],
+   "sampled_init": 1.0,
+   "diverged": false,
+   "theta0_final": 0.05238095238095238
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 0,
+   "curve": [
+    1.0,
+    0.1523809523809524,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "sampled_init": 1.0,
+   "diverged": true,
+   "theta0_final": 0.03333333333333333
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 1,
+   "curve": [
+    1.0,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524,
+    0.1523809523809524
+   ],
+   "sampled_init": 1.0,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  },
+  {
+   "kind": "standard",
+   "writer": "sol-6.1",
+   "family": "ztl",
+   "reward": "sparse",
+   "seed": 2,
+   "curve": [
+    1.0,
+    0.06666666666666667,
+    0.08571428571428572,
+    0.09523809523809523,
+    0.09523809523809523,
+    0.09523809523809523,
+    0.09523809523809523
+   ],
+   "sampled_init": 1.0,
+   "diverged": false,
+   "theta0_final": 0.004761904761904762
+  }
+ ],
+ "beats_init_and_theta0": {
+  "robust|astra-6": [
+   0,
+   36
+  ],
+  "robust|opus-5.5": [
+   0,
+   30
+  ],
+  "robust|sol-6.1": [
+   0,
+   30
+  ],
+  "standard|astra-6": [
+   0,
+   36
+  ],
+  "standard|opus-5.5": [
+   0,
+   30
+  ],
+  "standard|sol-6.1": [
+   0,
+   36
+  ]
+ },
+ "diverged": {
+  "robust|astra-6": [
+   6,
+   36
+  ],
+  "robust|opus-5.5": [
+   0,
+   30
+  ],
+  "robust|sol-6.1": [
+   0,
+   30
+  ],
+  "standard|astra-6": [
+   13,
+   36
+  ],
+  "standard|opus-5.5": [
+   1,
+   30
+  ],
+  "standard|sol-6.1": [
+   9,
+   36
+  ]
+ },
+ "greedy_vs_sampled_init": {
+  "robust|astra-6": [
+   0.624,
+   0.148
+  ],
+  "robust|opus-5.5": [
+   0.265,
+   0.143
+  ],
+  "robust|sol-6.1": [
+   0.442,
+   0.061
+  ],
+  "standard|astra-6": [
+   0.612,
+   0.403
+  ],
+  "standard|opus-5.5": [
+   0.578,
+   0.585
+  ],
+  "standard|sol-6.1": [
+   0.497,
+   0.421
+  ]
+ }
+}

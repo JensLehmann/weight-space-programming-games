@@ -1,0 +1,3110 @@
+{
+ "family": "official.sp80",
+ "tier": "public",
+ "game_id": "sp80",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 6,
+ "held_out_levels": [
+  1,
+  3,
+  5
+ ],
+ "support_levels": [
+  0,
+  2,
+  4
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 12,
+   "built": 12,
+   "tries": 12,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 17.1
+  },
+  "Q-off": {
+   "requested": 18,
+   "built": 18,
+   "tries": 33,
+   "dup": 15,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 38.9
+  },
+  "Q-lvl": {
+   "requested": 60,
+   "built": 60,
+   "tries": 98,
+   "dup": 38,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 164.8
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.1
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.6
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 3.2
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 6.2
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 7.7
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 19,
+   "dup": 13,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 11.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 8,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 13.8
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 13.9
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 50,
+   "dup": 30,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 67.4
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 24,
+   "dup": 4,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 41.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 24,
+   "dup": 4,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 56.3
+  }
+ ],
+ "construction_wall_s": 223.0,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "2306d62311a3cc027250217d86cb4e012898edc7647a7c291ade23f36c9b9715",
+  "route_sha256": "34ceee28f793bcc14904b590a230af5ce9c9fce582b42540262e038809893670",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      17
+     ],
+     [
+      "ACTION6",
+      58,
+      46
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      16
+     ],
+     [
+      "ACTION6",
+      56,
+      40
+     ],
+     [
+      "ACTION6",
+      63,
+      57
+     ],
+     [
+      "ACTION6",
+      0,
+      7
+     ],
+     [
+      "ACTION6",
+      57,
+      47
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      17
+     ],
+     [
+      "ACTION6",
+      16,
+      27
+     ],
+     [
+      "ACTION6",
+      6,
+      38
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      63,
+      53
+     ],
+     [
+      "ACTION6",
+      14,
+      15
+     ],
+     [
+      "ACTION6",
+      61,
+      32
+     ],
+     [
+      "ACTION6",
+      0,
+      59
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      33
+     ],
+     [
+      "ACTION6",
+      28,
+      57
+     ],
+     [
+      "ACTION6",
+      4,
+      48
+     ],
+     [
+      "ACTION6",
+      63,
+      33
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      7,
+      15
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      60
+     ],
+     [
+      "ACTION6",
+      21,
+      10
+     ],
+     [
+      "ACTION6",
+      6,
+      56
+     ],
+     [
+      "ACTION6",
+      0,
+      56
+     ],
+     [
+      "ACTION6",
+      41,
+      57
+     ],
+     [
+      "ACTION6",
+      35,
+      18
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      39
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      0
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      6
+     ],
+     [
+      "ACTION6",
+      21,
+      14
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      45
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      11
+     ],
+     [
+      "ACTION6",
+      58,
+      2
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      62
+     ],
+     [
+      "ACTION6",
+      20,
+      34
+     ],
+     [
+      "ACTION6",
+      10,
+      23
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      2
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      22
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      0
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      44,
+      4
+     ],
+     [
+      "ACTION6",
+      42,
+      6
+     ],
+     [
+      "ACTION6",
+      32,
+      24
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      8
+     ],
+     [
+      "ACTION6",
+      39,
+      31
+     ],
+     [
+      "ACTION6",
+      63,
+      54
+     ],
+     [
+      "ACTION6",
+      1,
+      59
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      31
+     ],
+     [
+      "ACTION6",
+      18,
+      15
+     ],
+     [
+      "ACTION6",
+      37,
+      34
+     ],
+     [
+      "ACTION6",
+      63,
+      22
+     ],
+     [
+      "ACTION6",
+      2,
+      35
+     ],
+     [
+      "ACTION6",
+      4,
+      13
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      50
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      34
+     ],
+     [
+      "ACTION6",
+      26,
+      35
+     ],
+     [
+      "ACTION6",
+      41,
+      21
+     ],
+     [
+      "ACTION6",
+      6,
+      21
+     ],
+     [
+      "ACTION6",
+      63,
+      52
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      38
+     ],
+     [
+      "ACTION6",
+      37,
+      35
+     ],
+     [
+      "ACTION6",
+      1,
+      12
+     ],
+     [
+      "ACTION6",
+      17,
+      16
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      10
+     ],
+     [
+      "ACTION6",
+      9,
+      23
+     ],
+     [
+      "ACTION6",
+      6,
+      46
+     ],
+     [
+      "ACTION6",
+      2,
+      5
+     ],
+     [
+      "ACTION6",
+      4,
+      54
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      33
+     ],
+     [
+      "ACTION6",
+      6,
+      37
+     ],
+     [
+      "ACTION6",
+      16,
+      11
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      19
+     ],
+     [
+      "ACTION6",
+      3,
+      36
+     ],
+     [
+      "ACTION6",
+      1,
+      55
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      14
+     ],
+     [
+      "ACTION6",
+      36,
+      24
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      37
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      37
+     ],
+     [
+      "ACTION6",
+      4,
+      49
+     ],
+     [
+      "ACTION6",
+      26,
+      28
+     ],
+     [
+      "ACTION6",
+      5,
+      23
+     ],
+     [
+      "ACTION6",
+      0,
+      39
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      36
+     ],
+     [
+      "ACTION6",
+      0,
+      0
+     ],
+     [
+      "ACTION6",
+      2,
+      26
+     ],
+     [
+      "ACTION6",
+      5,
+      54
+     ],
+     [
+      "ACTION6",
+      19,
+      16
+     ],
+     [
+      "ACTION6",
+      3,
+      58
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      19
+     ],
+     [
+      "ACTION6",
+      5,
+      33
+     ],
+     [
+      "ACTION6",
+      36,
+      39
+     ],
+     [
+      "ACTION6",
+      5,
+      30
+     ],
+     [
+      "ACTION6",
+      6,
+      50
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      35
+     ],
+     [
+      "ACTION6",
+      3,
+      41
+     ],
+     [
+      "ACTION6",
+      37,
+      28
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      33
+     ],
+     [
+      "ACTION6",
+      3,
+      19
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      39
+     ],
+     [
+      "ACTION6",
+      2,
+      14
+     ],
+     [
+      "ACTION6",
+      1,
+      41
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      41
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      7,
+      22
+     ],
+     [
+      "ACTION6",
+      6,
+      28
+     ],
+     [
+      "ACTION6",
+      9,
+      22
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      63
+     ],
+     [
+      "ACTION6",
+      17,
+      12
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      47
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      9,
+      21
+     ],
+     [
+      "ACTION6",
+      3,
+      23
+     ],
+     [
+      "ACTION6",
+      4,
+      52
+     ],
+     [
+      "ACTION6",
+      4,
+      15
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      51
+     ],
+     [
+      "ACTION6",
+      25,
+      38
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      33
+     ],
+     [
+      "ACTION6",
+      4,
+      51
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      12
+     ],
+     [
+      "ACTION6",
+      18,
+      44
+     ],
+     [
+      "ACTION6",
+      48,
+      0
+     ],
+     [
+      "ACTION6",
+      29,
+      10
+     ],
+     [
+      "ACTION6",
+      39,
+      62
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      12
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      45
+     ],
+     [
+      "ACTION6",
+      34,
+      45
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      42,
+      49
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      14
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      50
+     ],
+     [
+      "ACTION6",
+      41,
+      46
+     ],
+     [
+      "ACTION6",
+      1,
+      8
+     ],
+     [
+      "ACTION6",
+      18,
+      45
+     ],
+     [
+      "ACTION6",
+      51,
+      63
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      26
+     ],
+     [
+      "ACTION6",
+      34,
+      55
+     ],
+     [
+      "ACTION6",
+      63,
+      24
+     ],
+     [
+      "ACTION6",
+      19,
+      28
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      19
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      62
+     ],
+     [
+      "ACTION6",
+      43,
+      48
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      49
+     ],
+     [
+      "ACTION6",
+      31,
+      24
+     ],
+     [
+      "ACTION6",
+      57,
+      29
+     ],
+     [
+      "ACTION6",
+      18,
+      49
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      8
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      1,
+      51
+     ],
+     [
+      "ACTION6",
+      19,
+      47
+     ],
+     [
+      "ACTION6",
+      60,
+      35
+     ],
+     [
+      "ACTION6",
+      32,
+      52
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      19
+     ],
+     [
+      "ACTION6",
+      17,
+      38
+     ],
+     [
+      "ACTION6",
+      30,
+      16
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      48,
+      62
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      27
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      63,
+      43
+     ],
+     [
+      "ACTION6",
+      17,
+      48
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      26
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      40,
+      1
+     ],
+     [
+      "ACTION6",
+      30,
+      27
+     ],
+     [
+      "ACTION6",
+      60,
+      3
+     ],
+     [
+      "ACTION6",
+      42,
+      46
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      60,
+      26
+     ],
+     [
+      "ACTION6",
+      29,
+      9
+     ],
+     [
+      "ACTION6",
+      62,
+      11
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      31,
+      0
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      53
+     ],
+     [
+      "ACTION6",
+      29,
+      26
+     ],
+     [
+      "ACTION6",
+      58,
+      16
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      16
+     ],
+     [
+      "ACTION6",
+      17,
+      46
+     ],
+     [
+      "ACTION6",
+      61,
+      13
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      17,
+      17
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      31,
+      19
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      17
+     ],
+     [
+      "ACTION6",
+      29,
+      25
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      56
+     ],
+     [
+      "ACTION6",
+      30,
+      16
+     ],
+     [
+      "ACTION6",
+      56,
+      56
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      9
+     ],
+     [
+      "ACTION6",
+      41,
+      45
+     ]
+    ],
+    "ref_len": 25,
+    "cap": 85,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      42
+     ],
+     [
+      "ACTION6",
+      19,
+      38
+     ],
+     [
+      "ACTION6",
+      54,
+      14
+     ],
+     [
+      "ACTION6",
+      33,
+      44
+     ]
+    ],
+    "ref_len": 26,
+    "cap": 88,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      63
+     ],
+     [
+      "ACTION6",
+      48,
+      29
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      59
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      32,
+      37
+     ],
+     [
+      "ACTION6",
+      33,
+      32
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      44
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      55,
+      62
+     ],
+     [
+      "ACTION6",
+      48,
+      34
+     ],
+     [
+      "ACTION6",
+      61,
+      34
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      63
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      50,
+      4
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      46,
+      59
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      3
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      10,
+      63
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      48,
+      34
+     ],
+     [
+      "ACTION6",
+      60,
+      56
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      58,
+      32
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      33,
+      27
+     ],
+     [
+      "ACTION6",
+      41,
+      0
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      29,
+      28
+     ],
+     [
+      "ACTION6",
+      45,
+      32
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      4
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      62,
+      26
+     ],
+     [
+      "ACTION6",
+      32,
+      26
+     ],
+     [
+      "ACTION6",
+      63,
+      14
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      33,
+      4
+     ],
+     [
+      "ACTION6",
+      47,
+      32
+     ],
+     [
+      "ACTION6",
+      32,
+      25
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      3
+     ],
+     [
+      "ACTION6",
+      14,
+      46
+     ],
+     [
+      "ACTION6",
+      0,
+      26
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      59,
+      62
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      58,
+      61
+     ],
+     [
+      "ACTION6",
+      32,
+      37
+     ],
+     [
+      "ACTION6",
+      55,
+      33
+     ],
+     [
+      "ACTION6",
+      21,
+      26
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      4
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      49,
+      1
+     ],
+     [
+      "ACTION6",
+      49,
+      31
+     ],
+     [
+      "ACTION6",
+      22,
+      1
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      59
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      48
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      1,
+      12
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      2
+     ],
+     [
+      "ACTION6",
+      33,
+      24
+     ],
+     [
+      "ACTION6",
+      29,
+      2
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      37,
+      60
+     ],
+     [
+      "ACTION6",
+      22,
+      45
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      2
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      60
+     ],
+     [
+      "ACTION6",
+      17,
+      44
+     ],
+     [
+      "ACTION6",
+      3,
+      63
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      51
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      15,
+      45
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      2
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      56,
+      47
+     ],
+     [
+      "ACTION6",
+      59,
+      41
+     ],
+     [
+      "ACTION6",
+      60,
+      51
+     ],
+     [
+      "ACTION6",
+      0,
+      48
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      59,
+      47
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      26
+     ],
+     [
+      "ACTION6",
+      59,
+      27
+     ],
+     [
+      "ACTION6",
+      56,
+      24
+     ],
+     [
+      "ACTION6",
+      62,
+      43
+     ],
+     [
+      "ACTION6",
+      57,
+      25
+     ],
+     [
+      "ACTION6",
+      55,
+      17
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      63,
+      56
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      49
+     ],
+     [
+      "ACTION6",
+      40,
+      52
+     ],
+     [
+      "ACTION6",
+      43,
+      51
+     ],
+     [
+      "ACTION6",
+      29,
+      47
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      49
+     ],
+     [
+      "ACTION6",
+      29,
+      50
+     ],
+     [
+      "ACTION6",
+      3,
+      61
+     ],
+     [
+      "ACTION6",
+      5,
+      56
+     ],
+     [
+      "ACTION6",
+      32,
+      26
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      41
+     ],
+     [
+      "ACTION6",
+      43,
+      42
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      40
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      29,
+      57
+     ],
+     [
+      "ACTION6",
+      32,
+      26
+     ],
+     [
+      "ACTION6",
+      20,
+      14
+     ],
+     [
+      "ACTION6",
+      1,
+      26
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      11
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      62,
+      7
+     ],
+     [
+      "ACTION6",
+      0,
+      31
+     ],
+     [
+      "ACTION6",
+      30,
+      54
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      31,
+      48
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      41
+     ],
+     [
+      "ACTION6",
+      34,
+      22
+     ],
+     [
+      "ACTION6",
+      4,
+      9
+     ],
+     [
+      "ACTION6",
+      3,
+      59
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      39,
+      1
+     ],
+     [
+      "ACTION6",
+      33,
+      27
+     ],
+     [
+      "ACTION6",
+      1,
+      1
+     ],
+     [
+      "ACTION6",
+      0,
+      7
+     ],
+     [
+      "ACTION6",
+      46,
+      35
+     ],
+     [
+      "ACTION6",
+      6,
+      22
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      47
+     ],
+     [
+      "ACTION6",
+      33,
+      23
+     ],
+     [
+      "ACTION6",
+      6,
+      4
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      23
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      62,
+      57
+     ],
+     [
+      "ACTION6",
+      37,
+      63
+     ],
+     [
+      "ACTION6",
+      21,
+      39
+     ],
+     [
+      "ACTION6",
+      5,
+      38
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      37
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      61,
+      44
+     ]
+    ],
+    "ref_len": 24,
+    "cap": 82,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.sp80",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "672e0d384edf6a46d1563102440d5a513c66d2f217d19156a818dc9544f84750"
+}

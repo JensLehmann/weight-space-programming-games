@@ -1,0 +1,3167 @@
+{
+ "family": "official.g50t",
+ "tier": "public",
+ "game_id": "g50t",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 7,
+ "held_out_levels": [
+  2,
+  4,
+  6
+ ],
+ "support_levels": [
+  0,
+  1,
+  3,
+  5
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "2": 16,
+  "4": 21,
+  "6": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [
+  "Q-lvl L3: 15/20 perturbed starts certified"
+ ],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 16,
+   "built": 16,
+   "tries": 42,
+   "dup": 4,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 19,
+   "dup_rejected": 3,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 19
+   },
+   "wall_s": 53.3
+  },
+  "Q-off": {
+   "requested": 24,
+   "built": 24,
+   "tries": 104,
+   "dup": 27,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 25,
+   "dup_rejected": 28,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 25
+   },
+   "wall_s": 86.6
+  },
+  "Q-lvl": {
+   "requested": 60,
+   "built": 55,
+   "tries": 1074,
+   "dup": 525,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 84,
+   "dup_rejected": 410,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 84
+   },
+   "wall_s": 622.9
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "S-start",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "S-start",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.6
+  },
+  {
+   "qset": "S-start",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.6
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 2,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 2
+   },
+   "wall_s": 3.4
+  },
+  {
+   "qset": "S-dev",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 3.5
+  },
+  {
+   "qset": "S-dev",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 12,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 5,
+   "dup_rejected": 1,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 5
+   },
+   "wall_s": 14.2
+  },
+  {
+   "qset": "S-dev",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 20,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 12,
+   "dup_rejected": 2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 12
+   },
+   "wall_s": 32.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 34,
+   "dup": 10,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 7,
+   "dup_rejected": 11,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 7
+   },
+   "wall_s": 8.9
+  },
+  {
+   "qset": "Q-off",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 13,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 6,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 6
+   },
+   "wall_s": 7.4
+  },
+  {
+   "qset": "Q-off",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 14,
+   "dup": 5,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 15.6
+  },
+  {
+   "qset": "Q-off",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 43,
+   "dup": 11,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 11,
+   "dup_rejected": 15,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 11
+   },
+   "wall_s": 54.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 15,
+   "tries": 800,
+   "dup": 427,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 20,
+   "dup_rejected": 338,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 20
+   },
+   "wall_s": 300.0
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.6
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 168,
+   "dup": 60,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 37,
+   "dup_rejected": 51,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 37
+   },
+   "wall_s": 160.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.4
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 106,
+   "dup": 38,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 27,
+   "dup_rejected": 21,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 27
+   },
+   "wall_s": 162.1
+  }
+ ],
+ "construction_wall_s": 772.5,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "6f21f2065744e484ac38534f940158034e69f39add3b10a3d9fd258de7293aa9",
+  "route_sha256": "5fd1f16cf44d2d2a0fd21bd55bc93eef257380a60aa885efa0a64763432046d9",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 20,
+    "cap": 70,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 64,
+    "cap": 202,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 68,
+    "cap": 214,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 63,
+    "cap": 199,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 63,
+    "cap": 199,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 64,
+    "cap": 202,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 67,
+    "cap": 211,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 63,
+    "cap": 199,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 68,
+    "cap": 214,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 66,
+    "cap": 208,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 43,
+    "cap": 139,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 39,
+    "cap": 127,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 68,
+    "cap": 214,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 69,
+    "cap": 217,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 63,
+    "cap": 199,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 68,
+    "cap": 214,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 69,
+    "cap": 217,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 50,
+    "cap": 160,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 69,
+    "cap": 217,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 62,
+    "cap": 196,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 31,
+    "cap": 103,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 39,
+    "cap": 127,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 56,
+    "cap": 178,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 58,
+    "cap": 184,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 58,
+    "cap": 184,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.g50t",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 58,
+    "cap": 184,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "54cacef24406dc3ba38a6a191801edf71890d076f0dac35fc72504c61f6a5092"
+}

@@ -1,0 +1,19 @@
+{
+ "game": "official.m0r0",
+ "game_source_sha256": "2a68a8162d5fc72f065de996c6fcb8632de34284f82b11f914116469ef7ca099",
+ "section_sha256": "792bf7c78cbeac83b0d8e9148286a91cad9ab32a68cfa63d51b93a856b3fc688",
+ "prompts": {
+  "w": {
+   "sha256": "73120bf8ba6aa82035abd7c705601c362cb4fe987e204765c72773ed0eb5c154",
+   "released_sha256": "117822d4ee230ed3af6be031f882be4bbccd11ee1740552343d3f29875e6502b"
+  },
+  "p": {
+   "sha256": "159245f0f39b494a0a11933ed5f176194d436338789219e73af71d429c4745b8",
+   "released_sha256": "07469746e0a1b349435d4d8944935316a857c00627b8d86b4deedee0d885dbb8"
+  },
+  "fa": {
+   "sha256": "c9a60b5caff7dab6da9e79747f12133d325597c4fe35b42844f8afcc1a1f0766",
+   "released_sha256": "019f4b0aeaa40ba8b4da957895f4e9cc5199fd98f3647a044ed5a1768876b2af"
+  }
+ }
+}

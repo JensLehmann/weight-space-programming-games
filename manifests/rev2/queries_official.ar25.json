@@ -1,0 +1,4087 @@
+{
+ "family": "official.ar25",
+ "tier": "public",
+ "game_id": "ar25",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 8,
+ "held_out_levels": [
+  1,
+  3,
+  5,
+  7
+ ],
+ "support_levels": [
+  0,
+  2,
+  4,
+  6
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21,
+  "7": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 16,
+   "built": 16,
+   "tries": 24,
+   "dup": 8,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 38.5
+  },
+  "Q-off": {
+   "requested": 24,
+   "built": 24,
+   "tries": 45,
+   "dup": 21,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 70.7
+  },
+  "Q-lvl": {
+   "requested": 80,
+   "built": 80,
+   "tries": 161,
+   "dup": 81,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 275.5
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.8
+  },
+  {
+   "qset": "S-start",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.7
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 4.0
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 7,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 9.5
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 8,
+   "dup": 4,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 13.5
+  },
+  {
+   "qset": "S-dev",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 11.5
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 5.1
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 9,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 12.8
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 17,
+   "dup": 11,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 23.1
+  },
+  {
+   "qset": "Q-off",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 13,
+   "dup": 7,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 29.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 44,
+   "dup": 24,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 51.5
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.6
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 32,
+   "dup": 12,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 44.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 34,
+   "dup": 14,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 73.6
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.1
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 51,
+   "dup": 31,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 105.6
+  }
+ ],
+ "construction_wall_s": 392.7,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "b965d2faaa4a4d9119c20eb51af0fb2b657fb52fb9884919863a48f2230c4272",
+  "route_sha256": "491f356070c0d90f2f826a955f391d6753a3402ec8504b85eb8ea44e4418f941",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      50
+     ],
+     [
+      "ACTION6",
+      49,
+      38
+     ],
+     [
+      "ACTION6",
+      32,
+      48
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      13
+     ],
+     [
+      "ACTION6",
+      48,
+      9
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      49
+     ],
+     [
+      "ACTION6",
+      48,
+      25
+     ],
+     [
+      "ACTION6",
+      28,
+      56
+     ],
+     [
+      "ACTION6",
+      50,
+      12
+     ],
+     [
+      "ACTION6",
+      30,
+      14
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      47
+     ],
+     [
+      "ACTION6",
+      29,
+      13
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      48,
+      24
+     ],
+     [
+      "ACTION6",
+      28,
+      47
+     ],
+     [
+      "ACTION6",
+      50,
+      54
+     ]
+    ],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      36,
+      47
+     ],
+     [
+      "ACTION6",
+      15,
+      43
+     ],
+     [
+      "ACTION6",
+      5,
+      9
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      17,
+      24
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      36,
+      42
+     ],
+     [
+      "ACTION6",
+      20,
+      32
+     ],
+     [
+      "ACTION6",
+      33,
+      10
+     ]
+    ],
+    "ref_len": 27,
+    "cap": 91,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      9
+     ],
+     [
+      "ACTION6",
+      17,
+      43
+     ],
+     [
+      "ACTION6",
+      50,
+      49
+     ],
+     [
+      "ACTION6",
+      15,
+      25
+     ],
+     [
+      "ACTION6",
+      35,
+      10
+     ],
+     [
+      "ACTION6",
+      36,
+      53
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      56
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      46,
+      9
+     ],
+     [
+      "ACTION6",
+      49,
+      53
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      54
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      51
+     ],
+     [
+      "ACTION6",
+      48,
+      11
+     ],
+     [
+      "ACTION6",
+      16,
+      48
+     ],
+     [
+      "ACTION6",
+      60,
+      11
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      51,
+      10
+     ],
+     [
+      "ACTION6",
+      54,
+      27
+     ],
+     [
+      "ACTION6",
+      15,
+      33
+     ],
+     [
+      "ACTION6",
+      25,
+      11
+     ],
+     [
+      "ACTION6",
+      15,
+      27
+     ],
+     [
+      "ACTION6",
+      59,
+      26
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      16,
+      38
+     ],
+     [
+      "ACTION6",
+      29,
+      51
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      58
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      31,
+      38
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      52
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      9,
+      36
+     ],
+     [
+      "ACTION6",
+      25,
+      47
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 9,
+    "cap": 37,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      49
+     ],
+     [
+      "ACTION6",
+      55,
+      36
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      53
+     ],
+     [
+      "ACTION6",
+      1,
+      33
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      53
+     ],
+     [
+      "ACTION6",
+      36,
+      37
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      20,
+      45
+     ],
+     [
+      "ACTION6",
+      62,
+      37
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      42,
+      36
+     ],
+     [
+      "ACTION6",
+      23,
+      53
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      49
+     ],
+     [
+      "ACTION6",
+      60,
+      37
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      53,
+      39
+     ],
+     [
+      "ACTION6",
+      18,
+      50
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      53
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      51
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      46
+     ],
+     [
+      "ACTION6",
+      8,
+      37
+     ],
+     [
+      "ACTION6",
+      29,
+      59
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      48,
+      38
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      52
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      51
+     ],
+     [
+      "ACTION6",
+      36,
+      37
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      28,
+      57
+     ],
+     [
+      "ACTION6",
+      24,
+      38
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      52
+     ],
+     [
+      "ACTION6",
+      7,
+      44
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      51
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      51
+     ],
+     [
+      "ACTION6",
+      54,
+      38
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      51
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      54,
+      36
+     ]
+    ],
+    "ref_len": 10,
+    "cap": 40,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      52
+     ],
+     [
+      "ACTION6",
+      34,
+      36
+     ],
+     [
+      "ACTION6",
+      27,
+      52
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      37
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 11,
+    "cap": 43,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      56
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      30,
+      38
+     ]
+    ],
+    "ref_len": 12,
+    "cap": 46,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      23
+     ],
+     [
+      "ACTION6",
+      10,
+      17
+     ],
+     [
+      "ACTION6",
+      19,
+      26
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      20
+     ],
+     [
+      "ACTION6",
+      10,
+      30
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      22
+     ],
+     [
+      "ACTION6",
+      45,
+      18
+     ],
+     [
+      "ACTION6",
+      9,
+      12
+     ],
+     [
+      "ACTION6",
+      38,
+      20
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      44,
+      18
+     ],
+     [
+      "ACTION6",
+      9,
+      17
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      32,
+      20
+     ],
+     [
+      "ACTION6",
+      13,
+      62
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      19
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      20,
+      13
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      41,
+      18
+     ],
+     [
+      "ACTION6",
+      14,
+      14
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      13,
+      12
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      39,
+      19
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      34,
+      20
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      38,
+      20
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      16
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      22,
+      24
+     ]
+    ],
+    "ref_len": 21,
+    "cap": 73,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      18
+     ],
+     [
+      "ACTION6",
+      9,
+      28
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      46,
+      18
+     ],
+     [
+      "ACTION6",
+      6,
+      17
+     ],
+     [
+      "ACTION6",
+      21,
+      20
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      20
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      9,
+      27
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      22,
+      20
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      24
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      21
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      14,
+      61
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      11,
+      51
+     ],
+     [
+      "ACTION6",
+      39,
+      18
+     ]
+    ],
+    "ref_len": 22,
+    "cap": 76,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      21,
+      24
+     ],
+     [
+      "ACTION6",
+      10,
+      41
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      13
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      23,
+      23
+     ],
+     [
+      "ACTION6",
+      9,
+      47
+     ],
+     [
+      "ACTION6",
+      38,
+      18
+     ],
+     [
+      "ACTION6",
+      11,
+      42
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 23,
+    "cap": 79,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      22
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      21
+     ],
+     [
+      "ACTION6",
+      2,
+      6
+     ],
+     [
+      "ACTION6",
+      16,
+      44
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      25
+     ],
+     [
+      "ACTION6",
+      38,
+      23
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      60
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 55,
+    "cap": 175,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      21
+     ],
+     [
+      "ACTION6",
+      0,
+      47
+     ],
+     [
+      "ACTION6",
+      60,
+      23
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      55
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      5,
+      23
+     ],
+     [
+      "ACTION6",
+      0,
+      25
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      23
+     ],
+     [
+      "ACTION6",
+      0,
+      33
+     ],
+     [
+      "ACTION6",
+      40,
+      22
+     ],
+     [
+      "ACTION6",
+      27,
+      54
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      21
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      32
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      9,
+      49
+     ],
+     [
+      "ACTION6",
+      35,
+      19
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      42
+     ],
+     [
+      "ACTION6",
+      0,
+      4
+     ],
+     [
+      "ACTION6",
+      22,
+      47
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      45
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      29,
+      56
+     ],
+     [
+      "ACTION6",
+      39,
+      22
+     ],
+     [
+      "ACTION6",
+      0,
+      25
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      23
+     ],
+     [
+      "ACTION6",
+      0,
+      12
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      15,
+      43
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      56
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      18
+     ],
+     [
+      "ACTION6",
+      26,
+      21
+     ],
+     [
+      "ACTION6",
+      2,
+      26
+     ],
+     [
+      "ACTION6",
+      29,
+      57
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      21
+     ],
+     [
+      "ACTION6",
+      0,
+      45
+     ],
+     [
+      "ACTION6",
+      11,
+      52
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      18
+     ],
+     [
+      "ACTION6",
+      32,
+      21
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      53
+     ],
+     [
+      "ACTION6",
+      53,
+      22
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      51,
+      21
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      62
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      52,
+      22
+     ],
+     [
+      "ACTION6",
+      1,
+      27
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      28,
+      60
+     ],
+     [
+      "ACTION6",
+      5,
+      57
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      58
+     ],
+     [
+      "ACTION6",
+      29,
+      23
+     ],
+     [
+      "ACTION6",
+      28,
+      56
+     ],
+     [
+      "ACTION6",
+      1,
+      24
+     ],
+     [
+      "ACTION6",
+      29,
+      52
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      22
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      16,
+      44
+     ],
+     [
+      "ACTION6",
+      2,
+      24
+     ],
+     [
+      "ACTION6",
+      9,
+      50
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      55
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      19,
+      22
+     ],
+     [
+      "ACTION6",
+      28,
+      56
+     ],
+     [
+      "ACTION6",
+      1,
+      51
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      18,
+      44
+     ],
+     [
+      "ACTION6",
+      53,
+      22
+     ],
+     [
+      "ACTION6",
+      1,
+      44
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      1,
+      57
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      9
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      41
+     ],
+     [
+      "ACTION6",
+      42,
+      10
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      45,
+      53
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      46,
+      9
+     ],
+     [
+      "ACTION6",
+      15,
+      13
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      9
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      15,
+      27
+     ],
+     [
+      "ACTION6",
+      46,
+      39
+     ],
+     [
+      "ACTION6",
+      15,
+      39
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      9
+     ],
+     [
+      "ACTION6",
+      16,
+      39
+     ],
+     [
+      "ACTION6",
+      25,
+      27
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      12,
+      11
+     ],
+     [
+      "ACTION6",
+      47,
+      47
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      29
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      10,
+      9
+     ],
+     [
+      "ACTION6",
+      15,
+      42
+     ],
+     [
+      "ACTION6",
+      23,
+      25
+     ],
+     [
+      "ACTION6",
+      16,
+      35
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      9
+     ],
+     [
+      "ACTION6",
+      16,
+      36
+     ],
+     [
+      "ACTION6",
+      59,
+      10
+     ],
+     [
+      "ACTION6",
+      44,
+      40
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      11
+     ],
+     [
+      "ACTION6",
+      33,
+      28
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      46,
+      42
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      11
+     ],
+     [
+      "ACTION6",
+      16,
+      36
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      9
+     ],
+     [
+      "ACTION6",
+      15,
+      42
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      32,
+      29
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      9
+     ],
+     [
+      "ACTION6",
+      16,
+      36
+     ],
+     [
+      "ACTION6",
+      10,
+      9
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      62,
+      9
+     ],
+     [
+      "ACTION6",
+      16,
+      0
+     ],
+     [
+      "ACTION6",
+      22,
+      27
+     ],
+     [
+      "ACTION6",
+      15,
+      49
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      21,
+      28
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      43,
+      11
+     ],
+     [
+      "ACTION6",
+      17,
+      53
+     ],
+     [
+      "ACTION6",
+      22,
+      29
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      29,
+      29
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      15,
+      22
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      39,
+      43
+     ],
+     [
+      "ACTION6",
+      17,
+      8
+     ],
+     [
+      "ACTION6",
+      23,
+      28
+     ]
+    ],
+    "ref_len": 47,
+    "cap": 151,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      9
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      26
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION6",
+      61,
+      11
+     ],
+     [
+      "ACTION6",
+      15,
+      30
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 49,
+    "cap": 157,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      10
+     ],
+     [
+      "ACTION6",
+      19,
+      60
+     ],
+     [
+      "ACTION6",
+      24,
+      10
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      34,
+      27
+     ],
+     [
+      "ACTION6",
+      37,
+      8
+     ],
+     [
+      "ACTION6",
+      47,
+      53
+     ],
+     [
+      "ACTION6",
+      18,
+      6
+     ]
+    ],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 19,
+    "cap": 67,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 17,
+    "cap": 61,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      32,
+      51
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION7",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      56
+     ],
+     [
+      "ACTION6",
+      49,
+      21
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 39,
+    "cap": 127,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      49,
+      41
+     ],
+     [
+      "ACTION6",
+      30,
+      17
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      46
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      50,
+      23
+     ],
+     [
+      "ACTION6",
+      30,
+      17
+     ],
+     [
+      "ACTION6",
+      50,
+      59
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 42,
+    "cap": 136,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      46
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 39,
+    "cap": 127,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      9
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      54,
+      11
+     ],
+     [
+      "ACTION6",
+      17,
+      14
+     ],
+     [
+      "ACTION6",
+      29,
+      10
+     ],
+     [
+      "ACTION6",
+      16,
+      24
+     ],
+     [
+      "ACTION6",
+      48,
+      53
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      50,
+      55
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      8,
+      10
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      14,
+      11
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      16,
+      35
+     ],
+     [
+      "ACTION6",
+      37,
+      42
+     ],
+     [
+      "ACTION6",
+      17,
+      32
+     ],
+     [
+      "ACTION6",
+      17,
+      11
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      45,
+      11
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      57
+     ],
+     [
+      "ACTION6",
+      54,
+      23
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      27,
+      9
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      57,
+      53
+     ],
+     [
+      "ACTION6",
+      39,
+      9
+     ],
+     [
+      "ACTION6",
+      13,
+      51
+     ],
+     [
+      "ACTION6",
+      49,
+      9
+     ],
+     [
+      "ACTION6",
+      13,
+      32
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      52,
+      27
+     ],
+     [
+      "ACTION6",
+      15,
+      31
+     ],
+     [
+      "ACTION6",
+      43,
+      9
+     ],
+     [
+      "ACTION6",
+      15,
+      23
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      53,
+      20
+     ],
+     [
+      "ACTION6",
+      15,
+      48
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      53,
+      15
+     ],
+     [
+      "ACTION6",
+      17,
+      54
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 38,
+    "cap": 124,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      38,
+      11
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.ar25",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION6",
+      47,
+      58
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "f6e98e3861fd1f273d0134bb03123d93320c11c98df6ec7622a3583c58e1aa9a"
+}

@@ -1,0 +1,19 @@
+{
+ "game": "official.ar25",
+ "game_source_sha256": "bf82e2f6f6aa7c4fd6cca5bc62234213fec5cdaad50645babe4aae1d7dea9c33",
+ "section_sha256": "9f8e6f3ed4f969166bfe57d3cecdc7fb9802457859f16ed46e5fb877beaa82d7",
+ "prompts": {
+  "w": {
+   "sha256": "9ab845baaa16d192d78514a0c1f82f4447b25b5a5be9b43b75db46798e22510b",
+   "released_sha256": "3fb6fb9ad3f8283aac8ee50c2491d606dd91a45c560a74fb56a639475b4f0080"
+  },
+  "p": {
+   "sha256": "7a4146245bd863e1a76d1476f4a53e269dbef7af3d83bb03ffdd73fb66a10e0e",
+   "released_sha256": "d60b8df0df755fcdd9b695baee8a0bc79511b9170de90e6067a543756469305c"
+  },
+  "fa": {
+   "sha256": "2ed333f70fd9836f67a079d6b03db21835bfcad1493685c94f37e1746730d3b3",
+   "released_sha256": "2b5092c09539e295b236627ea793607d66d78a2ed1215d9ee9cc542078d7853d"
+  }
+ }
+}

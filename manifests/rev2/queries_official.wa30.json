@@ -1,0 +1,3744 @@
+{
+ "family": "official.wa30",
+ "tier": "public",
+ "game_id": "wa30",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 9,
+ "held_out_levels": [
+  2,
+  4,
+  6,
+  8
+ ],
+ "support_levels": [
+  0,
+  1,
+  3,
+  5,
+  7
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "2": 21,
+  "4": 21,
+  "6": 21,
+  "8": 11
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [
+  "Q-lvl L9: 10/20 perturbed starts certified"
+ ],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 20,
+   "built": 20,
+   "tries": 33,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 11,
+   "dup_rejected": 0,
+   "wall_s": 79.9,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 11
+   }
+  },
+  "Q-off": {
+   "requested": 30,
+   "built": 30,
+   "tries": 46,
+   "dup": 2,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 12,
+   "dup_rejected": 2,
+   "wall_s": 112.5,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 12
+   }
+  },
+  "Q-lvl": {
+   "requested": 80,
+   "built": 70,
+   "tries": 571,
+   "dup": 51,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 179,
+   "dup_rejected": 271,
+   "wall_s": 1378.5,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 179
+   },
+   "wall_cap_hit": 1
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.5
+  },
+  {
+   "qset": "S-start",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "S-start",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.9
+  },
+  {
+   "qset": "S-start",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.7
+  },
+  {
+   "qset": "S-start",
+   "level": 7,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.3
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 1.4
+  },
+  {
+   "qset": "S-dev",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 5.2
+  },
+  {
+   "qset": "S-dev",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 12,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 8,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 8
+   },
+   "wall_s": 33.5
+  },
+  {
+   "qset": "S-dev",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 5,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 12.6
+  },
+  {
+   "qset": "S-dev",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 6,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 2,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 2
+   },
+   "wall_s": 27.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 7,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 2.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 7,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 8.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 14,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 6,
+   "dup_rejected": 2,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 6
+   },
+   "wall_s": 31.7
+  },
+  {
+   "qset": "Q-off",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 8,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 1,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 1
+   },
+   "wall_s": 17.2
+  },
+  {
+   "qset": "Q-off",
+   "level": 7,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 10,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 4,
+   "dup_rejected": 0,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 4
+   },
+   "wall_s": 53.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 23,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 35.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 34,
+   "dup": 4,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 9,
+   "dup_rejected": 1,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 9
+   },
+   "wall_s": 71.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 6,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 1.9
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 6,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 23,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 69.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 8,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 2.7
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 8,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 10,
+   "tries": 491,
+   "dup": 41,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 170,
+   "dup_rejected": 270,
+   "uncertified_reasons": {
+    "no_direct_plan:SOLVABLE": 170
+   },
+   "wall_cap_hit": true,
+   "wall_s": 1201.8
+  }
+ ],
+ "construction_wall_s": 1583.1,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "0c8b63caee2d092d6c0750fd74e417de682d09973b549046394dadf0437b1477",
+  "route_sha256": "751ef3ede6f64bc28b30c6bad8f62f59120bc42f7427e2dc4d5098e9826b69ef",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 48,
+    "cap": 154,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [],
+    "ref_len": 103,
+    "cap": 319,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 30,
+    "cap": 100,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 51,
+    "cap": 163,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 54,
+    "cap": 172,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 100,
+    "cap": 310,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 99,
+    "cap": 307,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 99,
+    "cap": 307,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 125,
+    "cap": 385,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 75,
+    "cap": 235,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 72,
+    "cap": 226,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 98,
+    "cap": 304,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 96,
+    "cap": 298,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 97,
+    "cap": 301,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 92,
+    "cap": 286,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 93,
+    "cap": 289,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 94,
+    "cap": 292,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 93,
+    "cap": 289,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 97,
+    "cap": 301,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 73,
+    "cap": 229,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 93,
+    "cap": 289,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 94,
+    "cap": 292,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 72,
+    "cap": 226,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 74,
+    "cap": 232,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 96,
+    "cap": 298,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 92,
+    "cap": 286,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 97,
+    "cap": 301,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 108,
+    "cap": 334,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 110,
+    "cap": 340,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 107,
+    "cap": 331,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 108,
+    "cap": 334,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 108,
+    "cap": 334,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 111,
+    "cap": 343,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 107,
+    "cap": 331,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 107,
+    "cap": 331,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 111,
+    "cap": 343,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 109,
+    "cap": 337,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 106,
+    "cap": 328,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 107,
+    "cap": 331,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 109,
+    "cap": 337,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 106,
+    "cap": 328,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 106,
+    "cap": 328,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 108,
+    "cap": 334,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 105,
+    "cap": 325,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 109,
+    "cap": 337,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 106,
+    "cap": 328,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 106,
+    "cap": 328,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 109,
+    "cap": 337,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [],
+    "ref_len": 41,
+    "cap": 133,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 37,
+    "cap": 121,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 36,
+    "cap": 118,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 33,
+    "cap": 109,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 34,
+    "cap": 112,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 6,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 35,
+    "cap": 115,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 57,
+    "cap": 181,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 67,
+    "cap": 211,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 58,
+    "cap": 184,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 59,
+    "cap": 187,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 68,
+    "cap": 214,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 66,
+    "cap": 208,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 63,
+    "cap": 199,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 63,
+    "cap": 199,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 8,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 67,
+    "cap": 211,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 28,
+    "cap": 94,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 32,
+    "cap": 106,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 40,
+    "cap": 130,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 29,
+    "cap": 97,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 61,
+    "cap": 193,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 60,
+    "cap": 190,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 44,
+    "cap": 142,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 45,
+    "cap": 145,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 52,
+    "cap": 166,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 46,
+    "cap": 148,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 53,
+    "cap": 169,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 101,
+    "cap": 313,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 99,
+    "cap": 307,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 101,
+    "cap": 313,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 100,
+    "cap": 310,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 100,
+    "cap": 310,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.wa30",
+    "seed": 0,
+    "level": 7,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 100,
+    "cap": 310,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "8ff47bd4fe6ca1a0b365d63b8dfae3291a72f626273fc75722749e656f0c5425"
+}

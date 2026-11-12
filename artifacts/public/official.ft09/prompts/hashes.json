@@ -1,0 +1,19 @@
+{
+ "game": "official.ft09",
+ "game_source_sha256": "9d2a77612ac634ea877e4471038aefce6e7dc37e65ac6e92fd86b196ea6a6524",
+ "section_sha256": "366f6921128a9421d9611d0558693eca1b8cae0beedc6901a0444308f2eb7242",
+ "prompts": {
+  "w": {
+   "sha256": "bc7d852c1ebe1813fbefdfff0803fff656167ed54f8050f89988e2b62533a0d0",
+   "released_sha256": "0513fa01b9e9c92f84a8f314ff0e9ff396f59d136af65cd30ade40588d793d4b"
+  },
+  "p": {
+   "sha256": "8d2a4230780e8ba5b55dd99d1e936114ceca1f85b1dfa512b11b5762a20fba84",
+   "released_sha256": "ce720bc318bbec804435d8dbbedfcb28fa1edc3c34844ad755970d5231712f04"
+  },
+  "fa": {
+   "sha256": "d5525124f4f3a66a40241d8e23dfb978741302c7f4399bc86601089892682738",
+   "released_sha256": "104ba3077e59ac6d0041ff6f2a456ee7847343f6444517878777ff5108fd55b1"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "game": "official.sk48",
+ "game_source_sha256": "8122169fbd42477f217fddee15533128f0ff133f791b54c0e8fa5b99f311959a",
+ "section_sha256": "4b2415cdea2a817c0e4c1fc6a02a0527388072287fd2445ecea9e591a8ccd309",
+ "prompts": {
+  "w": {
+   "sha256": "e433fae7691bd88c8e107f5bf27d84605f208e11ce8d2a9a005860596e1086ef",
+   "released_sha256": "c1bcabf8db9fc9586d5da8ff5563a60d2f9c383f0a2fb7bca2d800953eb0a6ee"
+  },
+  "p": {
+   "sha256": "f0c171faf66d8539110ad8894b8b10aa423206d353b2a37fb7c80b3f5d1c1d25",
+   "released_sha256": "ff7fd218b1a044423e74a349cf873488012592ce433f113d440c301d1b5cde2d"
+  },
+  "fa": {
+   "sha256": "ad7155388495bf70eafb39010c602fcde6b35449be1b8c4404c3f1926107d6e1",
+   "released_sha256": "aaac246aa57b3ba2eaddc2fb111293a80efb329a2e378c84890179604d49d20b"
+  }
+ }
+}

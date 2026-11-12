@@ -1,0 +1,2965 @@
+{
+ "family": "official.cd82",
+ "tier": "public",
+ "game_id": "cd82",
+ "split_version": 2,
+ "master_seed": 20261104,
+ "n_levels": 6,
+ "held_out_levels": [
+  1,
+  3,
+  5
+ ],
+ "support_levels": [
+  0,
+  2,
+  4
+ ],
+ "support_templates": [
+  0
+ ],
+ "query_templates": [],
+ "palette_distinct": false,
+ "sets_not_applicable": [
+  "Q-tpl",
+  "Q-pal"
+ ],
+ "q_lvl_per_level": {
+  "1": 21,
+  "3": 21,
+  "5": 21
+ },
+ "excluded_from_macro": false,
+ "exclusion_reason": null,
+ "construction_problems": [],
+ "construction_stats": {
+  "S-dev": {
+   "requested": 12,
+   "built": 12,
+   "tries": 12,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 15.3
+  },
+  "Q-off": {
+   "requested": 18,
+   "built": 18,
+   "tries": 21,
+   "dup": 3,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 22.6
+  },
+  "Q-lvl": {
+   "requested": 60,
+   "built": 60,
+   "tries": 81,
+   "dup": 21,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "wall_s": 111.2
+  }
+ },
+ "construction_per_level": [
+  {
+   "qset": "S-start",
+   "level": 0,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.1
+  },
+  {
+   "qset": "S-start",
+   "level": 2,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "S-start",
+   "level": 4,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "S-dev",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 3.7
+  },
+  {
+   "qset": "S-dev",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 5.5
+  },
+  {
+   "qset": "S-dev",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 4,
+   "built": 4,
+   "tries": 4,
+   "dup": 0,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 6.1
+  },
+  {
+   "qset": "Q-off",
+   "level": 0,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 7,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 4.8
+  },
+  {
+   "qset": "Q-off",
+   "level": 2,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 7,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 8.0
+  },
+  {
+   "qset": "Q-off",
+   "level": 4,
+   "kind": "perturbed",
+   "requested": 6,
+   "built": 6,
+   "tries": 7,
+   "dup": 1,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 9.8
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.2
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 1,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 27,
+   "dup": 7,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 34.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.3
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 3,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 26,
+   "dup": 6,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 33.6
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "reviewed",
+   "requested": 1,
+   "built": 1,
+   "outcome": "completed",
+   "wall_s": 0.4
+  },
+  {
+   "qset": "Q-lvl",
+   "level": 5,
+   "kind": "perturbed",
+   "requested": 20,
+   "built": 20,
+   "tries": 28,
+   "dup": 8,
+   "left_level": 0,
+   "attempt_end": 0,
+   "no_moves": 0,
+   "uncertified": 0,
+   "dup_rejected": 0,
+   "uncertified_reasons": {},
+   "wall_s": 43.3
+  }
+ ],
+ "construction_wall_s": 150.6,
+ "rules": {
+  "quota": {
+   "S-dev": 4,
+   "Q-off": 6,
+   "Q-lvl": 20
+  },
+  "perturb_k": [
+   1,
+   6
+  ],
+  "max_tries_per_start": 40,
+  "wall_cap_per_set_level_s_per_start": 60.0,
+  "planner_budget_ms": 5000,
+  "planner_hard_timeout_s": 60.0,
+  "cap": "3*ref_len+10"
+ },
+ "env": {
+  "games_commit": "88425fbecb0cd4d44ce18bcf8adde185e019ae02",
+  "source_digest": "b8cb3ad51eba54140b95ef6caa94764bfc4643d51de0ec490f5c84d4569c6932",
+  "source_sha256": "dafeabff60a3a99b5c93629f8da0d8f555b873ef16a522247d6197b1b3addbcb",
+  "route_sha256": "f9b8fba9ece15b75841b4b8b3294b42164e46deade24d65e59be6cffdc69ed21",
+  "lives_exprs": [],
+  "reset_semantics": "level"
+ },
+ "sets": {
+  "S-start": [
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-start"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "S-start"
+   }
+  ],
+  "S-dev": [
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      46
+     ],
+     [
+      "ACTION6",
+      2,
+      36
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      17
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      23,
+      22
+     ],
+     [
+      "ACTION6",
+      35,
+      31
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      35
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      8,
+      23
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      38
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      4,
+      37
+     ],
+     [
+      "ACTION6",
+      8,
+      61
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      28
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      6,
+      55
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      27
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      32
+     ],
+     [
+      "ACTION6",
+      2,
+      58
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      49
+     ],
+     [
+      "ACTION6",
+      5,
+      42
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      14
+     ],
+     [
+      "ACTION6",
+      2,
+      60
+     ],
+     [
+      "ACTION6",
+      5,
+      47
+     ],
+     [
+      "ACTION6",
+      11,
+      3
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      19
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      19
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      1,
+      58
+     ],
+     [
+      "ACTION6",
+      2,
+      24
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "S-dev"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      17
+     ],
+     [
+      "ACTION6",
+      4,
+      33
+     ],
+     [
+      "ACTION6",
+      0,
+      48
+     ],
+     [
+      "ACTION6",
+      7,
+      53
+     ],
+     [
+      "ACTION6",
+      21,
+      29
+     ],
+     [
+      "ACTION6",
+      6,
+      6
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "S-dev"
+   }
+  ],
+  "Q-lvl": [
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      59
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      34
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      7,
+      58
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      32,
+      24
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      8
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      1,
+      36
+     ],
+     [
+      "ACTION6",
+      1,
+      49
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      11
+     ],
+     [
+      "ACTION6",
+      4,
+      33
+     ],
+     [
+      "ACTION6",
+      36,
+      31
+     ],
+     [
+      "ACTION6",
+      63,
+      6
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      24,
+      40
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      16
+     ],
+     [
+      "ACTION6",
+      4,
+      46
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      4,
+      19
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      23
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      25,
+      35
+     ],
+     [
+      "ACTION6",
+      3,
+      35
+     ],
+     [
+      "ACTION6",
+      17,
+      8
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      28,
+      37
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      17,
+      0
+     ],
+     [
+      "ACTION6",
+      3,
+      58
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      4
+     ],
+     [
+      "ACTION6",
+      3,
+      47
+     ],
+     [
+      "ACTION6",
+      2,
+      47
+     ],
+     [
+      "ACTION6",
+      4,
+      42
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      21
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      18
+     ],
+     [
+      "ACTION6",
+      3,
+      46
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      29
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      41
+     ],
+     [
+      "ACTION6",
+      6,
+      44
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      8
+     ],
+     [
+      "ACTION6",
+      3,
+      45
+     ],
+     [
+      "ACTION6",
+      29,
+      35
+     ],
+     [
+      "ACTION6",
+      2,
+      53
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      4,
+      36
+     ],
+     [
+      "ACTION6",
+      0,
+      48
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      16,
+      9
+     ],
+     [
+      "ACTION6",
+      4,
+      46
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 8,
+    "cap": 34,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      6,
+      55
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      5,
+      21
+     ],
+     [
+      "ACTION6",
+      10,
+      4
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      8,
+      50
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      26,
+      30
+     ],
+     [
+      "ACTION6",
+      3,
+      48
+     ],
+     [
+      "ACTION6",
+      63,
+      25
+     ],
+     [
+      "ACTION6",
+      27,
+      32
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      40
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      37
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      49
+     ],
+     [
+      "ACTION6",
+      26,
+      32
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      63
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      0,
+      29
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 1,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      44
+     ],
+     [
+      "ACTION6",
+      2,
+      36
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 7,
+    "cap": 31,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      8
+     ],
+     [
+      "ACTION6",
+      5,
+      41
+     ],
+     [
+      "ACTION6",
+      4,
+      20
+     ],
+     [
+      "ACTION6",
+      1,
+      59
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      51
+     ],
+     [
+      "ACTION6",
+      20,
+      30
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      41
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      29,
+      35
+     ],
+     [
+      "ACTION6",
+      6,
+      58
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      58
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      26
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      43
+     ],
+     [
+      "ACTION6",
+      21,
+      33
+     ],
+     [
+      "ACTION6",
+      6,
+      43
+     ],
+     [
+      "ACTION6",
+      8,
+      45
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      42,
+      27
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      32,
+      38
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      20,
+      34
+     ],
+     [
+      "ACTION6",
+      5,
+      24
+     ],
+     [
+      "ACTION6",
+      1,
+      62
+     ],
+     [
+      "ACTION6",
+      7,
+      56
+     ],
+     [
+      "ACTION6",
+      4,
+      45
+     ],
+     [
+      "ACTION6",
+      0,
+      46
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      54
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      6,
+      43
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      4,
+      57
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      35,
+      36
+     ],
+     [
+      "ACTION6",
+      6,
+      59
+     ],
+     [
+      "ACTION6",
+      26,
+      32
+     ],
+     [
+      "ACTION6",
+      1,
+      55
+     ],
+     [
+      "ACTION6",
+      5,
+      36
+     ],
+     [
+      "ACTION6",
+      3,
+      56
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      5,
+      54
+     ],
+     [
+      "ACTION6",
+      7,
+      44
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      42
+     ],
+     [
+      "ACTION6",
+      4,
+      49
+     ],
+     [
+      "ACTION6",
+      38,
+      35
+     ],
+     [
+      "ACTION6",
+      38,
+      28
+     ],
+     [
+      "ACTION6",
+      4,
+      24
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      9
+     ],
+     [
+      "ACTION6",
+      2,
+      37
+     ],
+     [
+      "ACTION6",
+      31,
+      35
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      6,
+      58
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      38,
+      32
+     ],
+     [
+      "ACTION6",
+      4,
+      35
+     ],
+     [
+      "ACTION6",
+      35,
+      28
+     ],
+     [
+      "ACTION6",
+      29,
+      31
+     ],
+     [
+      "ACTION6",
+      3,
+      55
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      36
+     ],
+     [
+      "ACTION6",
+      3,
+      36
+     ],
+     [
+      "ACTION6",
+      6,
+      11
+     ],
+     [
+      "ACTION6",
+      2,
+      57
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      12
+     ],
+     [
+      "ACTION6",
+      4,
+      39
+     ],
+     [
+      "ACTION6",
+      5,
+      9
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      19
+     ],
+     [
+      "ACTION6",
+      5,
+      51
+     ],
+     [
+      "ACTION6",
+      0,
+      37
+     ],
+     [
+      "ACTION6",
+      40,
+      36
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      31
+     ],
+     [
+      "ACTION6",
+      3,
+      59
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 3,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      4,
+      21
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      61
+     ],
+     [
+      "ACTION6",
+      6,
+      31
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      41,
+      32
+     ],
+     [
+      "ACTION6",
+      5,
+      39
+     ],
+     [
+      "ACTION6",
+      29,
+      33
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      4,
+      48
+     ],
+     [
+      "ACTION6",
+      63,
+      47
+     ],
+     [
+      "ACTION6",
+      2,
+      32
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      3
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      0,
+      52
+     ],
+     [
+      "ACTION6",
+      4,
+      47
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      42,
+      31
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION1",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      37
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      17,
+      13
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION1",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      53
+     ],
+     [
+      "ACTION6",
+      2,
+      61
+     ],
+     [
+      "ACTION6",
+      17,
+      7
+     ],
+     [
+      "ACTION6",
+      16,
+      11
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      56
+     ],
+     [
+      "ACTION6",
+      6,
+      46
+     ],
+     [
+      "ACTION6",
+      0,
+      52
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      24,
+      29
+     ],
+     [
+      "ACTION6",
+      3,
+      23
+     ],
+     [
+      "ACTION6",
+      17,
+      6
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 18,
+    "cap": 64,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      61
+     ],
+     [
+      "ACTION6",
+      19,
+      29
+     ],
+     [
+      "ACTION6",
+      6,
+      29
+     ],
+     [
+      "ACTION6",
+      36,
+      29
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      2,
+      35
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      58
+     ],
+     [
+      "ACTION6",
+      4,
+      24
+     ],
+     [
+      "ACTION6",
+      63,
+      8
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      12,
+      10
+     ],
+     [
+      "ACTION6",
+      6,
+      47
+     ],
+     [
+      "ACTION6",
+      3,
+      40
+     ],
+     [
+      "ACTION6",
+      24,
+      30
+     ],
+     [
+      "ACTION6",
+      2,
+      49
+     ],
+     [
+      "ACTION6",
+      5,
+      27
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      41
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      1,
+      45
+     ],
+     [
+      "ACTION6",
+      1,
+      33
+     ],
+     [
+      "ACTION6",
+      5,
+      60
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      20
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      2,
+      17
+     ],
+     [
+      "ACTION6",
+      34,
+      31
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      59
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      29
+     ],
+     [
+      "ACTION6",
+      22,
+      33
+     ],
+     [
+      "ACTION6",
+      1,
+      31
+     ],
+     [
+      "ACTION6",
+      6,
+      27
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      7
+     ],
+     [
+      "ACTION6",
+      4,
+      36
+     ],
+     [
+      "ACTION6",
+      5,
+      62
+     ],
+     [
+      "ACTION6",
+      34,
+      35
+     ],
+     [
+      "ACTION6",
+      4,
+      41
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      27
+     ],
+     [
+      "ACTION6",
+      5,
+      57
+     ],
+     [
+      "ACTION6",
+      3,
+      47
+     ],
+     [
+      "ACTION6",
+      6,
+      53
+     ],
+     [
+      "ACTION6",
+      18,
+      33
+     ],
+     [
+      "ACTION6",
+      1,
+      18
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 5,
+    "prefix": [
+     [
+      "ACTION6",
+      1,
+      29
+     ],
+     [
+      "ACTION6",
+      6,
+      25
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-lvl"
+   }
+  ],
+  "Q-tpl": [],
+  "Q-off": [
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      10,
+      4
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      16
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      9,
+      9
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      5,
+      20
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      40,
+      46
+     ]
+    ],
+    "ref_len": 3,
+    "cap": 19,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      63
+     ],
+     [
+      "ACTION6",
+      6,
+      38
+     ],
+     [
+      "ACTION6",
+      0,
+      28
+     ]
+    ],
+    "ref_len": 6,
+    "cap": 28,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION2",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 4,
+    "cap": 22,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 0,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      28
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      26,
+      37
+     ],
+     [
+      "ACTION6",
+      33,
+      42
+     ],
+     [
+      "ACTION6",
+      5,
+      36
+     ]
+    ],
+    "ref_len": 5,
+    "cap": 25,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      3,
+      33
+     ],
+     [
+      "ACTION6",
+      6,
+      48
+     ],
+     [
+      "ACTION2",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      12
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      27,
+      26
+     ],
+     [
+      "ACTION6",
+      2,
+      24
+     ],
+     [
+      "ACTION6",
+      6,
+      61
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      63,
+      21
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      7,
+      19
+     ],
+     [
+      "ACTION6",
+      3,
+      8
+     ],
+     [
+      "ACTION6",
+      2,
+      53
+     ],
+     [
+      "ACTION6",
+      5,
+      11
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      29
+     ],
+     [
+      "ACTION6",
+      21,
+      32
+     ]
+    ],
+    "ref_len": 16,
+    "cap": 58,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 2,
+    "prefix": [
+     [
+      "ACTION6",
+      37,
+      27
+     ],
+     [
+      "ACTION6",
+      5,
+      55
+     ]
+    ],
+    "ref_len": 15,
+    "cap": 55,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      7,
+      49
+     ],
+     [
+      "ACTION6",
+      3,
+      41
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      5,
+      51
+     ],
+     [
+      "ACTION6",
+      4,
+      58
+     ],
+     [
+      "ACTION6",
+      31,
+      27
+     ],
+     [
+      "ACTION6",
+      30,
+      28
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      8,
+      6
+     ],
+     [
+      "ACTION5",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      34,
+      29
+     ],
+     [
+      "ACTION6",
+      5,
+      29
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      3,
+      29
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ],
+     [
+      "ACTION3",
+      null,
+      null
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      11,
+      8
+     ],
+     [
+      "ACTION6",
+      6,
+      43
+     ],
+     [
+      "ACTION6",
+      3,
+      26
+     ],
+     [
+      "ACTION6",
+      6,
+      41
+     ]
+    ],
+    "ref_len": 13,
+    "cap": 49,
+    "qset": "Q-off"
+   },
+   {
+    "family": "official.cd82",
+    "seed": 0,
+    "level": 4,
+    "prefix": [
+     [
+      "ACTION6",
+      4,
+      22
+     ],
+     [
+      "ACTION6",
+      4,
+      51
+     ],
+     [
+      "ACTION4",
+      null,
+      null
+     ],
+     [
+      "ACTION6",
+      6,
+      48
+     ]
+    ],
+    "ref_len": 14,
+    "cap": 52,
+    "qset": "Q-off"
+   }
+  ],
+  "Q-pal": []
+ },
+ "sha256": "f42a70e3f438da79685c608f11a4b0d776cd835a4d481c53ee1cc46b5ac32f6e"
+}

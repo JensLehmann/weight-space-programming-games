@@ -1,0 +1,19 @@
+{
+ "game": "official.lp85",
+ "game_source_sha256": "ffb7daba1cacf21666d20d8e9acc5c791c7a815acf83fdca6aee2cb2fba76967",
+ "section_sha256": "027f378324bb619a36b00ad261fe93ac9b75c592d416400bfcd2569d60a70c8d",
+ "prompts": {
+  "w": {
+   "sha256": "fe830cf6a11264e6904f39cea04d8de03adca32fce56c4506f63781d8738cb89",
+   "released_sha256": "77077fb72296623757b4a9f6aa8ed714fb555b6b1603a48fc8a204fb581e627d"
+  },
+  "p": {
+   "sha256": "4e20b375aa63d37819fe60a1447607de7c24e235a6bcb049a5f0f379e0e377d0",
+   "released_sha256": "b008506af77282474df2e573a47f9dfb980195f8da09e6afd78dfe7060de8475"
+  },
+  "fa": {
+   "sha256": "6aee515d4c4f2475cf1d1653e4802a60dbea49283419c2c476485f3e41e20746",
+   "released_sha256": "9b99d615aaeb3a89e2df045f26a29ae8aa0853d557772c9055f36448fd585ac5"
+  }
+ }
+}
